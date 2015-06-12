@@ -1,0 +1,1 @@
+  All of the fancy static analysis that Xcode does is completely tied to clang, for example.\n\nXcode doesn't do static analysis; Clang/LLVM does, and it's perfectly possible to do it from the command line, or embed it in other tools. (This is an example of the difference between LLVM's modular library architecture and GCC plugins — LLVM doesn't insist on being ‘on top’.)

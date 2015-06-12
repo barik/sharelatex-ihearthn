@@ -1,0 +1,1 @@
+Unused import cleanup has been a standard part of all the major Java IDEs for quite some time.  Further, checkstyle and other static analysis tools can easily replicate the check.

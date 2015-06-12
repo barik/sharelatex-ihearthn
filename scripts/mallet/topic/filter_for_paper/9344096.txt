@@ -1,0 +1,1 @@
+I often run static analysis tools against large code bases.As a consultant I need to be able to travel and won't always have access, or be able to send code across the internet.I think my case is common for technical consultants doing deep code inspection.

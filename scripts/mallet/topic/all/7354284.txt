@@ -1,0 +1,1 @@
+Spot on.Unit Tests aren't there to ensure that you get the right answer.  It's there to ensure that you've asked the right question.Or at the very least to document the thought process of the person implementing code.Use static analysis tools + code reviews to improve correctness, and unit tests to guide design + document.

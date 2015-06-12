@@ -1,0 +1,1 @@
+I know that "more lax" languages like python make static code analysis much tougher, but does anyone have any experience with good tools for it?

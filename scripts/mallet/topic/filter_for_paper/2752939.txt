@@ -1,0 +1,2 @@
++1 for this comment
+For all static (heck, even runtime) analysis tools, I would rather have more rules than less - and disable the ones I don't like/want/agree with. I wrote the code, I set the standard for rules, it's that simple.

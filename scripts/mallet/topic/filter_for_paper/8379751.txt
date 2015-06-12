@@ -1,0 +1,1 @@
+then created some search thing that found similar programmin style in other tools - especially if they also found interesting bugs.It's called static analysis and (judging by the tools we use) probably already ship with rules that would bark loudly at this code.

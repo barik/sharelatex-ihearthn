@@ -1,0 +1,1 @@
+Over with Open Dylan (http://opendylan.org/), we've been building a new IDE using IntelliJ CE and it has been a joy.  Even though we've gone the route of writing a whole new parser and doing new static analysis tools, it has been a pretty good experience so far. Can't say enough positive things about this.

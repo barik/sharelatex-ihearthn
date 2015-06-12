@@ -1,0 +1,1 @@
+That's a misleading statement and I think you know it. In general, you have to go extremely out of your way to end up with a remote code execution exploit with Java or C#.Look at Microsoft's CVEs for 2012. Approximately all of the serious ones would be impossible with a proper type system. This is after all of Microsoft's static analysis tools and code reviews and security focus.

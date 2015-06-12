@@ -1,0 +1,1 @@
+To be more specific you have to use some crazy static analysis technology (global interprocedural analysis) that is intractable unless you sacrifice accuracy. Human have similar problems as compilers/tooling, though they are a bit better at understanding nuanced conventions to make better judgements about what dynamic code is doing.

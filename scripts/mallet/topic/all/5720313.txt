@@ -1,0 +1,1 @@
+For varying contexts of bad. It impedes on things like static analysis.You don't want the surface area of your programming language confined to 1) runtime 2) being run by a specific binary. Where is the offline tooling? Where is the variety?This handicap makes me despise Perl. And I say that as a long time professional Perl engineer.

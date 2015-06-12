@@ -1,0 +1,88 @@
+Location : Bangalore
+Remote : YES
+Willing to relocate : YES
+Technologies : C/C++,Objective C, XCode , iOS , SQLite, Webservices- XML, JSON ,REST ,SOAP  
+Resume :
+			  90/5 Anthony Complex,
+			  25th Main 3rd Cross BTM 2nd Stage,  		  Bangalore -560076.
+			  E-mail: raj.vishwakarma08@gmail.com
+			  Mobile: +91- 99 16 420 914
+Rajesh VishwakarmaExperience Summary:•	Over 3 years of experience in iOS application development.
+•	Knowledge and understanding in iOS SDKs, Objective-C and Xcode.
+•	Insightful knowledge in iOS application analysis, design and development.
+•	Expertise in enterprise iOS application development.
+•	Expertise in iOS Static Library development.
+•	Experience in third party iOS plug-in integration.
+•	Fluent in C++ with strong OOPs concepts.
+•	Experience in C++ development on iOS.
+•	Good experience in implementing design changes, resolving performance issues, memory issues and optimizing the code.
+•	Proficient in game development using Cocos2d, Cocos2d-x, Box2d and Xcode.
+•	Experience with Unity3d for 2d games.
+•	Knowledge of common data structures and algorithmic solutions.
+•	Strong debugging skill.
+•	Ability and desire to learn new skills and take on new tasks.Technical Skill:
+•	Programming Language : Objective C , C/C++ , Java
+•	iOS SDKs : iOS 5.0 (on words)
+•	IDE : Xcode 4.3 (on words)
+•	UI Design Tools : Interface Builder, Storyboard.
+•	Web Services : SOAP, REST, JSON, XML
+•	Game Development: Unity 3d, Cocos2d, Cocos2d-x, Box2d.
+•	Database : SQLite
+•	Operating System: Mac-OSEmployment Details :•	Consultant (iOS) Cignex Datamatics Technologies Pvt. Ltd., Bangalore from November 2014
+•	Software Engineer,  Celstream Technologies Pvt. Ltd., Bangalore from November 2013 - October 2014.
+•	¬¬iOS Game Developer,  Dumadu Games Pvt. Ltd., Bangalore from February 2012 - October 2013.Educational Qualification:
+S. No.	Examination	College/School	University/Board	Year	Percentage
+1	MCA  	Govt. Engineering College, Jabalpur	R.G.P.V Bhopal	2011	77.05
+2	B.Sc.	Govt. Model Science College, Jabalpur	R.D.V.V Jabalpur	2007	71.08 
+3	H.S.C	Govt. B.I.C Balua, Varanasi	U.P Board	2004	75.40 
+4	S.S.C	J.J.I.C Marufpur Chandauli, Varanasi	U.P Board	2002	57.00Project Details:
+Project #1	RS iDemo                                                                                   
+Description	iDemo, as an iOS App, is conceptualized to provide for an always connected sales
+community by providing
+- The demo brokers a tool to simplify the managing , tracking of the deployed
+  demo units and recalling them when needed.
+- The sales team a tool to easily locate demo units, reserve , determine pricing
+  and arrange for shipment from/to their home office.
+- The regional managers a tool to look up the demo units assigned to them, team 
+  and perform necessary follow up activities.
+Tools & Technologies	Xcode 5.1, iOS 7.1, Objective C, SQLite, REST, JSON, Web Services
+Team Size 	3
+Role & Responsibilities	Requirement Analysis, Prototype Modeling, UI design, Development and Profiling.Project #2	RS SiteSeller 
+Description	RSA could like to create an internal tool for their sales forces to provide easy and effective access to various sales materials. The needed sales materials are intended to be available on the sales person's Apple iPad device.
+Content should be available on the device offline without needing network access and
+the content is expected to be synchronized with the source on a regular basis.
+Some content such as video may not be available offline.
+Tools & Technologies	Xcode 4.6/5.0, iOS 6.1/7.0, Objective C, Core Data, SOAP,XML, Web Services
+Role & Responsibilities	Features Enhancement, Support for iOS6/iOS7, code and performance optimization.Project #4	Smart Wallet
+Description	The app provides every individual the facility to record and categorize their daily expenses. The app also allows the user to see reports based on various filters based on time durations or categories. The report can also be emailed to the user in appropriate format so that he can use it elsewhere.Besides, the app also allows the user to set the budget, and when the expenses reaches the budget threshold, it can give alerts and notifications.Tools & Technologies	Xcode 4.5, iOS 6.0, Objective C, Core Data
+Team Size	3
+Role & Responsibilities	Client requirement analysis , UI design,  Application CodingProject#3	Blue Lion
+Description	This app discover one of the most enchanting spots in Paris: the Palais-Royal. Our guide, Ulrike Kasper, an artists and professor of history of arts, will guide you through a fascinating walk. She talks about the history and people, kings, philosophers and revolutionaries, who haunt this monument and the surrounding galleries. The guides is includes an original text, practical information, modern and historic illustrations, as well as a captivating audio version by a storyteller, which, we are sure, will make your visit even more agreeable.
+Tools & Technologies	Xcode 4.2 , iPhone SDK5.0, Sqlite
+Role & Responsibilities	UI design. Code development
+App Link	https://itunes.apple.com/us/app/blue-lion-guides-palais-roya...Project#5	War Of Eternity
+Tools & Technologies	Xcode 4.3, iOS 5.0, C++,Cocos2d-x,  Cocoa Touch
+Team Size 	2
+Role & Responsibility	Requirement analysis , UI designed and  Game Play Coding For Enemy Module
+App Link	 https://itunes.apple.com/us/app/war-eternity-fort-defense/id...Project#6	SlotMania (SlotMachine)
+Tools & Technologies	Xcode 4.3, iOS 5.0, Cocos2d-X, C++, Cocoa Touch
+Role & Responsibility	Requirement analysis, UI Designed, Game Programming
+App Link	https://itunes.apple.com/us/app/slot-mania-hd/id633841176?mt...Project#7	Sensei’s Puzzle                                                                
+Tools & Technologies	Xcode 4.3, iOS 5.0,C++, Cocos2d-x, Cocoa Touch
+Role & Responsibility	Designed Level Editor, Game Play Coding 
+App Link	https://itunes.apple.com/us/app/senseis-puzzle-hd/id57248677...Project#8	Doodle Car Plush
+Tools & Technologies	Xcode 4.2, iOS5.0, Objective C,Cocos2d, Cocoa Touch,  Box2d 
+Role & Responsibility	Designed Level Editor, UI Designed and Game Play Coding
+App Link	https://itunes.apple.com/us/app/doodle-car-plus/id448860353?...Awards and Achievements:
+•	Best Practices Award for Process Improvement by Celstream Technologies Pvt. Ltd. Bangalore.
+•	Obtained  3nd position  in MCA.
+•	Obtained  2nd position in 12th class.Interest and Hobbies:
+•	Exploring knowledge in mobile related technologies/frameworks.
+•	Listening music.
+•	Cooking.
+•	Playing badminton and computer games.Personal Profile:
+Full Name		: Rajesh Kumar Vishwakarma
+Date of Birth		: 15th November, 1988
+Gender			: Male
+Permanent Address	: 572 East Belbag Road, Jabalpur (M.P)
+Languages Known	: English, Hindi

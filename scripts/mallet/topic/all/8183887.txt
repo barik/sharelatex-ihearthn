@@ -1,0 +1,1 @@
+C has some of the best static analysis and debugging tools of any language, but all of that's worthless if you don't use them. Doubly so if you specifically handicap those tools and write your own obfuscated allocation scheme. Heartbleed was less an indictment against C and more an indictment against shitty code.

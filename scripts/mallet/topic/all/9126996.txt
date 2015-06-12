@@ -1,0 +1,1 @@
+It's not only compile time that matters: an overcomplicated language grammar/specification hinders development of language infrastructure (static analyses tools, linters, debuggers, parsers/code generators, IDE interaction, etc).

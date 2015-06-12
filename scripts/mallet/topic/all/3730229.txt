@@ -1,0 +1,1 @@
+That surprises me - when I am talking about tools, I mean things like static analysis, theorem provers, and coding standards like MISRA C.I guess they figure if they simulate it enough, they can test out the bugs rather than being very careful about putting them in.

@@ -1,0 +1,1 @@
+Javascript is a really difficult language from a static analysis perspective, and they're still special-casing a lot to get to something useful -- for example, in the Prototype toolkit, they had to change about 5% of the code to get it to analyze well.

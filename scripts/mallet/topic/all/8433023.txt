@@ -1,0 +1,1 @@
+If you use static analysis, defensively initializing to a wrong value may mean that your tooling doesn't tell you when you fail to correctly set it from that wrong value.

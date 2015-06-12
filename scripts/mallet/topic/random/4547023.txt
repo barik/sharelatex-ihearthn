@@ -1,0 +1,1 @@
+Your tool looks pretty cool and useful, but it seems quite a bit different than tools like Coverity and Astree which reason about the behavior of programs under all possible inputs. Coverity can detect race conditions. Your tool looks like it's using technology closer to that of Refactoring Crawler, which was a quite impressive achievement, but not a static analysis tool.

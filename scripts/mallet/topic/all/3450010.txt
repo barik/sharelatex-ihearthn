@@ -1,0 +1,1 @@
+The compiler won't, no - but many/most developers use static analysis tools like ReSharper which WILL tell you that you have a possible NullReferenceException there if you don't check it.

@@ -1,0 +1,1 @@
+Code analysis is nice but stand alone static analysis tools are a lot more advanced.  Even the free ones, like FindBugs catch a lot of issues.

@@ -1,0 +1,1 @@
+The whole Go standard library, which is more code than just a compiler (and it even includes a complete Go AST parser as well), is developed in Go ("dogfooded") and so are the documentation tools (godoc, the web site, present) and the static code analysis tools (SSA, oracle, go/types etc.) in the go.tools repository.

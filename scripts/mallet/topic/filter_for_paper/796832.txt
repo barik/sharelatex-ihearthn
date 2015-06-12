@@ -1,0 +1,2 @@
+The free edition is just the base IDE(code editor, debugger, gui designer).  Come on this is MS, there are 5 versions of the pay IDE.
+Things you need to pay for:using more than one language(you can download multiple free versions but that means having multiple installs of VS laying around),3rd party plugins,profiler,code test coverage tool,static analysis tool,Database tools,Integration with their team foundation server(source control, bug tracker, project management stuff )

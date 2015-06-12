@@ -1,0 +1,1 @@
+I just want to point out that nowadays people don't usually catch timing issues in digital designs with simulation. It's mostly done by static timing analysis tools such as PrimeTime, which is much more accurate, efficient, and thorough than running logic simulations with annotated delays.

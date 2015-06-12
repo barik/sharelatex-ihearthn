@@ -1,0 +1,1 @@
+> They already use a massive amount of testing though.Yes, as the page notes the SQLite codebase has a > 1000:1 tests to code ratio. I don't think there's any other codebase this thoroughly tested, and it makes sense that static analysis tools won't discover anything not already covered by tests.

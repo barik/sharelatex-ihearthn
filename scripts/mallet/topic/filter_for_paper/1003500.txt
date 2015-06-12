@@ -1,0 +1,1 @@
+This is exactly what the Google Web Toolkit compiler does, but outputs Java bytecode rather than taking it into JS.The HotSpot compiler does some of this static analysis at runtime (various forms of devirtualization and type-tightening), but it's far more effective if you feed it into a big vat and keep running optimizations on it until you can eke out anything more.

@@ -1,0 +1,1 @@
+HP's WebInspect, a blackbox testing tool, also can find XXE's. However, as the OP shows, XXE's can be tricky and involve a lot of nuance to cox them out. General dynamic testing tools aren't as good at uncovering XXE's as static analysis tools.Disclaimer: I used to work on WebInspect's audit engines

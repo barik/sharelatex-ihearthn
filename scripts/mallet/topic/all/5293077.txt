@@ -1,0 +1,1 @@
+And with C you can use static analysis tools to avoid simple issues as well, plus you get a simple language so you aren't making the mistakes that you get with a huge complex language.  OpenBSD is entirely C, and they have a far better track record than most C++ software.

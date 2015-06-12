@@ -1,0 +1,8 @@
+When I started seriously working with JavaScript, I decided to try to conform to community standards by using JSLint.  I was shocked by how terrible JSLint was.  It offered corrections for very straightforward constructs such as:    var count = 0;
+    for (var i = 0; i < arr.length; i++) {
+        if (some_func(i)) {
+            count++;
+        }
+    }
+
+I have no idea why JSLint would tell me that I should move the definition of "i" to the top of the function (am I supposed to pretend I'm writing ANSI C for obsolete compilers?) and its insistence that "++" is evil in both uses above is equally ridiculous.I love static analysis, I like tools that automatically format source code (indent, go fmt, emacs), but JSLint is just annoying.

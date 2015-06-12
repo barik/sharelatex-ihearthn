@@ -1,0 +1,1 @@
+This is really a very small subset of static analysis- GCC compiler warnings. I am sure the developers appreciate when their program fails to compile because the compiler statically notices a bug that would cause a runtime error in a more dynamic language. They might be able to productively use more sophisticated static analyses tools.

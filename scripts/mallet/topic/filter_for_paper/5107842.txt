@@ -1,0 +1,1 @@
+Google, through Closure Tools, and other groups and people have built tools around javascript. For example, JSHint is a pretty good linter and fixjsstyle is a nice little tool to fix formatting.  Certainly JS isn't as amenable to static analysis as C, but with time we'll see more.

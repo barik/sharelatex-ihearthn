@@ -1,0 +1,17 @@
+No, sorry. There are a bunch of factors that make the point a little more complicated.If you're writing, let's say, scenegraph traversal, it's really tempting to get it working on the PPU and then port it to run on an SPU. A vtable dereference to main memory will crash your SPU job and it is not always obvious why. Obviously, you can't use static analysis tools to make sure the right instructions are transferred, so you have to do it by hand. A modern PS3 game has on the order of low hundreds f different SPU jobs...not much fun. Even discounting that, SPUs will work best when fed branchless parallelized jobs, I wouldn't be surprised to see an order of magnitude difference between a vtable call on a pointer array and a static call on an object array.Keeping pointers to objects in a polymorphic array is a games performance anti-pattern because of the dereferencing cost, but it's necessary to call virtual functions...there's a hidden cost right there.Which loop is faster, by eyeballing, and by how much?  void load(Assets* a) {
+    for (int j=0; j<m_numAssets; j++) {
+      loadAsset(a[j]);
+      m_numLoadedAssets++;
+    }
+  }
+
+  void load(Assets* a) {
+    int numLoadedAssets=0;
+    for (int j=0; j<m_numAssets; j++) {
+      loadAsset(a[j]);
+      numLoadedAssets++;
+    }
+    m_numLoadedAssets = numLoadedAssets;
+  }
+
+I've seen the former style run literally 1000 times slower than the latter...that's obvious? I submit in a world of out-of-order processors it is not at all.I don't think that all the author's points are spot on...Koenig lookup is Byzantine but IDEs do a good job of it, ditto source-level reasoning about dispatch. The underlying theme, that C++ is not a good fit for modern game development, shouldn't be so trivially dismissed.

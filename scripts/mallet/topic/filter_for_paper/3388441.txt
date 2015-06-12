@@ -1,0 +1,1 @@
+I really look forward to seeing what Haskell (& friends) will be getting us in the coming years with its static analysis suite and all-errors-checked mentality.  I am hopeful that the static analysis toolsets developed in pure languages will be making their way down to the dynamic languages, leading to an overall code improvement for new code.

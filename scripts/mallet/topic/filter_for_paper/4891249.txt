@@ -1,0 +1,1 @@
+While I don't have personal experience with it myself, things like games lend themselves well to a limited use of OOP but also require performance-critical code and tight control over the language. With static analysis tools, I bet that C++ could be audited more comprehensive through automated tests than C could be.

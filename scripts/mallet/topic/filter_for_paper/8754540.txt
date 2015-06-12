@@ -1,0 +1,1 @@
+That's pretty cool. There are a lot of tools, both public and private at companies kept as trade secrets to do static analysis of code to pin point potential errors, memory leaks, etc.. This is the first analysis I've seen that actually looks at more than one revision of a project in source control, though. Every other tool basically just analyzes one revision at a time.

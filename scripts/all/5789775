@@ -1,0 +1,1 @@
+Looks really nice for creating components. However, two quick notes:* This breaks code editors, static analysis tools like jshint etc.* I think Web Components is landing soon, and this seems like it could leverage that.

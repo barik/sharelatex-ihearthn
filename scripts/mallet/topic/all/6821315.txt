@@ -1,0 +1,1 @@
+Have you looked into the tools and amenability of Scala to static analysis and found them lacking?Also, it seems a bit odd to call Scala "syntactic sugar". It's a pretty unique language in its own right.

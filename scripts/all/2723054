@@ -1,0 +1,1 @@
+The original lint tools seem entirely superseded by modern compiler warnings.  On the other hand, a whole new class of static analysis tools exist now, such as Sparse, Coccinelle, Frama-C, and in the proprietary world Coverity.

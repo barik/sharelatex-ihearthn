@@ -1,0 +1,1 @@
+It's about the type system.Dynamic, weak typing makes writing static analysis/refactoring/etc tools extremely hard, but more importantly makes nearly any compile-time guarantees impossible. Having your app crash because of a small typo of a member name is impossible in C++/C#/Java. It happens to me almost once a day with Node/JS.

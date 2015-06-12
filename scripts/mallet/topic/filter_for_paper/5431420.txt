@@ -1,0 +1,1 @@
+Actually I am really scared that they use C or C++ instead of something sane like Ada.Unless their static analysis tools just make C or C++ look like Ada.

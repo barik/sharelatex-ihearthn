@@ -1,0 +1,1 @@
+Safety verification tools - like static analysis/timing analysis - is different from full formal verification. Those tool run on their own and don't need complex definition of what to verify , and they verify just small amount of bugs.

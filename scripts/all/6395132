@@ -1,0 +1,2 @@
+Yes - Static Timing Analysis is used to work out worst likely timing (slowest/fastest delay) paths and check it runs at your target MHzFor ASIC work there are a couple of tools used these days:
+http://www.cadence.com/products/mfg/tempus/pages/default.asp...http://www.synopsys.com/Tools/Implementation/SignOff/Pages/P...Electronic Design Automation is a tough market to crack - for most startups the exit strategy is to be bought by one of the 2 (or 3) big players without being sued by them first!

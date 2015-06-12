@@ -1,0 +1,1 @@
+Hahaha, no problem.Static Analysis would be my second step, but first I'd have a look at the architectural documentation. I can't imagine that a project of this size wouldn't at least have a Powerpoint explaining the structure and concepts of the code.Then it's time to start using tools.

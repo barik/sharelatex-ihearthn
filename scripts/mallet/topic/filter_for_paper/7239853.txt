@@ -1,0 +1,1 @@
+One group that should be willing to pay for it are those writing high-reliability and safety-critical code, e.g. DoD. It appears they have less of a preference for Ada nowadays, instead using a "safer" subset of C++ and static analysis tools.

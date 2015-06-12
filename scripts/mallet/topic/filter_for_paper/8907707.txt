@@ -1,0 +1,1 @@
+I work with some people in the static analysis industry, and I'm told that Toyota did have static analysis tools that would have identified a number of these issues; as a  particular example, recursive functions, which are verboten under the MISRA rules they should have been following.I heard to a less reliable degree that the tools had been used, and results ignored.

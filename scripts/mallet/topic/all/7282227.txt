@@ -1,0 +1,1 @@
+Worse, lint was part of the original C toolchain, but very few people cared to use it, because they couldn't be bored to tune the tool to their projects.This is the type of error that any static analysis tool would easily pick.

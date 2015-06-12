@@ -1,0 +1,1 @@
+I think that we are only scratching the surface as regards support for static analysis and automated refactoring.Also, I think that we will start to apply some of the machine learning and statistical pattern recognition techniques that have become so "du jour" recently to programming - enabling development tools to do some really sophisticated things.

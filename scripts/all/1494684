@@ -1,0 +1,1 @@
+What kitchen sink was thrown in C++?  The STL?  That's the main reason I first fell in love with C++.  Templates?  Exceptions?  RTTI?IMO the problem with C++ is its C legacy (things like macros).  These things make it harder to read code and make it harder to write great tools for it (ever seen really good code completion or static analysis for C++ code?).

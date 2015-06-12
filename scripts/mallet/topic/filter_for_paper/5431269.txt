@@ -1,0 +1,16 @@
+A common example is the incomplete case problem (currently fixed by static analysis tools, I believe, but bear with me).Suppose you have an enum:   enum rocket_states { ROCKET_WAITING, ROCKET_FLYING, ROCKET_FAULT }
+
+And a switch that runs off that enum:    switch ( some_rocket_state ) {
+      ROCKET_WAITING:
+        wait_foo();
+        wait_bar();
+        break;
+      ROCKET_FLYING:
+        fly_foo();
+        break;
+      }
+    }
+
+This will compile. (Or maybe it won't, I haven't cut C for some time now).But you've missed the ROCKET_FAULT case. In languages which check for case completeness, this kind of logical construction would cause a compiler failure. ML, F#, Rust etc will all complain that you haven't addressed all cases.Sometimes this or something like it is added to a code template:      default: assert(false);
+
+Which is defensive code that's great for test. But not as great for rockets. Better if bad code simply can't be written.I believe static analysis tools can now pick up on missing cases, but there are still lots of reasons why C can't be as fully analysed as a language like ML, Haskell, ATS, Rust etc can be. Putting aside the obvious problem of undefined behaviour meaning you really want to push C code through multiple compilers and multiple static analysis tools, there's also the great universal escape hatch for C: direct memory access.When you can simply go in and change memory, type systems and analysis are strictly speaking no longer going to work without positive human effort to refrain from doing that. Analysis can only make guarantees under certain assumptions; introduce direct memory access and all bets are off.Yes, discipline and coding standards can also cut this down. Some analysis tools will do partial analysis of memory accesses. But it still requires positive human action. A computing system includes the humans who make it, run it and use it. Cutting down on the avenues for mistakes is a good thing.

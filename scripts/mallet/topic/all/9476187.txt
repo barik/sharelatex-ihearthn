@@ -1,0 +1,1 @@
+Text editors aren't IDEs. However, static analysis tools are available for both emacs and vim.

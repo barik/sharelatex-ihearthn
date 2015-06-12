@@ -1,0 +1,1 @@
+Why don't you think Haskell will help with this?  If Java can't prevent a NullPointerException I don't see how static analysis can take the tooling where you want it to go.

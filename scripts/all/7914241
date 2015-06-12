@@ -1,0 +1,1 @@
+I love refactoring in a good, statically typed language.  Change the types in a carefully breaking way, and you're immediately told every single place you need to change.  Seven times out of ten I can manage to squeeze this out of my C, even before static analysis tools, though certainly wind up leaning more heavily on my tests than in some other languages.

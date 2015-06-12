@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CATRawCodedDataset>
+  <codedDatasetHeader id="23021">
+    <datasetTitle>HN-Random</datasetTitle>
+    <datasetMetadata>Upload Date/Time: 06/07/2015 00:35:02</datasetMetadata>
+  </codedDatasetHeader>
+  <codedDataset>
+    <codes>
+      <code codeId="262306">
+        <codeText>WORKFLOW</codeText>
+      </code>
+      <code codeId="262305">
+        <codeText>LICENSING</codeText>
+      </code>
+      <code codeId="262304">
+        <codeText>NONE</codeText>
+      </code>
+      <code codeId="262303">
+        <codeText>SAFETY</codeText>
+      </code>
+      <code codeId="262302">
+        <codeText>SECURITY</codeText>
+      </code>
+      <code codeId="262331">
+        <codeText>PRODUCTIVITY</codeText>
+      </code>
+      <code codeId="262330">
+        <codeText>INTEGRATION</codeText>
+      </code>
+      <code codeId="262329">
+        <codeText>ANNOTATION</codeText>
+      </code>
+      <code codeId="262328">
+        <codeText>PRESENTATION</codeText>
+      </code>
+      <code codeId="262327">
+        <codeText>BENEFIT</codeText>
+      </code>
+      <code codeId="262326">
+        <codeText>LEGACY</codeText>
+      </code>
+      <code codeId="262325">
+        <codeText>PL</codeText>
+      </code>
+      <code codeId="262324">
+        <codeText>ADOPTION</codeText>
+      </code>
+      <code codeId="262323">
+        <codeText>PRAISE</codeText>
+      </code>
+      <code codeId="262322">
+        <codeText>DISCOVER</codeText>
+      </code>
+      <code codeId="262321">
+        <codeText>PERFORMANCE</codeText>
+      </code>
+      <code codeId="262320">
+        <codeText>CAPABILITY</codeText>
+      </code>
+      <code codeId="262319">
+        <codeText>COST</codeText>
+      </code>
+      <code codeId="262318">
+        <codeText>COLLABORATION</codeText>
+      </code>
+      <code codeId="262317">
+        <codeText>RECOMMEND</codeText>
+      </code>
+      <code codeId="262314">
+        <codeText>CONFIGURATION</codeText>
+      </code>
+      <code codeId="262313">
+        <codeText>QUALITY</codeText>
+      </code>
+      <code codeId="262312">
+        <codeText>VERBOSITY</codeText>
+      </code>
+      <code codeId="262311">
+        <codeText>ACCURACY</codeText>
+      </code>
+      <code codeId="262310">
+        <codeText>ECOSYSTEM</codeText>
+      </code>
+      <code codeId="262309">
+        <codeText>CONFIDENCE</codeText>
+      </code>
+      <code codeId="262308">
+        <codeText>EGO</codeText>
+      </code>
+      <code codeId="262307">
+        <codeText>MANAGEMENT</codeText>
+      </code>
+    </codes>
+    <coders>
+      <coder coderId="10348">
+        <coderUsername>barik</coderUsername>
+      </coder>
+    </coders>
+    <paragraphs>
+      <paragraph paragraphId="9836731" paragraphTag="random/1003500_1">
+        <paragraphText>This is exactly what the Google Web Toolkit compiler does, but outputs Java bytecode rather than taking it into JS.The HotSpot compiler does some of this static analysis at runtime (various forms of devirtualization and type-tightening), but it's far more effective if you feed it into a big vat and keep running optimizations on it until you can eke out anything more.
+</paragraphText>
+        <paragraphCode>random/1003500_1</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836732" paragraphTag="random/1103422_2">
+        <paragraphText>LLVM is designed to be more than just a compiler. It's different stages can be used separately by other code, making it well suited for building things like static analysis tools. Apple (sponsor and de facto leader of LLVM) has been taking advantage of this to integrate clang-based static analysis into XCode, the proprietary IDE that ships with Mac OS X. Even if GCC had a clean enough architecture to be used this way, the licensing restrictions would force all of XCode to be open-sourced.
+</paragraphText>
+        <paragraphCode>random/1103422_2</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836733" paragraphTag="random/1182137_3">
+        <paragraphText>Regardless of anyone's opinions of this particular IDE / workflow it's been clear for a while that the future of developer tools will almost certainly include:- IDEs that take advantage of greater knowledge of code than just a simple organization of text files (e.g. reflection, call stacks, static and dynamic analysis, etc.)- Tying bug-tracking, automated testing, and source control together in a coherent way.- Generally merging the developer workflow into a seamless experience instead of a disjoint series of steps across N sets of distinct tools.Already we're seeing plenty of movement in this direction, with things like visual studio's intellisense, more in-IDE unit test tools, and the plethora of refactoring tools out there.The days of IDEs that do little more than compile and keep track of collections of files for you are numbered.
+</paragraphText>
+        <paragraphCode>random/1182137_3</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836734" paragraphTag="random/1441798_4">
+        <paragraphText>This is a fairly interesting discussion. I'm not a Haskelite (if I had to pick a favourite language it would be OCaml, with Common Lisp and plain-old-C being close seconds), but I can understand where he's coming from. I'd imagine most people on this site at in the same boat: we don't get to have full freedom to choose our tools (in some cases even if we're running our own companies: there are many interesting projects where our favourite tools are the wrong tools for the job). That doesn't mean we should lose passion for those tools, nor does it mean that we can't find meaning and enjoyment in our work.Oddly enough, I've found this sort of inspiration when I was reading "Programming Pearls". The author managed to maintain an very upbeat and enthusiastic tone, pointing out clever hacks, even when he talked about programming in Cobol and BASIC. That helped me regain the sight of the fact that as a professional programmer and a (for lack of a better word) computer nerd, I was lucky enough to be in a place where I could make a profession out of my passion. Most people aren't that lucky. The fact that I don't always get to choose my tools shouldn't let me get in the way of enjoying programming: I love to program, when I drive in to the office, I'm going to be programming.Ultimately, though, the advice I would give is:* Look for interesting and non-trivial work, irrespective of what language is used (that criteria does generally disqualify some of the most frustrating and boring "niche" languages e.g., SAP, ASP, Coldfusion, PHP, Visual Basic).A common pattern I've noticed when interesting languages are used for mundane problems in start-ups is that as soon as the initial generation of developers leaves (and the start-up becomes a modestly profitable midsize company: most stay that way, rather than become "the next Google") management pressure grows to switch to blub.* Consider non-blub languages that on .NET and JVM: F# (being worked on by Peyton-Jones!), Scala (surprisingly many Haskell hackers are involved in it, despite Scala being far closer to OCaml), Clojure (borrows several ML family concepts in a very interesting way -- that alone would actually make it interesting even if it didn't run on the JVM)* Additionally, consider a full time job rather than projects and free lancing. If technology is a company's core competency, they're going to be very reluctant to outsource its development (typically exceptions are only made for exceptional individuals who are unwilling to sign on full time  and even then it's often difficult to do).Almost axiomatically, some of the most interesting software  work is generally done by companies where software is the core competency (the big exception being things like computational finance and scientific/medical computing or highly innovative enterprises such as Amazon [pre-AWS -- AWS made them a genuine tech company] or PayPal). Thus, if you only choose to work on a freelance/project basis you're likely locking yourself out of very interesting jobs. Of course, this doesn't apply if you're in an area where most of the full-time jobs are in the outsourcing industry (either in offshoring firms or in off-shore offices of foreign firms).* Use Haskell (or whatever else you like) as your secret weapon. Build prototypes in it and then once you have a clear mental picture implement them in another language. Write tools in it to automate away the drudgery (code analysis, debugging, verification: things Haskell is great at).I should add that C and C++ shops tend to be slightly more open to this use of Haskell, OCaml, Scheme and other uncommon languages: C/C++ are not very scalable languages when it comes to "scaling down" to scripting and automation work. Nonetheless I also know of people prototyping Java and Scala code in Haskell as well.* Don't forget that Haskell, Common Lisp etc... jobs are out there. They're just rare. They also typically look for individuals with specific skills rather than individuals skilled at specific languages e.g., you're more likely to find a Haskell job if you've written static analysis tools in Java than if you've written web apps in Haskell. ITA software very specifically stated that they don't require new hires to know Lisp, they want smart people whom they're willing to invest in and educate. "I really want to program in X language and you're one of the few places that uses it", unfortunately, won't persuade them if you can't pass their technical interview (unless they're specifically looking for an evangelist rather than a developer).If you can manage to provide a more or less stable situation for yourself which lets you develop new skills, you can always switch when tgw opportunity comes. Technology job market is usually fluid. If you're not constantly thinking "how will I get the next contract, what money will I live on" you don't have to keep taking jobs you don't like (only to discover a posting for a "perfect job" a week after you begin a new six month contract).Finally, remember that there are people who hate Haskell, Lisp etc.. too when they are forced to use it. There's no better example than university students. I was unfortunate enough to be exempt (as a CS major in School of Arts and Sciences vs. a CSE student in the School of Engineering) from taking a specific undergrad course (the equiv of 6.001 or CS68a) that was taught in Haskell. I couldn't enroll in the course, as the priority went to students from whom it was required. I was green with envy, but most students absolutely hated it. I volunteered to help out my Berkeley friends with CS68a (their SICP class), but they endlessly complained of not knowing what the point of the course was (especially the non-CS students who had no prior or following programming experience).
+</paragraphText>
+        <paragraphCode>random/1441798_4</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836735" paragraphTag="random/1460517_5">
+        <paragraphText>Do we really want to heed advice when it's comes with obviously wrong advice like "Only people can detect and solve software bugs, not tools."Static bug analysis is definitely not the be all and end all of software quality but definitely has a place. We automatically run FindBugs (along with unit test etc) on our code base every time new code is pushed by a developer and it definitely helps pick up quirky little errors much more cheaply than code reviews.
+</paragraphText>
+        <paragraphCode>random/1460517_5</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836736" paragraphTag="random/1548738_6">
+        <paragraphText>It saddens me to see the linked article taken seriously and its political agenda repeated as if the existence of an article advocating Open Source in an Open Source conference gave credence to the idea of mandatory Open Source for life-critical software.The article "Killed by Code: Software Transparency in Implantable Medical Devices" is weak. It mixes safety and security, which are subtly different beasts. Specifically, it justifies the idea of mandatory Open Source for safety-critical software with security examples. Unfortunately, while there are independent security researchers, I have yet to meet my first independent safety researcher, who looks for flaws in life-critical equipment for fame or money or ego…The article also completely ignores the fact that DO-178B certified code, as found embedded in civil aircrafts, has a perfect safety track record (although some incidents have, no loss of human life has yet been attributed to software malfunction in a civil aircraft).I work on static analysis tools for critical software. In this domain, the unavailability of examples is a big pain in the neck. My colleagues and I would love to see more examples of critical embedded code available to try our tools on. But in spite of this, I have to say that I find this article highly unscientific and so tainted by politics that it becomes distasteful.(oh, and our analysis framework is Open Source. By choice, not by constraints based on unsound reasoning)NOTE: I merely claim that the article is unscientific, not that it makes a particular unscientific claim such "that opening up software will solve all of it problems". But since apparently I need to be more specific, here is a paragraph straight from the article:Other public sector agencies, such as the U.S. Navy, the Federal Aviation Administration, the U.S. Census Bureau and the U.S. Patent and Trademark Office have been identified as recognizing the security benefits of publicly auditable source code.20There is only one reference for the four sources. Let's take a look at that reference:20 FAQs, Open Source for America, http://opensourceforamerica.org/faq (last visited July 16, 2010).How does that page justify the above paragraph? You tell me if you find it. This is not how references are supposed to work in a scientific article. The last time I saw this kind of "he said she said" reference, it was in a text trying to justify homeopathic claims.
+</paragraphText>
+        <paragraphCode>random/1548738_6</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836737" paragraphTag="random/1744360_7">
+        <paragraphText>In an ideal world this is true. But in reality we don't always have control over the codebase from birth until deprecation. Often, you find yourself a newcomer to code, and being able to reason your way though it can be time consuming, and scary.I think this article's approach is a good one. Take precautions, use things like continuous builds, static analysis tools to boost your confidence, but DO make the necessary changes. Better sooner than later.
+</paragraphText>
+        <paragraphCode>random/1744360_7</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836738" paragraphTag="random/2027769_8">
+        <paragraphText>I don't know specifically about the `crashme` tool but I can say that fuzzing is not a technique that has gone out of vogue. In fact it is standard security practice for finding ill defined behavior in programs for buffer overflows and other nasties. When you read the exacerbated cries of the security researchers who have been sitting on a critical IE/Firefox/Whatever bug they almost always scream something to the effect of "Why didn't they just use a fuzzer, it's easy to find these problems that way -- that's how I did it." I would like to give props to Google, their security teams have been diligent in running static analysis and fuzzing tools against their code (white box[1][2]/black box testing[3])As always, Wikipedia is a great source for information on this one[4] and I can personally testify to OWASP's fuzzer if you're going after webpages (my last local OWASP that I went to was on fuzzing and was REALLY interesting)[1] http://en.wikipedia.org/wiki/White-box_testing[2] http://en.wikipedia.org/wiki/Static_code_analysis[3] http://en.wikipedia.org/wiki/Black-box_testing[4] http://en.wikipedia.org/wiki/Fuzz_testingEDIT: Fixing formatting
+</paragraphText>
+        <paragraphCode>random/2027769_8</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836739" paragraphTag="random/2033000_9">
+        <paragraphText>I will try to ignore the shallow (but horrifying) issue of identifiers including spaces.The real question to be asked here is what is wrong with the current portable assembler (C) ? C has occupied this niche for a long time and quite successfully - I believe all current mainstream kernels are written in C (or possibly a limited subset of C++).If you want a 'portable assembler', a modern C compiler is in my opinion, a good choice:  - a solid specification: detailing the behaviour of operations, what is defined, implementation, or undefined behaviour.
+
+  - access to platform specific features through builtins and intrinsics
+
+  - ability to use inline asm if you really want to (or need to)
+
+  - easy integration with existing libraries
+
+  - minimal dependencies on a runtime library (pretty much none in freestanding implementations)
+
+  - most compliers give have ways to get good control of both what code is generated and structure layout.
+
+The modern C ecosystem provides (mostly good) tools for:  - tracking memory leaks/invalid memory accesses (valgrind)
+
+  - static analysis (clang static analyser, sparse, coverity, ...)
+
+  - debuggers (gdb ...)
+
+  - solid optimizing compilers (icc, gcc, llvm)
+
+  - profilers (oprofile, perf, vtune, ...)
+
+Admittedly, most of these tools don't depend on the code being written in C, but I suspect any new language would take a while to get properly integrated. If you want to use a low level language, you really want to have access to these tools or equivalent.A new language trying to compete in this space would have to offer something fairly substantial to get me to switch - and a strange syntax like zinc is not going to help. From the documentation at least, zinc seems to currently be missing: an equivalent to volatile; asm; anyway to access a CAS like instruction; 64bit types; floats; a way to interface to C code; clear documentation about behaviour in corner cases (what happens if you a left shift a 32bit value by 40?). The only thing seems to bring to the table to compensate is the ability to inherit structures
+</paragraphText>
+        <paragraphCode>random/2033000_9</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836740" paragraphTag="random/2241462_10">
+        <paragraphText>I love developing in rails but let's be clear, refactoring ruby is just painful at the moment. Yesterday I decided to rename a model, it took over an hour to get the tests passing again. Ok there's rubymine but it's only partially effective, it misses things like renaming relationships and references in templates. Given the difficulty of static analysis I've been wondering if a refactoring tool might look a little different with a dynamic language. Given that refactorings are effectively replacement patterns perhaps a find/replace workflow tool would be the way to go. The workflow might go something like: specify broad regex which matches all potential changes. View matches and then partition them with further rules like file type and tighter regexes. Once you've grouped the matches provide appropriate replacements. Run tests. Refine if required. Obviously you could follow this workflow using command line tools but the refinement process is difficult because you don't retain any of the context.  Having said that it wouldn't be too hard to use existing commands to put something like this together. Looks I've got a project for this afternoon.
+</paragraphText>
+        <paragraphCode>random/2241462_10</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836741" paragraphTag="random/2752939_11">
+        <paragraphText>+1 for this comment
+For all static (heck, even runtime) analysis tools, I would rather have more rules than less - and disable the ones I don't like/want/agree with. I wrote the code, I set the standard for rules, it's that simple.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/2752939_11</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836742" paragraphTag="random/2834103_12">
+        <paragraphText>Java ecosystem has a lot of static analysis tools that can integrate to almost all popular IDEs and Continuous Integration systems. Findbugs, PMD, JDepend, Sonar (recommend to check Sonar).Checkstyle is another tool that I use since I'm kind of the annoying dude when it comes to code-style. (Have you seen GWT API code? it's like written by one person as opposed to a few developers with different perceptions of "readable" code. I like that kind of thing).There are a few reasons why startup/individual dev would choose Java:1) Previous experience in Java2) Java fits better for the type of problems to solve (intensive computational that requires Hadoop like infrastructure)3) Emotionally attached to static/compiled language with nice IDE so that one can navigate the source code easily whether the code base is large or small (sometime not all decisions are rational and I'm okay with that because developing software requires more than technical skill; it also requires passion).4) Marketing (if you're targeting the enterprises). Zimbra, Jive Software, Compiere, Alfresco, Day software, Liferay, Salesforce used to be startups.Java ecosystem seems to learn and grow in a much better speed thanks to the following actors:- Rails (Spring Roo, Spring MVC, JPA 2.0, and possibly MVC framework from the upcoming JEE releases)- C# (Java 7 new features, Java 8 closures/lambda. Yes, Lisp does this first, but I think C# forces Java to implement closures more than any of its competitors).- REST/JSON/WS (Check out the latest JAX-RS, supports REST, JSON, XML, Atom-Feed, and JAX-WS)- I/P/SaaS + Cloud Computing (Targeted for Java EE7, deployment, infrastructure to support multi-tenant, etc).NB: Just so that I don't sound like a Java fan-boy, I use Java by day but I use and help to promote and organize Python community overseas (of course by not comparing Python vs Java :)).
+</paragraphText>
+        <paragraphCode>random/2834103_12</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836743" paragraphTag="random/2917697_13">
+        <paragraphText>Can you give some more detail about what your process was for determining code quality? Just getting people to get a checkout and read through it? Running static analysis tools? Examining commit histories?&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/2917697_13</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836744" paragraphTag="random/3067838_14">
+        <paragraphText>I would say that after a little more experience, space leaks are the only thing that really worries me in Haskell.  It's one of those things that I have to think about a little too much to really feel "safe" about.  (The other worry is expressions that evaluate to  at runtime, but it's been shown that static analysis can solve that problem.  I don't actually use those tools, though, so I guess I'm a tiny bit afraid of those cases.  Like with other languages, write tests.)Your other concerns don't seem too worrisome to me.  Type hell doesn't happen very much, though there are some libraries that really like their typeclass-based APIs (hello, Text.Regex.Base) which can be nearly impossible to decipher without some documentation with respect to what the author was thinking (``I wanted to be able to write let (foo, bar) = "foobar" =~ "(foo)(bar)" in ...'').The data type stuff can be confusing for people used to other languages, where the standard library is "good enough" for most everything people want.  A good example is Perl, which uses "scalar" for numbers, strings, unicode strings, byte vectors, and so on.  This approach simply doesn't work for Haskell, because Haskell programmers want speed and compile-time correctness checks.  That means that ByteString and Text and String are three different concepts: ByteString supports efficient immutable byte vectors, Lazy Bytestrings add fast appends, Text adds support for Unicode, and String is a lazy list of Haskell characters.All of those types have their use cases; for a web application, data is read from the network in terms of ByteStrings (since traditional BSD-style networking stacks only know about bytes) and is then converted to Text, if the data is in fact text and not binary.  Your text-processing application then works in terms of Text.  At the end of the request cycle, you have some text that you want to write to the network.  In order to do that, you need to convert the Unicode character stream to a stream of octets for the network, and you do that with character encoding.  The type system makes this explicit, unlike in other languages where you are allowed to write internal strings to the network.  (It usually works since whatever's on the other end of the network auto-detects your program's internal representation and displays it correctly.  This is why I've argued for representing Unicode as inverse-UTF-8 in-memory; when you dump that to a terminal or browser, it will look like the garbage it is.  But I digress.)I understand that people don't want to think about character encoding issues (since most applications I use are never Unicode-clean), but what's nice about this is that Haskell can force you to do it right.  You may not understand character sets and character encodings, but when the compiler says "Expected Data.ByteString, not Data.Text", you find that ByteString -&gt; Text function called "encodeUTF8" and it all works!  You have a correct program!With respect to purity; purity is a guarantee that the compiler tries to make for you.  When you load a random C function from a shared library, GHC can't make any assumptions about what it does.  As a result, it puts it in IO and then treats those computations as "must not be optimized with respect to evaluation order", because that's the only safe thing it can do.  When you are writing an FFI binding, though, you may be able to prove that a certain operation is pure.  In that case, you annotate the operation as such ("unsafePerformIO"), and then the compiler and you are back on the same page.  Ultimately, our computers are a big block of RAM with an instruction pointer, and the lower you go, the more the computer looks like that.  In order to bridge the gap between stuff-that-haskell-knows-about and stuff-that-haskell-deson't-know-about, you have to think logically and teach the runtime as much about that thing as you know.  It's hard, but the idea is that libraries should be hard to write if they'll make applications easier to write.  If everyone was afraid to make purity annotations, then everything you ever did would be in IO, and all Haskell would be is a very nice C frontend.For a lot of code you end up using monads plus 'do' notation, making your programs look practically imperative, but an oddball variation of it.That's really just an opinion, rather than any objective fact about the language.  I find that do-notation saves typing from time to time, so I use it.  Sometimes it clouds what's going on, so I don't use it.  That's what programming is; using the available language constructs to generate a program that's easy for both computers and humans to understand.  Haskell isn't going to save you from having to do that.Using functions with worse time or space complexity, to maintain purity.ST can largely save you from this.  A good example is Data.Vector.  Sometimes you want an immutable vector somewhere in your application (for purity), but you can't easily build the vector functionally with good performance.  So, you do a ST computation where the vector is mutable inside the ST monad and immutable outside.  ST guarantees that all your mutable operations are done before anything that expects an immutable vector sees it, and thus that your program is pure.  Purity is important on a big-scale level, but it's not as important in a "one-lexical-scope" level.  Haskell let's you be mostly-pure without much effort; other languages punt on this by saying "nothing can ever be pure, so fuck you".  I think it's a good compromise.I/O looks simple, but for predictable and safe I/O you'd usually end up using a library for enumerators. Writing enumerators, enumeratees, and iteratees is unintuitive and weird, especially compared to (less powerful) iterators/generators in other languages.IO is hard in any language.  Consider a construct like Python's "with":    with open('file') as file:
+        return file
+
+That construct is meaningless, since the file is closed before the caller ever sees the descriptor object.  But Python lets you write it, and guaranteeing correctness is up to you.  In Haskell, that's not acceptable, and so IO works a little differently.   Ultimately, some things in Haskell are a compromise before simplicity of concepts and safety guarantees at compile time.  You can write lazy-list-based IO in Haskell, but you can run out of file descriptors very quickly.  Or, you can use a library like iteratees, and have guarantees about the composability of IO operations and how long file descriptors are used for.  It's up to you; you can do it the easy way and not have to learn anything, or you can do some learning and get a safer program.  And that's the same as any other programming language.
+</paragraphText>
+        <paragraphCode>random/3067838_14</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836745" paragraphTag="random/3388542_15">
+        <paragraphText>D. Richard Hipp and the SQLite project have not had such a positive experience with static code analysis. They already use a massive amount of testing though. There's also no mention of commercial tools like Coverity.See the "Static Analysis" section:\nhttp://www.sqlite.org/testing.html
+</paragraphText>
+        <paragraphCode>random/3388542_15</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836746" paragraphTag="random/3548469_16">
+        <paragraphText>Well, with the exception of a class tree (which I've had trouble using in the past), those are all the reasons I just use a text editor. So, I guess I still don't understand.You see, I have file/project trees, warning/error buffers, build status and shells (among other things) in Vim and Emacs with keyboard-driven access to all the tools I use, without having to hunt through a twisty passage of menus, all alike.Even static analysis and error highlighting is available (even for C++ with vim-clang-complete, for example).So I guess what I don't understand is why there is a need for all of this to be "integrated" in a WIMP-style GUI.
+</paragraphText>
+        <paragraphCode>random/3548469_16</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836747" paragraphTag="random/3644225_17">
+        <paragraphText>We've been building a SPICE-like mixed-mode circuit simulator plus a SVG-based schematic editor, HTML5/Canvas-based plotting, in about 20K lines of CoffeeScript.  No browser plugins required -- runs directly in the browser's JavaScript engine, and all simulation is client-side.  (We generate and factor big matrices on the client side.)  We currently do DC, time-domain simulations, and frequency-domain analysis (small signal, "Bode plots" if you're familiar with the lingo).  Circuit analysis results compare well to "real" desktop SPICEs.  We evaluate real and complex electrical quantities.  In fact, we have a graphing calculator essentially embedded in our tool.  Since it's browser-based, it's immediately Windows/Mac/Linux cross-platform, unlike most software EDA tools which are Windows-only.  Check out the cross-tab copy-paste functionality as well!If you look at any electronics forum online, it's normal to see scanned hand-drawn schematics, or static screenshots from various desktop tools. There's no reason why we shouldn't instead be sharing useful URLs that enable editing and simulation.  If someone uses CircuitLab and posts a public URL, they enable the entire community to easily open their circuit, make a few changes, simulate / iterate, and share the new version.Looking forward to hearing your feedback!
+</paragraphText>
+        <paragraphCode>random/3644225_17</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836748" paragraphTag="random/3656589_18">
+        <paragraphText>I guess the reason for Google to start contributing to Clang and using it for their tools is the availability of the frontend. As far as I know the GCC developers made it extra hard to separate the frontend from the compiler because they feared that people would use it on proprietary backends. But this really left us in a situation were for decades people couldn't work on creating amazing static analysis, autocompletion, refactoring tools for C and C++. In the end this decision probably did more damage to the free software movement. GCC now comes with a plugin interface and with the Clang frontend available I hope that this will change quickly.
+</paragraphText>
+        <paragraphCode>random/3656589_18</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836749" paragraphTag="random/3662968_19">
+        <paragraphText>You are correct --- PCC (AFAIK) has not come about in the sense of carrying along a proof object that a formal verifier can validate is both correct and corresponds to the code payload.As the other commenter pointed out, the SLAM tools are part of the Windows Device Driver Development Kit. The last time I talked to the kit's dev manager (~2003), they were talking about making it mandatory that you pass the formal verification in order to have your driver signed by Microsoft. Since those signatures are then verified at driver installation time, that feels very close to it!I have to confess I'm only familiar with the publications on Native Client and not the actual product. From what I'd read, I understood that the verifier did some basic static analysis to prove that all possible executions did not validate some properties. In that case, no proof object is required, as the source code itself is the proof object. Assuming, of course, that they're actually doing the stuff talked about in the papers and in practice don't just "grep for dangerous instructions."
+</paragraphText>
+        <paragraphCode>random/3662968_19</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836750" paragraphTag="random/3722184_20">
+        <paragraphText>Not only excellent library support, but also a large array of productivity tools ranging from superb IDE, static code analysis, build+dependency tools, great Continuous Integration, etc.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/3722184_20</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836751" paragraphTag="random/3747582_21">
+        <paragraphText>If you haven't already, you owe it to yourself to try ReSharper. The automated refactoring and static analysis tools are best described as "pair programming with a genius robot".&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/3747582_21</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836752" paragraphTag="random/3776934_22">
+        <paragraphText>"It is a mathematical impossibility for the behaviour of Turing-complete code to be analyzed by machine."This is categorically false.  There are plenty of static analysis tools that can determine if programs written in turing-complete languages will halt.  They can't do it for every program, but they can do it for large numbers of useful programs.Simple counterexample: python is turing complete, yet it is possible to mechanically analyze and determine a whole lot about this program:    print "Hello, World!"
+
+Yes, that's a stupid example, but it demonstrates that the premise of this article is false.As further example that the author misunderstands the issue is the quote: "That, or viewing your website means I have to pore over every line." If good static analysis tools can't figure it out, it is less likely that a person will.Static analysis tools running on Turing complete languages are a useful tool.  Sometimes they answer "I don't know" at which point you will have to decide if you trust the author or not, but the vast majority of code out there is fairly tractable.[edit] It is true that it is a mathematical impossibility for all possible programs in a turing-complete language to be analyzed, but that doesn't mean that there don't exist programs that are analyzable and has little bearing on whether or not real-world programs are analyzable.
+</paragraphText>
+        <paragraphCode>random/3776934_22</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836753" paragraphTag="random/3785688_23">
+        <paragraphText>Santa Monica, CA (Los Angeles area) also possibly SF Bay area or other cities, but most jobs are in Santa Monica.TRUECar - Put simply, TrueCar shows consumers how much people actually paid for a particular new car in their area, then guide them to dealers we've certified.  We bring transparency to auto pricing and so far we are getting a solid piece of a huge market.* Java - We are looking for talented Java architects to design and build the technology used to power our production websites, APIs, widgets, and internal tools.  This is a chance for you to join a growing company and build something that's going to need to scale to support millions of users/visitors and provide them with all kinds of data.* Data Analyst - Will work on data management and ensure robust pipelines implemented for a diverse range of analytical products.  You will be utilizing the latest technologies to solve challenging problems and create innovative applications from the ground up.* Data Warehouse Developer - We are looking for a super smart and detail-oriented SQL Database Developer who will support the ETL and Data Modeling processes which feed our data warehouse and MicroStrategy environment.* Senior Designer - Works closely with the Creative Director, VP Product, and Chief Product Officer to provide high-level front-end design in the development of key TrueCar products. This position rapidly visualizes information presentation for the web (and portable devices) and turns that vision into static/functional prototypes. The Designer serves as a member of core product team supporting front-end developers and product owners.* Senior Linux Systems Engineer - Will be involved from the design stage through production troubleshooting, from DNS to networking to application behavior and ultimately responsible for making sure our production systems are reliable and perform well.* Statistician/Data Mining Specialist - Masters or Ph.D. in Statistics, Econometrics, Operations Research, Data Mining, or Biostatistics who will work on a wide range of projects from transaction price modeling, forecasting, to multivariate testing and marketing analytics, utilize the latest technologies to solve challenging problems, create innovative applications from the ground up and understand exactly what it takes to create a reliable Web experience for our customers.* Software QA Engineer - We need a well-rounded QA Engineer.  This person will design and execute tests for web services and applications and then help us automate those cases.We've also got non-technical positions for a Director of Customer Relations (in Austin, TX), Area Sales Managers in multiple cities, and a Senior Accountant.As I mentioned, we just hired an excellent front-end developer from the "Who's Hiring" thread a couple months back.  He's loving it here as much as I am.Many of the tech team is an open workspace that has a view of the ocean (http://picplz.com/user/dabent/pic/tpc4v/), and all the Santa Monica offices are blocks from the beach.  They have great benefits, amazing team solving hard problems and a company that's well-funded and earning revenue.If you're interested, send me your resume.  My email is in my profile.
+</paragraphText>
+        <paragraphCode>random/3785688_23</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836754" paragraphTag="random/3919132_24">
+        <paragraphText>Static analysis is a method, not a goal. Static analysis in compilers is done for the purposes of optimization, so it is meaningless without a compiler. There are commercial and open source products that do static analysis to find logical errors and security vulnerabilities in your code like Klocwork, Coverity, or Gimpel Lint. There are formal verifiers. Decompilers, indenters and obfuscators can be considered sort of static analysis tools too, although on a shallower level.
+</paragraphText>
+        <paragraphCode>random/3919132_24</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836755" paragraphTag="random/3944198_25">
+        <paragraphText>Safety Critical software is really about the confidence level in the software to function as intended and is really language agnostic.  This is why most Safety Critical projects focus on development and test practices.  You want to have a good warm and fuzzy that the product your outputting will work as intended when needed.  The traditional way to accomplish this is through rigorous design processes and robust testing.  So no one language has an advantage over another (unless real-time is a requirement which it often is) at the root level.  Over the years tools have been developed to help assist in testing and giving you that warm fuzzy feeling at the end.  Static analysis tools and code coverage tools are an example.  These tools tend to be more mature for traditional languages like C/C++ and ADA thus making them more popular for Safety Critical projects, but that's not to say another language that the development group was more familiar with wouldn't do better.  At the end of the day its all about your ability to detect defects and the systems ability to detect anomalies so the tool set that the development team thinks they can accomplish this the best with is the best choice.
+</paragraphText>
+        <paragraphCode>random/3944198_25</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836756" paragraphTag="random/3953726_26">
+        <paragraphText>Just because C++ is a superset of C doesn't make it strictly better.  The presence of additional features can be a liability.  The obvious problem is that if you want to use the C subset in a multi-person project (whose team evolves over time), you have to create a way to enforce that.  Another example is that it's more difficult to produce static analysis tools like lint.  (As an example, lint in C detects unused stack variables.  This is trivial for C.  This is extremely difficult for C++ because the mere construction of the object on the stack often has important side effects.)
+</paragraphText>
+        <paragraphCode>random/3953726_26</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836757" paragraphTag="random/4215008_27">
+        <paragraphText>Try to get the free MFC framework, with the free 64 bit C++ compiler and the free static code analysis tools.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/4215008_27</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836758" paragraphTag="random/4367585_28">
+        <paragraphText>Mind the context: the guy said there needed to be a "new VI" to have "better" syntax highlighting (whatever specifically he meant by that). You broke in to emphasize how tough it is to parse C++, which is true, but not entirely relevant; the person you replied to was simply pointing out that it's easy to reconfigure vim's syntax highlighting to almost any requirement. Which is true, by the way.It appears that you are preoccupied with hard-coded construction of ASTs for some dialect of C++ inside your editor. I never suggested it could not be done. But, this is a different issue.However, I really don't think many people need that when the facilities for configuring syntax highlighting are so good. The existing system has allowed vim to support a crazy number of languages and have fresh support for languages quite quickly after they start to be used.If you like vim, and you want something SPECIFIC to be fixed about its C++ highlighting (not just a general complaint that you feel it is 'woefully limited' because it isn't based on hardcoded static analysis for C++) ... then don't waste time on doubt. Just try it. Make your own highlighting script and see if it works to a usable level. If it does not, then you know, and not just because of some a priori principle that syntax highlighting is useless unless it is based on an AST generated by your compiler toolchain or something.If you really did have any practical reason to believe that the existing syntax highlighting facility was totally unsuitable for more than a handful of people... maybe it would be interesting to have some way of plugging in external modules of some kind to provide ASTs for specific languages. (Because I think the idea of making my text editor totally coupled to a specific hard-coded implementation of a parser for a particular language sucks really bad; but if you don't think that, then maybe you just want to buy a C++ IDE and be done with it)
+</paragraphText>
+        <paragraphCode>random/4367585_28</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836759" paragraphTag="random/4539789_29">
+        <paragraphText>No, sorry. There are a bunch of factors that make the point a little more complicated.If you're writing, let's say, scenegraph traversal, it's really tempting to get it working on the PPU and then port it to run on an SPU. A vtable dereference to main memory will crash your SPU job and it is not always obvious why. Obviously, you can't use static analysis tools to make sure the right instructions are transferred, so you have to do it by hand. A modern PS3 game has on the order of low hundreds f different SPU jobs...not much fun. Even discounting that, SPUs will work best when fed branchless parallelized jobs, I wouldn't be surprised to see an order of magnitude difference between a vtable call on a pointer array and a static call on an object array.Keeping pointers to objects in a polymorphic array is a games performance anti-pattern because of the dereferencing cost, but it's necessary to call virtual functions...there's a hidden cost right there.Which loop is faster, by eyeballing, and by how much?  void load(Assets* a) {
+    for (int j=0; j&lt;m_numAssets; j++) {
+      loadAsset(a[j]);
+      m_numLoadedAssets++;
+    }
+  }
+
+  void load(Assets* a) {
+    int numLoadedAssets=0;
+    for (int j=0; j&lt;m_numAssets; j++) {
+      loadAsset(a[j]);
+      numLoadedAssets++;
+    }
+    m_numLoadedAssets = numLoadedAssets;
+  }
+
+I've seen the former style run literally 1000 times slower than the latter...that's obvious? I submit in a world of out-of-order processors it is not at all.I don't think that all the author's points are spot on...Koenig lookup is Byzantine but IDEs do a good job of it, ditto source-level reasoning about dispatch. The underlying theme, that C++ is not a good fit for modern game development, shouldn't be so trivially dismissed.
+</paragraphText>
+        <paragraphCode>random/4539789_29</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836760" paragraphTag="random/4822457_30">
+        <paragraphText>Great advice if you want to optimize for salary.Most of this stuff I learned from the streets and I've done pretty well following it.However I've reached a point where a bigger salary, better benefits, and equity offers won't cut it for me anymore.  There's a hidden nugget in this article that suggests that there are things in life outside of work which are better sources of happiness.  One of the sources it fails to mention is accomplishment and achievement.  If you are a programmer that spends their time reading the latest research, crafting your skills by implementing a compiler for some exotic language you're interested in, and following your passion then you will find optimizing your career by writing CRUD forms for an accounting package for 8+ hours a day to be an incredible waste of time and energy.(It's also incredibly hard to develop a source of accomplishment and achievement if you spend the majority of your life being bored)I've once heard the advice that you should optimize for happiness and great things will begin to happen.  If modelling weather simulations is what turns your crank you will never be happy building web APIs to a legacy CRM system.  If you enjoy pushing the envelop of static analysis then what good are you doing for the world hacking on a javascript front-end for a client at a creative agency?  Rather than optimizing for salary you optimized your life around what motivates you and makes you happy then perhaps we'd have better weather predictions and early warning systems for tropical storms or better tools that allow us to write safer, faster, bug-free code.  The icing on the cake is that you'd be happy to do it.If you're just getting out of school though, then I'd follow the advice in this article for a while first.  You don't know where to go without getting a lay of the land first.  And a good salary will help you build up a "screw-up" fund for when you're ready to take the dive and follow your calling.
+</paragraphText>
+        <paragraphCode>random/4822457_30</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836761" paragraphTag="random/4849800_31">
+        <paragraphText>I hated every attempt at static analysis until I started programming with Xcode. In my usage, Build and Analyze is always right -- that's the difference. Other tools (lint, FXCop) are too noisy.  Even warnings in some compilers are an annoyance that you have to code around to eliminate.
+</paragraphText>
+        <paragraphCode>random/4849800_31</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836762" paragraphTag="random/4859442_32">
+        <paragraphText>I think that we are only scratching the surface as regards support for static analysis and automated refactoring.Also, I think that we will start to apply some of the machine learning and statistical pattern recognition techniques that have become so "du jour" recently to programming - enabling development tools to do some really sophisticated things.
+</paragraphText>
+        <paragraphCode>random/4859442_32</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836763" paragraphTag="random/5014942_33">
+        <paragraphText>My day job involves working with Java and C++ on 10+ year old systems. All of my hobby or side projects are in Go these days with occasional diversions into haskell, ML or various Lisps.So I'll try to impart some understanding of why I would switch to Go from Java or C++.First lets get some things out of the way. Go is fast enough and getting faster very quickly and it definitely has a smaller memory footprint. So when compared to java and C++ in those dimensions it holds up just fine but that might not be enough to sway someone over to the Go camp.It's about what else Go has:* Go is a batteries included language. The stdlib has almost everything you need to get started much like python does.* Go is fast for development. I mean really fast. I mean like using Lisp in a REPL fast (almost). I really can't express how fast it's development speed is adequately just trust me its really really fast. This is not just about how fast it compiles although that's part of it. (I've literally been able to write, compile, and run a go "script" faster than an equivalent python script.)* Go makes concurrency easy to get right. I haven't seen any other language get this so right since Erlang.* Go is concise. There is no wasted typing. It's easy to read and it's easy to write. Every feature of the language is orthoganal. And it tells you quickly when you've done it wrong.* Go does OO right. Code reuse through composition not inheritance. Polymorphism through interfaces not inheritance. I never have to worry about it with Go. C++ or java? yeah I've got some inheritance related war stories there.All of these things exist in other languages but Go is the only language where they all exist together. This is reason enough to switch to Go but there's more.Go's future is bright. I don't say this because it has celebrity tech people behind it. I say this because the foundation they are laying demonstrates the core team knows what they are doing. Here's some examples.* Go comes with all the tools you need to programmatically understand Go code. Parser, Type checking, Static analysis is all available via the stdlib. As a result GoCode which adds IDE functionality to the EDITOR of your choice came on the scene very quickly. Java doesn't have this. C++ doesn't have this. Go made it possible to create an IDE as a service with minimal effort. Besides Gocode you also have gofmt. Never worry about code formatting again. gofmt will reformat it for you and it will never break your code. It's 100% safe. I am aware of no other language excepting lisp with this functionality.Lastly I want to address your "a lot less powerful" comment. I think it's false. In now way is Go less powerful than Java. It's fast enough to be in the same league as java. It has a lower memory footprint than java. It compiles faster than java. And the language itself is if anything more powerful and expressive than java. It has closures, It has interfaces that are just as typesafe and yet easier to use than java.In fact I'll sum it up in one word: Go is relaxing.
+</paragraphText>
+        <paragraphCode>random/5014942_33</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836764" paragraphTag="random/5084770_34">
+        <paragraphText>I don't know off hand if they use it.  I know they do in static analysis tools.
+As nice as MS is, they seem to consider compilers solely a cost center.  Their compilers produce "relatively good code", but have never really been state of the art.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/5084770_34</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836765" paragraphTag="random/5230905_35">
+        <paragraphText>Why do they use strings as function using to-function
+(https://github.com/component/to-function).
+Like .select("age&gt;10").map("adress.streetname");While to-function is cool and your code is shorter and more readable. You must be aware that you miss- static code analysis such as synax checking
+- compile time optimizations (because the AST is missing)
+- static code analysis tools
+- code coverage checking toolsI would recommend using real functions, or using clojurescript or coffeescript in order to get shorter code.
+</paragraphText>
+        <paragraphCode>random/5230905_35</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836766" paragraphTag="random/5405589_36">
+        <paragraphText>Having used static analysis security tools for other languages, no. Ignoring the fact that it is open source, it blows away every single other tool I have used in terms of speed, accuracy, and actionability.I would _LOVE_ to be proven wrong on this one.&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/5405589_36</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836767" paragraphTag="random/5431269_37">
+        <paragraphText>A common example is the incomplete case problem (currently fixed by static analysis tools, I believe, but bear with me).Suppose you have an enum:   enum rocket_states { ROCKET_WAITING, ROCKET_FLYING, ROCKET_FAULT }
+
+And a switch that runs off that enum:    switch ( some_rocket_state ) {
+      ROCKET_WAITING:
+        wait_foo();
+        wait_bar();
+        break;
+      ROCKET_FLYING:
+        fly_foo();
+        break;
+      }
+    }
+
+This will compile. (Or maybe it won't, I haven't cut C for some time now).But you've missed the ROCKET_FAULT case. In languages which check for case completeness, this kind of logical construction would cause a compiler failure. ML, F#, Rust etc will all complain that you haven't addressed all cases.Sometimes this or something like it is added to a code template:      default: assert(false);
+
+Which is defensive code that's great for test. But not as great for rockets. Better if bad code simply can't be written.I believe static analysis tools can now pick up on missing cases, but there are still lots of reasons why C can't be as fully analysed as a language like ML, Haskell, ATS, Rust etc can be. Putting aside the obvious problem of undefined behaviour meaning you really want to push C code through multiple compilers and multiple static analysis tools, there's also the great universal escape hatch for C: direct memory access.When you can simply go in and change memory, type systems and analysis are strictly speaking no longer going to work without positive human effort to refrain from doing that. Analysis can only make guarantees under certain assumptions; introduce direct memory access and all bets are off.Yes, discipline and coding standards can also cut this down. Some analysis tools will do partial analysis of memory accesses. But it still requires positive human action. A computing system includes the humans who make it, run it and use it. Cutting down on the avenues for mistakes is a good thing.
+</paragraphText>
+        <paragraphCode>random/5431269_37</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836768" paragraphTag="random/5557043_38">
+        <paragraphText>There are also other means to assure high quality of code. Testing is just one of many tools. And even 100% coverage does not guarantee your code still isn't crap. Your tests might be crap as well. By testing you can only prove there is a bug but you can't prove there isn't. You can only hope that if you tested the right things, it is likely your code works fine.For example static code analysis is sometimes superior to testing, because it can prove for absence of some wide classes of bugs.And in code reviews we often find subtle bugs that would be extremely hard to write tests for (e.g. concurrency related bugs).You can also decrease bug rates by writing clean, understandable code. Which is often related to hiring a few great programmers instead of a bunch of cheap ones.
+</paragraphText>
+        <paragraphCode>random/5557043_38</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836769" paragraphTag="random/5604783_39">
+        <paragraphText>As much as people feel negatively about Java, it really has fantastic static code analysis tools.My first experience with Java was at a job in high school... and my only reference was a book that weighed half as much as I did.  Needless to say it left me with a very, very poor impression of the language, which I'm only recently learning is very much wrong.I definitely prefer writing Python, but the more I actually learn about Java, the worse I feed for being such a senseless detractor for so many years.
+</paragraphText>
+        <paragraphCode>random/5604783_39</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836770" paragraphTag="random/5712401_40">
+        <paragraphText>I've often felt that more developers (or even interested power users), should be running with things like MALLOC_CHECK_=3 (http://www.novell.com/support/kb/doc.php?id=3113982) enabled by default for everything. On top of that, when we have plenty of FLOSS static analysis tools (https://news.ycombinator.com/item?id=4545188), plus things like valgrind, gprof and gcov, I don't understand why more people don't use them. As for compiler flags, if we can build a whole distro around optimization (Gentoo), why can't we build a whole distro around debugging (-fstack-protector-all, -D_FORTIFY_SOURCE=2, -g3, etc)? I realize some distros already enable things like this, but usually they are looking to harden things, not necessarily diagnose bugs.
+</paragraphText>
+        <paragraphCode>random/5712401_40</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836771" paragraphTag="random/5787595_41">
+        <paragraphText>The best thing I can say is that when interacting with other people, subtle course correction early on has a big effect in the long run. When I've tried to influence other people to change practices (in my case it was building more testable code), I've found that making the right path the easiest path is the best way. There are a lot of ways to do this. Code review is an easy one if you're not doing it already. It gives everyone the power to have influence over the code before it lands in the repository [1]. Building tools that make the right thing easy is also useful. I spent about a year making development tools to enable rapid testing of some of our JS modules, as well as doing a little bit of static analysis to automatically detect and fix certain classes of errors. By doing these things, every engineer gets guided to the right path without needing to reach out to anyone and without a huge cognitive overhead (like reading an interface guideline or something like that).[1] http://www.phabricator.com/docs/phabricator/article/User_Gui...
+</paragraphText>
+        <paragraphCode>random/5787595_41</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836772" paragraphTag="random/5793358_42">
+        <paragraphText>I'm not a grandmaster by any means, but these are things that I focus on:1. Aggressively avoid techniques and abstractions that have produced bugs in the past. The "backwards conditional" is an example of this, in languages like C that will accept x = 0 as a conditional, it is safer to do 0 == x in an if statement in case you mistype. Mutability trips me up sometimes, so I try to never re-assign a variable. I keep links to the source code of key libraries in my bookmarks bar so I never have the guess how something actually works. Static analysis tools, and bug prediction tools [1] are two steps I haven't taken.2. Seek out code written by experts and inspect it [2]. If I'm considering using a new language or library one of the first things I do is to search for large scale OSS projects. For a new language looking at some of the popular 3rd party libraries can be really illuminating. Especially if you're already familiar with the problem space.3. two words: learn to fuckin' type.4. Get familiar with what the history researchers call the Primary Sources. Not just the actual source code but the proposals, the specifications, and the research reports that are written by the people who conceived the tools that you are using.[1] http://google-engtools.blogspot.ca/2011/12/bug-prediction-at...[2] (EDIT) According to Paul Allen, in high school Bill Gates actually went dumpster diving for source code: http://www.businessinsider.com/10-things-you-didnt-know-abou...
+</paragraphText>
+        <paragraphCode>random/5793358_42</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836773" paragraphTag="random/5957774_43">
+        <paragraphText>I didn't find that comparison very useful/accurate (having used clojure heavily for a year or two and scala full-time for the past month). The main differences I find are:When evaluating language tradeoffs the scala community values power more and the clojure community values simplicity more.Scala wants to provide you with the most powerful language possible. Clojure wants to make it easy for you to mold your own language.Scala language tooling works at compile-time and analyses the language statically. Clojure language tooling connects to a running environment and uses introspection. Scala has much better static checking and clojure has much better introspection. While both languages have a repl, the clojure community puts much more emphasis on live, interactive programming.Clojures syntactic extension mechanisms are much simpler, being based on sexps. Scalas are powerful (eg can access the lexical environment) but much more heavy-weight.Clojure has run-time eval. This makes it possible to do eg domain-specific jit (eg compiling DSLs -&gt; clojure code -&gt; java bytecode on the fly). Scala has a run-time interpreter which I haven't used but is reputed to be slow.I haven't yet explored non-jvm backends for scala but I suspect that clojure will eventually dominate on that front for two reasons: 1) when clojure-in-clojure is finished porting clojure to a new platform will be far easier than scala and 2) clojure was designed from the beginning to be a parasitic language and delegates many features to the underlying platform.Scala breaks backwards compatibility much more often than clojure. Whether this is a pro or con is up for debate. There are lots of small niggling things in clojure I would like to change but on the other hand maintaining scala code across compiler updates is a pain in the ass.Personally, I believe that the number one problem a language needs to address is managing complexity. The clojure community largely seems to get that and is driving for simple, orthogonal language features and libraries to an extent that I've not seen in any other community (eg http://blog.getprismatic.com/blog/2012/10/1/prismatics-graph...). In addition, the most exciting research I've seen on that front (eg  http://www.vpri.org/pdf/tr2011004_steps11.pdf http://boom.cs.berkeley.edu/ ) and most of my favorite tools rely on powerful introspection and runtime code generation. I think Yegge describes this better than I can - http://steve-yegge.blogspot.co.uk/2007/01/pinocchio-problem....
+</paragraphText>
+        <paragraphCode>random/5957774_43</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836774" paragraphTag="random/6028007_44">
+        <paragraphText>i've been coding in python professionally for 4 years now, and i'm currently working on the biggest project i've ever worked on.
+to me, being scared of changing the signature of a function because the static analyser will not be able to spot all the places i've used this function is a real problem ( along with incomplete autocomplete ). i do unit test everything, but i'd like to keep unit tests for things a computer can not theorically do.since i'm still in the early phase of the project, i know that python expressiveness is an edge, but i'm looking right now at what's going to be the "definitive" language i'm going to rebuild my product for the next 3 to 4 years.Python badly needs optional typing. really. i'm pretty sure that would solve both the speed and tooling issues. right now, for me, it starts to become unsuitable as soon as you reach 5-10k lines of code and a team of 2.
+</paragraphText>
+        <paragraphCode>random/6028007_44</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836775" paragraphTag="random/6247790_45">
+        <paragraphText>Better languages _are_ better tooling.  To make it more concrete: Thanks to the difference in languages, ghc can do much more static analysis than gcc.  More refactoring support would also be possible, even if that's not done in practice for Haskell, yet.  HLint is nice to toy around with, though.
+</paragraphText>
+        <paragraphCode>random/6247790_45</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836776" paragraphTag="random/6247807_46">
+        <paragraphText>programming will be much more of a two-way conversation with your tooling.Do you have any experience programming in Haskell? I ask because this statement exactly describes my experience with it. The language goes extremely far down the path of "static analysis" with its type system. Couple this with simple tools such as ghci, flymake and haskell-mode for emacs and you have a very interactive system with an enormous amount of feedback.
+</paragraphText>
+        <paragraphCode>random/6247807_46</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836777" paragraphTag="random/6814016_47">
+        <paragraphText>I'm just going to copy-and-paste this old comment:When evaluating language tradeoffs the scala community values power more and the clojure community values simplicity more.Scala wants to provide you with the most powerful language possible. Clojure wants to make it easy for you to mold your own language.Scala language tooling works at compile-time and analyses the language statically. Clojure language tooling connects to a running environment and uses introspection. Scala has much better static checking and clojure has much better introspection. While both languages have a repl, the clojure community puts much more emphasis on live, interactive programming.Clojures syntactic extension mechanisms are much simpler, being based on sexps. Scalas are powerful (eg can access the lexical environment) but much more heavy-weight.Clojure has run-time eval. This makes it possible to do eg domain-specific jit (eg compiling DSLs -&gt; clojure code -&gt; java bytecode on the fly). Scala has a run-time interpreter which I haven't used but is reputed to be slow.I haven't yet explored non-jvm backends for scala but I suspect that clojure will eventually dominate on that front for two reasons: 1) when clojure-in-clojure is finished porting clojure to a new platform will be far easier than scala and 2) clojure was designed from the beginning to be a parasitic language and delegates many features to the underlying platform.Scala breaks backwards compatibility much more often than clojure. Whether this is a pro or con is up for debate. There are lots of small niggling things in clojure I would like to change but on the other hand maintaining scala code across compiler updates is a pain in the ass.Personally, I believe that the number one problem a language needs to address is managing complexity. The clojure community largely seems to get that and is driving for simple, orthogonal language features and libraries to an extent that I've not seen in any other community (eg http://blog.getprismatic.com/blog/2012/10/1/prismatics-graph...). In addition, the most exciting research I've seen on that front (eg http://www.vpri.org/pdf/tr2011004_steps11.pdf http://boom.cs.berkeley.edu/ ) and most of my favorite tools rely on powerful introspection and runtime code generation. I think Yegge describes this better than I can - http://steve-yegge.blogspot.co.uk/2007/01/pinocchio-problem....
+</paragraphText>
+        <paragraphCode>random/6814016_47</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836778" paragraphTag="random/689882_48">
+        <paragraphText>The reasons 1 by 1:1) you don't need to edit HTML code to include scriptsThe authors assert that you'd have do this by hand if you had a lot of static html. This is incorrect (you could easily insert the code using some script), but it also doesn't make sense, most larger sites (if not all these days) are dynamically constructed and adding a bit of .js is as easy as changing a footer.2) scripts take additional time to loadThis is true, but it only matters if you place your little bit of javascript in the wrong place on the page (say in the header). When positioned correctly it does not need to take more time to make the connection.3) 'if website exists, log files exist too' (...)This is really not always the case. Plenty of very high volume sites rely almost entirely on 3rd party analysis simply because storing and processing the logs becomes a major operation by itself.4) 'server log files contain hits to all files, not just pages'That's true, but for almost every practical purpose that I can think of that is a very good reason to use a tag based analysis tool rather than to go through your logs. The embedding argument the author makes is fairly easily taken care of by some cookie magic and / or a referrer check.5) you can investigate and control bandwidth usageBot detection and blocking is a reason to spool your log files to a ramdisk and to analyze them in real time, to do it the next day is totally pointless. Interactive log analysis (such as the product sold by this company does) can help there, but a simple 50 line script will do the same thing just as well and can run in the background instead of requiring 'interaction'.6) see 57) log files record all traffic, even if javascript is disabledyes, but trust me on this one, almost everybody has javascript enabled these days because more and more of the web stops working if you don't have it. The biggest source of missing traffic is not people that have javascript turned off but bots.8) you can find out about hacker attacksTrue, but your sysadmin probably has a whole bunch of tools looking at the regular logs already to monitor this. Basically when all the 'regular' traffic is discarded from your logs the remainder is bots and bad guys. A real attack (such as a ddos) is actually going to work much better if you are writing log files because you're going to be writing all that totally useless logging information to the disk. Also, in my book a 'hacker' is going to go after other ports than port 80.9) log files contain error informationThis is very true, and should not be taken lightly, your server should log errors and you should poll those error logs periodically to make sure they're blank (or nearly so) in case you've got a problem on your site.10) by using (a) log file analyzer, you don't give away your business datawell, you're not exactly giving away your business data, but the point is well taken. For most sites however the benefits of having access to fairly detailed site statistics in real time for $0 vs 'giving away of business data' is clearly in favor of giving away that data.Google and plenty of others of course have their own agenda on what they do with 'your' data, but as long as they don't get too evil with it it looks like the number of sites that analyse via tags is going to continue to expand.
+</paragraphText>
+        <paragraphCode>random/689882_48</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836779" paragraphTag="random/6953124_49">
+        <paragraphText>You're focusing on a different part than I was.My point was that super fancy IDEs and plain old text editors alike could reuse the same tooling and not have to reimplement things like language parsing, analysis, and refactoring tooling.Libraries like haskell-suite and command-line tooling like ghc-mod have succeeded in that. That ghc-mod happens to be a command-line application is utterly irrelevant to the end-user unless they want to go poking around.And uh, you know, some people do sometimes.Want to go poking around that is. Some people like owning and operating their tools.I'm not saying "Hail Unix", I'm saying, "Hail IDE, Emacs, and Vim hackers not needing to write the same libraries over and over". The specific implementation is irrelevant.Also if you refuse, on account of bias, to understand why people might find such a design (command-line application invoked from different programming environments to augment functionality) then you are damning yourself to be ignorant of how other people think and work.This reminds a lot of the hatred some people have for the Twilight series. It's not a product designed to appeal to somebody like me, but clearly there's something to it because it has resonated with millions of people.Is it really worth it to say "ugh yuck" and not even pause to reflect on what it is about this thing you dislike (Unix-style tooling) that so many other people have stuck with for decades? Are you feeling insecure because the average hacker these days is using a Mac or Linux machine?&gt;I frankly don't buy the entire interop premise,I guess you can be that way if you want, but Emacs, Vim, Sublime Text and Eclipse all have Scion integration. Scion isn't quite like ghc-mod, note that I was talking about a general attitude that all IDE tooling should be reusable across multiple environments in Haskell, not just command-line applications.Scion in this case is:https://github.com/nominolo/scionScion is a Haskell library that aims to implement those parts of a Haskell IDE which are independent of the particular front-end. Scion is based on the GHC API and Cabal. It provides both a Haskell API and a server for non-Haskell clients such as Emacs and Vim.You'll note that it's not actually a command-line app like ghc-mod. I use ghc-mod because it's "simple" and easily inspectable/dumpable for it's output at the terminal.I know Emacs and vim users to both use ghc-mod.buildwrapper mostly replaced Scion and is used by Leksah, Yi, EclipseFP (all IDEs). Buildwrapper provides its functionality via JSON.Leksah, Yi, and EclipseFP are the primary IDEs Haskell users use, IF they're not using FPComplete's dilly which is web-based and is using the same Haskell IDE tooling as everybody else.&gt; Haskell has no popular IDE as far as I can tellI don't really know that "IDEs are popular in Haskell"but "Haskell has popular IDEs" is true.Further, while I can't speak for vim users, the way most advanced Emacs users interact with their programming languages, especially Haskell, is an interactive hybrid IDE environment usually built on a REPL.&gt; How much do C and Haskell share in common?The fuck are you talking about? I've only been talking about tool-sharing in the Haskell community this whole time.&gt; so why worry if IntelliJ doesn't share an architecture with Eclipse?It's troubling because it means labor is wasted writing the same tooling (IDE) for the same language (Java). Hackers should be bothered when their colleagues are writing redundant code.Maybe that's not an ethos at Microsoft or MSR, but it is in the various open source communities I've been in.&gt;But as someone who works on IDEs full time, this rosy-tinted glasses belief that we were doing it the right way 30 years ago quickly annoys me.You clearly have not used Emacs or any of the Haskell tooling I use.While some Emacs users still use things like etags/ctags, I do not. I have language-aware search/go-to-definition faculties just like any IDE in Emacs. The same goes for most other things I give a damn about. We have the same faculties as anybody else, we simply refuse to give up control over our tools because we don't buy into Microsoft's dystopian digital neo-feudalism.I don't let that difference of vision cause me to act like a fucking prick to a perfect stranger on HN though. You are representing Microsoft and MSR - and all I've gotten from this experience is that Microsoft employees are totally out of touch with the work anybody else is doing. Unprovocatedly unpleasant to boot.&gt;...has no popular IDE as far as I can tell; the community just isn't into them (though some exist, like Leksah), which is quite odd to me, as they have all that static type information sitting around!Haskell users aggressively leverage the types for secondary purposes, you're just not a Haskell user and are therefore ignorant to it. You're still wrong about Haskell users not using IDE-esque workflows, you just don't understand how that can manifest in a different form than being a Visual Studio customer.&gt;I frankly don't buy the entire interop premise,I've conclusively demonstrated aggressive tool-sharing across different toolsets in Haskell, even with most people upgrading from Scion to buildwrapper when it became mature. It's rare for open source communities to keep up with each other that well.&gt; Unix was a great C dev environment, you had ed (later vi and emacs)The proximity of mentioning ed and vi/emacs in the same sentence is not as clever as you think it is and really just shows how ignorant you are to how vimmers and Emacs users work these days.My Emacs environment of today would be utterly alien to myself-10-years-ago. Or even 3-5 years ago. Or even 2 years ago. A lot of evolution can happen when you've been improving the same tooling over and over for multiple decades.Emacs is nearly as old as Bill Gates's DUI arrest (1976 and '75). Do you really think people are using it the same way now as they were then?I mean, for one thing, it starts up quickly now &gt;:)You should really try immersing yourself in how Emacs users work these days, you really have no idea at all. It could use a lot of work, so could everything, and there are some things that some IDEs for some languages will do better...but it bears more resemblance to those IDEs than to ed of all things.The interactive REPL oriented workflow is something IDEs still haven't gotten right though. Pity that.
+</paragraphText>
+        <paragraphCode>random/6953124_49</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836780" paragraphTag="random/7027872_50">
+        <paragraphText>I find it very interesting how static analysis tools can find bugs on even the most stable and audited code bases. The analysis of PostgreSQL earlier this year[1] comes to mind.I'll make sure to include static code analysis as part of my build workflow for my current project.[1] https://news.ycombinator.com/item?id=6962475
+</paragraphText>
+        <paragraphCode>random/7027872_50</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836781" paragraphTag="random/7047055_51">
+        <paragraphText>In what way is asking someone, somewhere, to move a project to another, unnamed language, going to be more effective than actually starting a project and putting code into it? Sure, "go do it yourself" is not a pleasant response, but "go take the tens of thousands of lines of code that mostly works, and spend person-years rewriting it in another language so that a certain set of bugs aren't an issue anymore, instead of fixing the mostly working code" is in no way a reasonable request. "What can be done to help reduce the bug count, by a casual user?" might be. Contacting Coverity or another static analysis company that occasionally runs their tools on open source programs to help the world (and get the free press out of it...), might result in a huge list of subtle (and hideously obvious) bugs getting squashed.
+</paragraphText>
+        <paragraphCode>random/7047055_51</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836782" paragraphTag="random/7060097_52">
+        <paragraphText>Why don't you think Haskell will help with this?  If Java can't prevent a NullPointerException I don't see how static analysis can take the tooling where you want it to go.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/7060097_52</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836783" paragraphTag="random/7114551_53">
+        <paragraphText>PyExecJS is slow :)We are actively working on more static analysis tools for React: it's certainly one of our major priorities.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/7114551_53</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836784" paragraphTag="random/7132577_54">
+        <paragraphText>Given the lack of evidence to support the claim I find the argument specious. There are large code bases written in dynamic languages that are well maintained by thousands of contributors that could weaken such a claim without strong data backing it up (OpenStack comes to mind). The author fails to provide a link to a single study and relies purely on intuition for eir argument.I only see one link to that answer on SO that points to a single study. It was provided by another commentator asking for the OP to provide evidence for the "strong correlation," claim. Not very good.Though I'd hate to work with a team that used a statically typed language and tools that didn't write tests for their software. It's not magic soya-sauce that frees you from ever introducing bugs into your software. Most static analyzers I've seen for C-like languages involve computing the fixed-point from a graph (ie: looking for convergence). Generics makes things a little trickier. Tests are as much about specification as they are about correctness.In my experience there are some things you will only ever know at run-time and the trade-off in flexibility for static analysis is not very beneficial in most cases.Some interesting areas in program analysis are, imho, the intersection of logic programming, decomposition methods and constraint programming as applied to whole-program analysis. Projects like kibit in Clojure-land are neat and it would be cool to see them applied more generally to other problems such as, "correctness," and the like.
+</paragraphText>
+        <paragraphCode>random/7132577_54</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836785" paragraphTag="random/7282227_55">
+        <paragraphText>Worse, lint was part of the original C toolchain, but very few people cared to use it, because they couldn't be bored to tune the tool to their projects.This is the type of error that any static analysis tool would easily pick.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/7282227_55</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836786" paragraphTag="random/7282309_56">
+        <paragraphText>My personal observation is that while compilers continually get better at identifying straightforward mistakes, they don't have the same capability as a static analysis tool that works across compilation units. That is the real selling point of these tools. Definitely -Weverything/-Wexta plus static analysis for baseline checking.My other beef is that compilers always add new warnings as options or behind new "catch all" flags like -Weverything that no one knows about. As long as each new warning can be individually disabled, there isn't a huge cost to pay by making much more of them enabled by default. Upgrading to a new compiler version usually requires a tiny bit of work, so adding a few -Wno-* rules for new things you want to disable until the code is clean (or forever) is a small price to pay for all new code getting the checks by default.
+</paragraphText>
+        <paragraphCode>random/7282309_56</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836787" paragraphTag="random/7285064_57">
+        <paragraphText>It is absolutely abnormal for companies like Apple to release core security bugs this shallow that could have been easily discovered by straightforward unit tests and static analysis tools.This is why it's a big deal.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/7285064_57</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836788" paragraphTag="random/7290637_58">
+        <paragraphText>Troll harder, greenhorn. (account "metsgrets" created 7 hours ago)&gt; CPAN is awful […] Navigating it is a pain […] the issue tracker is a nightmareThese are opinions. I cannot see any facts to substantiate the claims.&gt; most of the documentation is done very poorly because no one puts time into formatting their readmesNo, most of the documentation is the best among libraries in any programming language because everyone uses documentation templates and then fills in the details in copious amount. These templates have been honed over years, and the docs are regularly quality checked by automated services. It also helps that the documentation format POD is so so stupidly simple that it never gets in the way of work: a programmer spends all the time writing content, none on formatting.&gt; None of the modules are in githubAll of the modules are in Github.&gt; the links make no sense ( "Source (raw) Browse (raw)" )"Source" shows the module's source (HTML, syntax highlighted). "Browse" browses the directory structure of the unpacked distribution. The raw links are the plain text equivalents served by the API primarily for programmatic access. All of this is readily obvious by just following a link.&gt; many of the modules we have worked with have bugs and poor documentationUnsubstantiated, no details.&gt; and almost all of them are unmaintainedCPAN freshness tells a different story.&gt; owners either gave up or actually diedThere's a process in place for taking over maintenance. It is used a couple of times a month.&gt; There is absolutely no support for trying to do common tasks with CPAN modulesWrong. Any common task has several modules.&gt; You can't Google for your errorUnsubstantiated, no details.&gt; you won't get a response on StackOverflowWrong. Unanswered quota is only 10%.&gt; CPAN is just messy all aroundSame is true for any file archive. Show me a programming language where this is not the case. At least it's centralised, not strewn across the Web! On top of the archive, curated indexes such as http://p3rl.org/Task::Kensho exist.&gt; There's not even a command line flag to find out what version of a module you have installed. You have to hack into its internals to figure out what versions you're running.Wrong.    $ pmvers Catalyst\n    5.90060\n\n    $ perl -MCatalyst -E'say Catalyst-&gt;VERSION'\n    5.90060\n\n&gt; Some modules are hosted in foreign countries that intermittently decide not to download. Builds have broken due to inability to download from a mirror.Then pick a mirror near you. http://mirrors.cpan.org/ The standard CPAN client does this automatically during first run.&gt; The only known benefit of CPAN - automated test running, has never once proved helpful.Unsubstantiated, no details.&gt; It seems like Larry Wall (creator of Perl) has a no-one-likes-this-langauge-so-try-to-please-everyone-by-offering-every-way-to-do-it complex.Wrong, this is because humans have different ways to think and preferences how to express themselves. The programming language works with the grain of the human mindset, not against it. http://c2.com/cgi/wiki?ThereIsMoreThanOneWayToDoIt&gt; I have to Google for how to iterate over a hash every time, because there's multiple ways to do it, and they all suck. I never know if iterating over a $hash is the same as iterating over a %hash or a \\%hash.Then you know less than a beginner in his third lesson.    ⎆ my %hash = qw(a b c d); my $hash = \\%hash\n    ⎆ while (my ($key, $value) = each $hash) { say "$key =&gt; $value" }\n    a =&gt; b\n    c =&gt; d\n    ⎆ while (my ($key, $value) = each %hash) { say "$key =&gt; $value" }\n    a =&gt; b\n    c =&gt; d\n    ⎆ while (my ($key, $value) = each \\%hash) { say "$key =&gt; $value" }\n    a =&gt; b\n    c =&gt; d\n\n&gt; if I should be searching for "hash" or "hashref" or if I should be using a "list" or an "array" or a scalar or who caresOnly bash and Tcl free you from thinking about and selecting the appropriate data type.&gt; The multiple ways to do things only amounts to one asshole on the team will exploit some unknown feature of map to write shorter code, not document it, and no one can read it.This is a social problem, and not the responsibility of the programming language or its designer. Anyone can write crap code in any language. Enforce code style and policy locally. Static analysis tools like http://p3rl.org/perlcritic exist. Apply them.&gt; Perl is not efficientPerl remains the fastest of the scripting languages.&gt; Beauty is subjective, readable code is not.Unreadable code is a social problem across all programming languages. This has nothing to do with Perl per se.&gt; The prefixing of variable names with @, % et all makes dissecting code hardWrong, sigils make the nouns stand out, just like capitalisation in written German. Both empirically make reading faster and comprehension easier.&gt; Googling impossibleWrong. It is true that search engines drop sigil characters from the query, but the context words still find the result in the index.&gt; References are one of, if not the, biggest design flaw in Perl […] make reading and writing code confusing, overly complicatedUnsubstantiated, no details.&gt; haven not once offered us any benefitWrong, as references are the basis for objects (OOP).&gt; the language is gross. It has magic built in, and the syntax is a nightmareUnsubstantiated, no details.&gt; You get function arguments as @_Concept stolen from Shell, already remedied in version 20. Signatures have been available for years with modules.&gt; You do a regex match with $string =~ /(capture)/. This will magically populate $1 through $n with capture groups. This is bad.Agreed, side effects are evil. That's the legacy interface and impossible to deprecate/remove. The expression will also return a list of the captures which you can then assign or mangle as you wish.    my @results = $string =~ /(capture)/\n\nGood style dictates to prefer this interface.&gt; $string =~ s/a/b. This modifies the string in place. Try to Google for how to not modify the string in place. Seriously, try and Google for it.Yes, and?    g perl substitute return modification\n\n(Type it out to see Google suggestion/autocompletion.) First five results all teach:    my $new = $string =~ s/a/b/r\n\n&gt; If you forget to include an even number of values in a list it becomes another data structure entirely.Wrong, a list is a list no matter how many elements.&gt; If you don't put a '1;' at the end of your module code it will fail to work (no, really).Valid complaint. Again, it's too late to fix it because existing code needs to keep working, back-compat is serious business for perl5-porters. New projects with modern Perl just avoid the need for that last line: http://p3rl.org/true&gt; bless […] but it still is out of place in a programming language.The word is religion neutral. Your biases show.&gt; The "features" of Perl ruin it for a team environment.Unsubstantiated, no details.
+</paragraphText>
+        <paragraphCode>random/7290637_58</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836789" paragraphTag="random/7313157_59">
+        <paragraphText>The question I have is how many Open Source projects use static analysis tools as part of their development process?Given that the code is publicly available it seems likely that bad actors would be using such tools (both proprietary and open) to find exploits for each release.I remember Eric Raymond blogging about using Coverity to analyze gpsd but beyond that I don't recall any wider discussion about the issue.
+</paragraphText>
+        <paragraphCode>random/7313157_59</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836790" paragraphTag="random/7313678_60">
+        <paragraphText>I haven't. I'd like links, though. If I can see with my eyes that code will never be executed, I'd like to know what's wrong with the state of current static analysis.edit: http://blog.veracode.com/2014/02/do-not-pass-qa-do-not-goto-...Veracode does static analysis of the binary, and says that it would be thwarted because it wouldn't know that some functions were meant to be called. Static code analysis would tell you that it was impossible for some of the code to be run.edit 2:(the second comment on the vericode blog)caf | February 24, 2014 11:05 pmIn the Evil Unit Tests part you can use code coverage tools to at least verify that your unit tests exercise all code paths. It won't catch every bug, but it would have caught this one.
+</paragraphText>
+        <paragraphCode>random/7313678_60</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836791" paragraphTag="random/7492574_61">
+        <paragraphText>Not sure about the overall proposal but static code analysis and code completion as a service is something I have been wishing for.But that is only for a selfish reason, it would save me from having to do the work for my own IDE HiveMind (crudzilla.com) :)*Perhaps this is something the Eclipse project should undertake, decouple the JDT from the Eclipse IDE so that it can be used by other developer front-end tools.
+</paragraphText>
+        <paragraphCode>random/7492574_61</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836792" paragraphTag="random/7567485_62">
+        <paragraphText>To put it briefly: no.A little less briefly, then.  ;)  It is absolutely possible to create code that these tools in general, and Coverity in particular, will have difficulty analyzing . . . but you really have to work at it.  Seriously, these guys are good.  It's a bit like the "arms race" in building vs. breaking crypto.  These guys have been there, they've seen all the moves, they know all the countermoves.  Sure, if you load up your code with runtime-assigned function pointers and code that only executes if the last five iterations of a loop each went through specific code paths themselves, then that's going to cause some problems, but most programmers are unlikely to "win" that battle.However, this particular bug looks like it's in the absolute easiest category.  Any static analyzer should have caught it.  As others have pointed out, the real problem is false positives.  If it was caught, but the report was buried in hundreds or thousands of crappy reports about things that actually aren't problems, then it might as well not have been caught.  That's why the pros at this spend as much time writing code to eliminate false positives as they do writing code to find new things.  In every project I've worked on that used static analysis, the weak link in the chain has been between reporting and remedy, not in the analysis itself.
+</paragraphText>
+        <paragraphCode>random/7567485_62</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836793" paragraphTag="random/7599033_63">
+        <paragraphText>For this, you don't need a style guide, but a static code analysis tool. This specific error causes unreachable lines and has suspicious indentation.In my project, that could could have never gotten into production, because the tools would have stopped us, even without a single unit tests.
+</paragraphText>
+        <paragraphCode>random/7599033_63</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836794" paragraphTag="random/7619796_64">
+        <paragraphText>Model checking deals with two kinds of properties - safety and liveness. Safety properties effectively say nothing bad ever happens while liveness properties say that something good will eventually happen. For example, "my program will never crash due to a null point dereference" is a safety property. "My arbiter module will output a grant for every input request" is a liveness property.It is true that model checkers are much better are proving safety properties than liveness properties. I think it's not too far from the truth to say that model checkers are no good at proving liveness properties in real designs and that only safety properties work (somewhat well) in practice.An alternative here is to abandon model checking altogether and focus on a powerful static analysis. I think the main challenge here is coming up with effective property specification schemes. A powerful type system like Haskell does in fact enable you to prove quite strong statements about your program. But you are inherently limited in terms of what you can prove to whatever it is that the type system can express. To me, it seems that model checkers allow more flexibility in specifying your property, especially when you take into account the fact that you can do your model checking on an augmented/instrumented version of your design.&gt; That's a different problem scale than "prove the whole thing works as specified".On a vaguely related note, equivalence checking between designs, especially in the hardware context, is one thing that formal tools have had a lot of success with.
+</paragraphText>
+        <paragraphCode>random/7619796_64</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836795" paragraphTag="random/7761436_65">
+        <paragraphText>To me it seems the only way to smarter tools is static analysis, but there's only so much one can do in a dynamic language.There seems to be this dissonance between dynamic languages, which tend to be popular with new programmers for a variety of reasons, and better tools enabled by static analysis of (usually) static langues.The static languages seem to present this "hump" that a lot of people are averse to, and if we really want these smarter tools, we're going to have to find a way to get programmers to use more static techniques; we need to get them over that "hump", possibly then these smarter tools would ease things in the long run, but doesn't have quite the same immediate-gratification aspect of dynamic languages due to the up-front effort.
+</paragraphText>
+        <paragraphCode>random/7761436_65</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836796" paragraphTag="random/7821723_66">
+        <paragraphText>I still prefer using JSR-305 annotations/tools (like Findbugs) to do static analysis.  Reification should help Optional&lt;?&gt; become more useful, but why would you ask for run-time checking when in most cases compile-time checking identifies the problems?&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/7821723_66</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836797" paragraphTag="random/7871159_67">
+        <paragraphText>Another tool you might want to check out is erlang.mk, by the author of the Cowboy webserver, Loïc Hoguin -- from the announcement[1]:erlang.mk is a rebar replacement. It was initially created for allowing a faster development process than rebar and for better compatibility with Linux build tools. It should work on Linux and OSX with GNU Make installed.Here's how erlang.mk and relx can be used together to build releases (this is from a post by Loïc)[2]:There is two steps to building a release. First you need to build the various OTP applications you want to include in the release. Once done, you need to create the release itself, by including the Erlang runtime system alongside the applications, a boot script to start the node and all its applications, and some configuration files.erlang.mk solves the first step. It is an include file for GNU Make. Just including it in a Makefile is enough to allow building your project, fetching and building dependencies, building documentation, performing static analysis and more.relx solves the second step. It is a release creation tool, wrapped into a single executable file. It doesn't require a configuration file. And if you do need one, it will be a pretty small one.And here's a quick excerpt from a user-testimonial for erlang.mk, by Jesper L. Andersen[3]:When compiling from warm, it takes rebar 9 seconds to figure out that there is nothing to do in the project. erlang.mk does the same thing in 0.2 seconds.[1] http://erlang.org/pipermail/erlang-questions/2013-August/075...[2] http://ninenines.eu/articles/erlang.mk-and-relx/[3] https://medium.com/p/708597c0dd08
+</paragraphText>
+        <paragraphCode>random/7871159_67</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836798" paragraphTag="random/7889847_68">
+        <paragraphText>Nothing about making programs requires static typing ever. If you're targetting reliable, performant programs, then static typing is a boon.Dynamically typed languages require additional tooling beyond the language itself to provide a lot of the reliability/correctness assistance that good statically typed languages can offer. See the dialyzer for erlang, a very useful tool, but a separate tool. If you want to see an example of statically typed languages that require extra tools, see C and its various static analysis tools. Swift, Rust, Ada, etc. (I'm sticking with the more imperative ones with good or better than average type systems) don't require that extra tooling. It's not an additional step. It's just part of the language.If you want good performance, that is C/Fortran level performance, you either need a sufficiently smart compiler (see SBCL) that can take type hints (derived from the static analysis tools perhaps), or static typing. Static typing (and good static typing like the languages I've mentioned seem to have) improves performance compared to dynamically typed languages. You can remove all the possible branches based on the types used for addition if you know that you're adding two ints, two floats, an int and a float at compile time. In a tight loop, having to select between all those options is a drag on performance. Statically typed languages can reduce that to a single path, instead of the 3 branching paths I just came up with (and there are probably more for most languages).Besides, performance on mobile is critical. We're depending on miniscule (relatively) batteries. The better performance we can get out of our code, the better battery life we'll see. Every app that's written in a dynamically typed language that doesn't have good type hints (like CL, there are probably others) is going to be a huge drag on battery performance.Fuck, a friend writes python to run on clusters for numeric code (simulations, he's an Aerospace Engineer). Fucking brilliant, the type system hinders his performance compared to Fortran/C/others. He has jobs that take 24 hours to run on an 80-machine cluster. I hate to consider how much time is wasted because they don't use a language with even a simple static type system like Fortran and C offer.I love dynamically typed languages, my favorite languages are erlang and common lisp, scheme is a close 3rd. But they have their place, and if performance is one of your requirements they (in general) are not what you want. If reliability is what you want, something that knocks out a huge percentage of errors right off the bat is wonderful, dynamically typed languages (without extra tooling) can't tell you, until you run the program, that you added an integer to a binary blob. And delightfully some are also weakly typed, meaning they'd permit such an operation and you'd get bizarre errors later on in your execution.--EDIT: Some scheme implementations offer good performance. Do they, like SBCL, implement static analysis under the hood?EDIT: I may have left in words that should've been removed when I switched gears in mid-sentence.
+</paragraphText>
+        <paragraphCode>random/7889847_68</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836799" paragraphTag="random/7970676_69">
+        <paragraphText>TechEmpower - Los Angeles area, California (El Segundo, near LAX)You may recognize us from the Web Framework Benchmarks that have been discussed on HN periodically: http://www.techempower.com/benchmarks/We don't want ninjas and rockstars, just good developersWe hire people, not skill sets. If you're a smart, motivated developer who likes our company culture, let's talk.Over the past 16 years we've cultivated a great group of people to work with. Our developers are smart, thoughtful, respectful to each other, opinionated, dedicated, and fun. We don't hire often, and when we do, we value these qualities as much as technical abilities.Founded by a former computer science professor, in many ways we keep the same feel as a small computer science lab (without the long hours):    Challenging and varied projects\n    Informal, comfortable environment\n    Intelligent, engaged people\n    Lively, respectful technology discussions\n    Frequent mentoring\n    Easy camaraderie\n    General culture of helpfulness and friendliness \n\nTeams at TechEmpower are typically between 2 and 6 people. Because of the small size of our teams, we need developers able to work on all aspects of an application ("full stack" developers). We rely on individual developers to do much of the software design, with guidance and discussion, and actively work to improve each other's technical capabilities.On average, a typical developer will get exposure to 3 or 4 different projects over the course of a year. Since each project has a different technology stack, developers gain varied experience over time and never stop learning.We pride ourselves on doing the best work we can for our clients. This means working with them to really understand what they need built, carefully planning how to do it, and delivering what we promise while maintaining a sensible work/life balance. We build quality applications and have fun doing it.Also, we enjoy programming on high-performance workstations with 4K displays. A lot of code fits in 3840x2160 pixels!The technologies we use vary over time with our mix of projects. Here is a snapshot of the technologies we use at the moment:    Languages: Java, JavaScript, Python, C#, Ruby, PHP\n    Tools: Git, Jenkins (Continuous Integration), Sonar (static code analysis), Eclipse, IntelliJ, Ant, Maven\n    Web: Dropwizard, .NET MVC 5, Play, Django, Rails, Mustache, Handlebars, Backbone, Angular, Knockout, JSP, Servlets, jQuery, etc.\n    Mobile: iOS, Android, PhoneGap\n    Hosting: AWS (EC2, RDS, etc.), Rackspace Cloud, Linux deployments\n    Data Persistence: ORM (Hibernate, etc.), MySQL, Postgres, MS SQL Server, NoSQL (Redis, MongoDB) \n\nWe don't expect new hires to have experience with all of these, but developers at TechEmpower can expect to expand their skillsets with most of these over time.If this sounds like the kind of place you'd like to work, please apply here: \nhttp://jobs.techempower.com/hn
+</paragraphText>
+        <paragraphCode>random/7970676_69</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836800" paragraphTag="random/8024829_70">
+        <paragraphText>I don't believe the kernel attack surface is as small as you seem to think, nor is the browser attack surface as large.Let's look at the kernel first.  Yes, the LOC numbers are bloated by bazillions of drivers, but even the core components that most people use are pretty large.  I just counted on Linux 3.16 and there are 1.2M lines in components I definitely use on one machine.  That's excluding anything in drivers/; include what I use from there and we're probably over 2M.  I don't think any reasonable person can claim that 2M lines is a small attack surface, so DJB is already wrong.Now let's look at Firefox.  Downloading 30.0 I see ~13M lines of C, C++ and JS.  Subtract at least 2M for the build system itself, build-time-selectable components, dev tools, and NSS which is part of the OS attack surface as well.  There are a bunch of other components that I'm sure most people never use, or even have explicitly disabled/blocked, but let's leave them in so we have 11M.  Hey, 11M is still larger than 2M, so you and DJB must be right.  Not so fast.  Attack surface is not just about LOC, and certainly not single-component LOC.  Let's look at some other confounding factors.* The exact same algorithm, with the exact same attack surface, can be expressed in more or less verbose form.  The Mozilla code is written in a more verbose style, but shouldn't necessarily get credit for that.  In many ways, that's likely to make auditing harder.* The kernel code is harder to audit.  There are fewer people even remotely able to do it, it contains more low-level trickery requiring expertise in a particular platform to analyze, it has more asynchronous/reentrant/etc. control flows that defeat static analysis, etc.  Line for line, analyzing kernel code is many times harder than analyzing Mozilla code.* Across an entire enterprise, the number of platforms and drivers that need to be considered for the kernel - from phones and embedded devices to servers and desktops - increases significantly.  So does the attack surface, and real security isn't about single machines in isolation.  The corresponding increase for Firefox is very small.* An operating system is more than a kernel.  Even if we only include the utilities that are essential to boot a system and do minimal work on it, we might blow right through that 11M mark.So yes, if you pick silly definitions and squint hard enough, DJB's statements about the two attack surfaces might be pedantically correct.  They're still not practically correct.  He frames it as "easy" vs. "hard" - a qualitative policy-driving distinction - and that's misleading at best.  Even if you can't accept that he got the relative difficulty exactly wrong, it's clear they are well within the same ballpark.  The supposed continental divide that DJB uses to justify the rest of his argument is in fact vapor-thin, and deserves derision.
+</paragraphText>
+        <paragraphCode>random/8024829_70</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836801" paragraphTag="random/8122549_71">
+        <paragraphText>Coverity - http://www.coverity.com - San Francisco, Seattle, Calgary - VISAWe make software to find bugs in software.  Static Analysis, Dynamic Analysis, Security Analysis, and Test Analysis.  It's an awesome place to work.* Senior Build Engineer *--------------------------------We are looking for a Senior Build Engineer to support the Continuous Integration process/infrastructure for Coverity products and components.  Our build environment is comprised of a myriad of platforms including different versions of Windows, Linux, Unix, and MacOSX with codebases in C/C++, Java, and C#.  The ideal candidate is someone who despises doing a lot of busy manual work and prefers to develop automation for anything that he/she feels can and should be automated.  The ideal candidate is also someone who is very comfortable interacting and working with pretty much everyone in the R&amp;D team as he/she will be supporting Developers and QA.  We are looking for someone who finds it difficult to sleep at night knowing something might be wrong with his/her build system.More details - http://jobvite.com/m?3WDvAgwp-----------------------------------*  Java Backend Developer *-----------------------------------We're looking for an engineer with significant design and implementation experience with the back end components of web applications.  This person will be part of Coverity's Web Application team, which is charged with the delivery of advanced management capabilities for Coverity's suite of code analysis tools. As Coverity grows and its solutions are more widely deployed, the accompanying management capabilities must become increasingly effective for a growing number of stakeholders and be capable of scaling to larger deployments.  The challenge this position holds is to meet these goals while continuing to satisfy the expert users of the application as it is currently implemented.More details - http://jobvite.com/m?3nEvAgwR-------------------------------------* Senior User Interface Developer *-------------------------------------The Coverity Desktop team is looking for an experienced Java developer to help take our desktop GUI's to the next level.  This includes IDE plugins (like Eclipse and IntelliJ IDEA) and stand-alone Java/RCP GUI applications as well.More details - http://jobvite.com/m?33EvAgwxFeel free to ask me any questions about Coverity
+</paragraphText>
+        <paragraphCode>random/8122549_71</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836802" paragraphTag="random/8183721_72">
+        <paragraphText>Maybe you just enjoy hyperbole but while part of what you say is correct (finding security vulns in software is unavoidably a bit of a crapshoot) your conclusions are wrong.Finding deep, serious vulns like this in software can currently only be done by human beings. Tools are better at being authoritative but can only find vulns of a given type. For example static analysis is a great fit for any vuln that boils down to a dataflow problem, user controlled source -&gt; ... -&gt; dangerous sink. XSS, sql injection, etc fit this model. Fuzzers are great at finding bugs in parsers (and there are a surprising amount of parsers in the world, 90% of which should never have been written). Instrumented dynamic analysis can do awesome work for memory issues. I explain all this to show there are areas where tools are fantastic for their area. But there are many areas for which tools cannot help at all, heartbleed was one of these areas.The best security tools available were (presumably) run across openssl before and (certainly) with increased scrutiny after heartbleed. None of them found it. Simple limitations in static analysis lead me to believe they would never have found it on their own (most static analysis tools stop at 5 levels of indirection) Some background:1. http://blog.trailofbits.com/2014/04/27/using-static-analysis...\n2. http://security.coverity.com/blog/2014/Apr/on-detecting-hear...\n3. http://www.grammatech.com/blog/finding-heartbleed-with-codes...If you have immature projects sure run tools against it and some bugs will shake out. But if you want to find the next heartbleed a tool wont do it which is your mistaken conclusion.The question then becomes how to cultivate and encourage more people to find vulns like this. Money seems like a good incentive for most, although Neel Mehta did it of his own volition. I dont know the answer to that question but things like googles project zero are exactly what I would try first.
+</paragraphText>
+        <paragraphCode>random/8183721_72</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836803" paragraphTag="random/8344326_73">
+        <paragraphText>There's a lot to be said for keeping things as simple as possible. Although what qualifies as simple varies from application to application.I was doing some preliminary analysis for a small project recently, and considering various frameworks and tools. Eventually I realized I could implement what was needed using four JSPs producing static html, with a bit of styling in CSS. No AOP, no injection framework, no JavaScript. And no explicit differentiation between device types.The resulting application will start up quickly -- which is important when running in a PaaS environment -- and should work on any browser, including weird old stuff like Lynx. Less butterfly. More rat.
+</paragraphText>
+        <paragraphCode>random/8344326_73</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836804" paragraphTag="random/8395009_74">
+        <paragraphText>Thanks to Jan Beulich, the SUSE Xen maintainer in Germany who is credited with finding this x86 HVM vulnerability.It would be helpful if errata announcements included documentation of the static analysis tools, code review process or automated testing techniques which identified the weakness, along with a postmortem of previous audits of relevant code paths.What made it possible for this issue to be identified now, when the issue escaped previous analysis, audits and tests? Such process improvement knowledge is possibly more valuable to the worldwide technical community than any point fix.Heartbleed was discovered by an external party, but this issue which affects the data of millions of users was found by the originating open-source project. Kudos to Jan for finding this cross-domain escalation.
+</paragraphText>
+        <paragraphCode>random/8395009_74</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836805" paragraphTag="random/8397747_75">
+        <paragraphText>&gt; Is it planned that users of Eve will routinely construct new or modify existing domain-specific editors to the task at hand?Not sure at this point. For now we are focusing on the core interactions and we'll build out the rest once we've put tools in peoples hands and seen how they work.&gt; What domain-specific editors are you planning to include in public release? Something for UI construction on the web?The table, rule and function editors for managing data and logic. A UI editor, hopefully with some constraint-based layout model. Various debugging/tracing/understanding tools.&gt; Since first focus of Eve is on web apps (and it's hosted on javascript, correct?), will it cover both client and server applications?It will have to. Not sure yet how that will work. We can do websocket-style stuff at the moment but we will want to provide something simpler on top of that.&gt; Will there be an FFI?Yes. You will be able to add new functions / datatypes (like http://www.postgresql.org/docs/9.1/static/xtypes.html), new table/index data-structures (like http://www.postgresql.org/docs/9.1/static/gist-intro.html) and new query-plan/data-flow nodes.The editor and compiler are mostly written in Eve. The core language is tiny but very extensible - since execution order is not specified explicitly but determined from data-flow you can drop new logic in anywhere to add new compiler optimisations or new editor commands.The language is also very data-centric - this week I was playing with programs that modify their own code by writing to the ast tables, triggering the incremental compiler to update the dataflow plan.&gt; If I remember correctly, you're planning to use datalog+time+constraints and plan to use materialized views extensively, is it so? Will ability to work with changes as a stream and aggregate over them in more interesting ways than "the last always wins" be builtin in Eve?We're still trying out different models of time. The ideal semantic model is append-only, never forget. Implementing that on a real machine needs some restrictions to prevent exploding. Dedalus (http://db.cs.berkeley.edu/papers/datalog2011-dedalus.pdf) attaches epochs to each facts and only allows rules to query the current or last epoch. Edelweiss (http://db.cs.berkeley.edu/papers/vldb14-edelweiss.pdf) allows querying any epoch but uses static analysis to figure out when data can be safely deleted without changing the results.&gt; Have you tried to show a prototype to children and how do they respond in learning such system if so? What was the reaction of academic friends who were not too familiar with standard forms of programming (like you did with the first prototype of Aurora)?No children yet. We test things on adult non-programmers regularly. That lead to a couple of surprising changes like getting rid of nesting / scoping (no matter what we did visually, people just couldn't figure it out).&gt; If I'll ask more questions will it be all right and not too much trouble? :)Keep 'em coming.
+</paragraphText>
+        <paragraphCode>random/8397747_75</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836806" paragraphTag="random/8412976_76">
+        <paragraphText>Static typing is definitely useful, but like humans and chimps, the so called static languages share much of their DNA with their dynamic counterparts; and static typing doesn't necessarily account for more than a few percentage points of productivity increases (though those percents are definitely noticeable). More to the point, you still need to test non trivial Haskell code and the lack of a decent debugger is a tragedy.Safety critical systems are generally real tine so Haskell is off the table. I'll also spend a lot of tine manually verifying the code, and using alot of external analysis and verification tools, so restricted C++ is fine in that case. Now, if you told me that the system was safety critical and nit real time, and the system wasn't important enough to merit lots of manual verification, then Haskell would be a great choice because its static type system is better than nothing.
+</paragraphText>
+        <paragraphCode>random/8412976_76</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836807" paragraphTag="random/849975_77">
+        <paragraphText>Unfortunately, the author seems to be on the verge of falling into one of the fallacies he rightly points out: assuming that one of the main purposes of unit testing is to act as a surrogate for static analysis. I've seen code written in dynamically-typed languages which tries to do this, and such code pretty much universally falls into the category of "using dynamically-typed languages poorly"  (particularly since pretty much every popular dynamically-typed language has lint tools which will catch the sorts of things paranoid static-typing aficionados try to test for).What unit tests are good at, and what they should be used for, is verifying behavior and integration, something that static type systems notably still aren't particularly good at (and likely will never be good enough at for practical purposes -- I believe quite firmly that there's a diminishing-returns effect from ever-more-powerful type systems).In general, though, I like to think of static type systems existing in relation to their programming languages in much the same way that metalanguages exist in relation to object languages in logic: the type system is essentially a separate language in which you can express and then verify statements about the program, just as a metalanguage allows you to express and verify statements about its object language.This carries with it, of course, various implications for the limits of type systems (particularly since metalanguages are notoriously prone to infinite regress -- eventually you need a metametalanguage to make statements about the metalanguage, then a metametametalanguage and so on); I'm fairly certain that any sufficiently powerful type system would need to end up being a Turing-complete programming model in its own right, and since I've already got one of those (I'm writing my program in it) I generally pass on that and just write the unit tests :)
+</paragraphText>
+        <paragraphCode>random/849975_77</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836808" paragraphTag="random/8567424_78">
+        <paragraphText>What I've seen work is a combination of code reviews and ongoing continuing education.----- CODE REVIEW SIDE -----This can include automated tools, human interaction, and computer-assisted human interaction.  To start with, pick a set of command code standards and style guidelines.  Google has nice ones for many languages that you can use as a starting point (https://google-styleguide.googlecode.com/svn/trunk/).Secondly, enforce them through automated tools (e.g. in a Java shop, these might include PMD, FindBugs, Checkstyle, etc).  Have everyone install the IDE plugins for those tools (along with your common config).  Incorporate them into your continuous integration build process.  Perhaps put in place a static analysis tool like Sonar to send regular reports on code issues.The human element would start by having someone review committed code before it's allowed to be merged downstream.  Git's pull requests, along with diff view systems like GitHub's, make this easy... but you can use workable practices with Subversion or whatever also.There are limits to "pull request"-based code reviews, though.  When change sets grow too large, it's difficult for the reviewer to understand the high-level vision for the changes.  You start reviewing the trees, rather than the forest.  So I think you still need periodic in-person code reviews, to walk through the state of a codebase at certain milestones and discuss higher-level issues.----- CONTINUING EDUCATION SIDE -----The thing that I've seen work best here is a regular, ongoing lunch-and-learn type series.  Take any of the standard code quality treatises (e.g. "Pragmatic Programmer", "Code Complete", "Clean Code", etc), and tackle a chapter per week.  Better yet, split up the chapters and have the team members themselves present a chapter.  It's great experience for them (if they're not TOO freaked out by public speaking), and you'll never learn something as deeply as you do through the process of teaching it to others.The problem with lunch-n-learns is that you MUST have buy-in from management to make them a serious and ongoing part of your team culture.  When deadlines are tight and there are fires to put out (and when are there not?), a lot of companies are quick to cancel that week's lunch-n-learn.  When that happens, they lose traction and fall apart.
+</paragraphText>
+        <paragraphCode>random/8567424_78</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836809" paragraphTag="random/8631940_79">
+        <paragraphText>That's kind of what compilers are for. One of their jobs is static analysis. They have the graphs needed for hoisting. Libraries don't.This may be a problem with the existing compiler, if the Rust implementation is mostly a front-end to LLVM.  I'd hate to see "unsafe" code baked into the language standard, though.  C++ tried to fix the mess underneath with template libraries.  That didn't end well."Giving programmers low-level tools when they need them" as an excuse for abandoning language safety is a recipe for bad code.  There's a long, long history of that not working.  "Unsafe" code should be very, very rare, used for dealing with device registers and such.This sounds like designing buffer overflows into Rust.
+</paragraphText>
+        <paragraphCode>random/8631940_79</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836810" paragraphTag="random/8671414_80">
+        <paragraphText>"brand new language to avoid JavaScript's bad side while embracing its good side."Why don't just use the good side? Well, with all the tools available for JavaScript - static code analysers, type checkers and code coverage tools, is it really _that_ hard to just write this damn code without introducing a new language?
+</paragraphText>
+        <paragraphCode>random/8671414_80</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836811" paragraphTag="random/8682438_81">
+        <paragraphText>Mapsense Position: Backend EngineerKeywords: INTERN, VISA, FULLTIME.
+Minimum education: Bachelor's degree in CS/EECS.
+Minimum experience: 2 years.
+Useful to know: Java, Maven, ZooKeeper, MongoDB, Lucene, Git.Tone A (professional):The backend team at Mapsense is a small but highly motivated group building scalable tools for geodata analysis. We're looking for an independent, experienced backend engineer to join our team and and contribute while learning the infrastructure. An ideal candidate would be comfortable with designing and implementing web APIs; building and testing autoscaled services; and being productive, professional, and personable on a daily basis.Tone B (nerdy):There's a word to describe the freezing of a machine that executes billions of electronic instructions per second, then examining its memory's contents bit, by, bit: debugging. If hitting breakpoints sends chills down your spine, you're probably cut out for backend engineering at Mapsense. Hack away at the backend of a complex but intuitive geodata analysis API, implemented as a distributed, autoscaled nexus of modern open source technologies. And in case joining a team of intelligent, highly motivated code ninjas isn't enough, we have one more guarantee: consider boredom a thing of the past.Tone C (cute):The one thing that sets Mapsense apart from all the other geodata startups is the sheer popularity of our cute office dog, Amos. To be honest, our backend engineering team is a little jealous of all that attention. They've already developed a versatile but highly intuitive API for geodata ingestion and analysis, all while placing massive emphasis on documentation, testing, and teamwork. But to really shine, they need some help! Will you be the next independent, experienced engineer to join the backend ranks and help surpass Amos' renown once and for all?Tone D (challenging):Tired of companies living off of boring CRUD APIs with a single, static database? So are we. The backend engineering team at Mapsense is building a distributed, scalable backend architecture to support the ingestion and analysis of massive amounts of geodata, but writing well-designed, documented, and fully tested code isn't easy. That's why we're only hiring highly motivated, independent engineers to join a tiny backend team always willing to commit to quality. It won't be easy, but nothing worth doing ever is.Tone E (meaningful):Help Mapsense revolutionize the process of geodata analysis by joining our backend engineering team in developing an incredibly versatile tool with use cases in a variety of industries, from climate to marketing to military. You'll have the opportunity to jump into a robust, scalable system built on the latest open source backend technologies, and work with a motivated group of engineers. Expect to grow from interesting engineering problems every day while transforming the world one data set at a time.
+</paragraphText>
+        <paragraphCode>random/8682438_81</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836812" paragraphTag="random/8754540_82">
+        <paragraphText>That's pretty cool. There are a lot of tools, both public and private at companies kept as trade secrets to do static analysis of code to pin point potential errors, memory leaks, etc.. This is the first analysis I've seen that actually looks at more than one revision of a project in source control, though. Every other tool basically just analyzes one revision at a time.
+</paragraphText>
+        <paragraphCode>random/8754540_82</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836813" paragraphTag="random/8830703_83">
+        <paragraphText>&gt;Automating restarts / Automatic browser refreshI don't think this is very beneficial when your project's complexity grows enough to require a non-trivial build. It's nice to have for simple projects, of course.&gt; Using control flow modules (such as async)In my experience the async module creates verbose and ugly looking code. In almost all cases promises are a better solution. Of course, even promises are pretty ugly as it's a "hack" to solve a problem at the language level. ES7 proposal includes async/await, maybe that'll finally solve this problem.&gt;Not using static analysis toolsI'd also recommend checking out TypeScript and tslint for complex Node.js applications.
+</paragraphText>
+        <paragraphCode>random/8830703_83</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836814" paragraphTag="random/8836639_84">
+        <paragraphText>C itself is also scary. Most other languages provide at least run-time safety; some provide great compile-time safety. C providing neither and being the most popular language for system software is what is really scary.I guess part of what is scary about C is that it gives you the illusion of a high-level language, but unless you know all UB by heart, you might accidentally start working in assembly.Isn't there at least a flag that activates warnings for stuff like this? I tried -Wall in both clang and gcc and they didn't say jack shit.What do modern C developers do these days? Arm themselves with expensive advanced static analysis tools to their teeth?
+</paragraphText>
+        <paragraphCode>random/8836639_84</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836815" paragraphTag="random/8857019_85">
+        <paragraphText>"but what is wrong with recursion? Why NASA guidelines prescribe to avoid simple technique we were studying as early as in school? The reason for that is static code analyzers NASA use to reduce the chance for error. Recursions make code less predictable for them. JavaScript tools do not have such a precept so what we can take out of this rule?"This is of course, wrong. Javascript has not solved the problem of making recursion easy or sane to analyze.  It is quite literally the same problem you have with C.In fact, most javascript tools are way less useful at recursion analysis (IE they produce a much higher rate of false positives) than C tools."9.The use of pointers should be restricted. Specifically, no more than one level of dereferencing is allowed. Function pointers are not permitted.This is the rule JavaScript developer can not get anything from.
+"Except that javascript developers use function pointers like they were going out of style ...
+</paragraphText>
+        <paragraphCode>random/8857019_85</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836816" paragraphTag="random/8876564_86">
+        <paragraphText>Pretty interesting! Besides static code analysis, do you use any tool to manage manual code review, functional testing and integrations with deployment and task/issues management tools?&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/8876564_86</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836817" paragraphTag="random/8894510_87">
+        <paragraphText>&gt; There is a trade-off being verbosity and maintainability, IMGO Go hits that.This is where we'll always disagree, because if you like Go, it's natural for you to come up with this argument, however the line you're drawing is completely arbitrary. I have yet to hear an argument about what makes Go strike a fine balance between verbosity and maintainability, when my feelings are the opposite - I find Go code to not be very maintainable in comparison with other static languages, because Go is not very statically type-safe.&gt; LOL. Said no person who has actually distributed a multiplatofrm Java application everYet it happens all the time and a LOL is not an argument that disproves that. From my own experience, I have built stuff on top of Java / the JVM on OS X / Linux and deployed on Linux, Windows and OS X, without encountering any issues, ever, without worrying that Java's NIO will work or not, without worrying on whether the memory model will suddenly be different, without worrying on whether my app will leak on 32 bits platforms ;-)Android is the only ugly duckling, but that's only because Android doesn't have a JVM on it. It still works out well though.But if you have examples, I'd love to hear them out.&gt; The key word here was dependency, specifically, external dependency. If Go'd runtime ships with the binary its not really a external dependency is it.Now that's an arbitrary distinction, isn't it? What stops one from bundling the VM in the same deployed binary? If you want this distinction, the only valid argument is one of size, but then again for the server-side (where most of the Go stuff is used) that's completely meaningless.&gt; Yes. It comes baked into the stdlib, its "http/pprof"Are you seriously comparing something like YourKit's Profiler and Java's remote attach and debugging capabilities to http/pprof? IMHO, that's not a comparison you can make.&gt; Biggest plus ever, goes native simple tooling doesn't need an external life support system.There are many issues wrong with this line of thinking - the simple tooling you're talking about doesn't do what I and many others want it to do. Also if you look throughout history, all the languages that came with batteries included have suffered once the people finally reached the conclusion that the included batteries have been shitty. Which is what happens when you don't let evolution pick a winner with the community acting as the fitness function. But we'll talk in about 5 years.&gt; You are wrong, all the the stuff you are are talking about is library based, Go has channels/select/go build into the language as primitives. I wasn't talking about bolt on libraries.But that's the point mate, the JVM is capable enough to build anything you want on top of it as libraries, there's no point for something to be hard-coded in the language. Which is a good thing, because when speaking of concurrency and parallelism, there isn't a one size fits all.For example, speaking of Go's channels - they are strictly about managing concurrency, they are not about parallelizing a workload and they do not work across address spaces / asynchronous boundaries. And if you think that Go's channels are the answer to everything, well, you would have been better off with Erlang, as there you might have had a valid argument.&gt; IMHO This is not the case, if you think it is, explain.Can you take an arbitrary memory location and cast it to anything you want? Can you override how heap allocation happens? Can you allocate an array on the stack? Can you do RAII? Do you have the union type from C?In practice you have no control on where Golang allocates stuff - the compiler decides that based on really simple rules for escape analysis and as a general rule of thumb AFAIK anything that is allocated with "new" goes on the heap.  What you can do with Golang is to use the "unsafe" package. But that's not different than using Java's sun.misc.unsafe ;-)The only real difference with Golang is that you can have stack allocated structs, as otherwise Java also does escape analysis. But besides this coming to Java 9, the real kicker is that .NET/C# has had stack allocated values since inception, in addition to much more potent "unsafe" constructs - in C# you can even do pointers and pointer arithmetic and the runtime will pin those memory addresses during execution for avoiding GC interference.
+</paragraphText>
+        <paragraphCode>random/8894510_87</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836818" paragraphTag="random/8942702_88">
+        <paragraphText>The last ruby project that I worked on laughed at static analysis tools before pitching them into halting problems. You have to execute ruby code just to assemble the classes, it's quite resistant to static analysis unless you artificially restrict yourself to a subset of the language.If you're going to limit yourself to the statically checkable part of the language then you might as well just use a language that was designed for it. The fundamental feature of dynamic languages is variations on the theme of self-modifying code - behaviour is determined at runtime. This feature is not normally considered compatible with static analysis, because you have to execute an unbounded amount of the program to find out what it does.The important thing about static type checking on languages like ocaml is that it can be both "sound" and "complete" - any type error is an error in your program, and a program that type checks cannot go wrong according to the constraints of the type system. In order to make this possible, we have a body of theory on how to design type systems that are constrained just enough to be checkable while still expressing everything you want them to say.
+</paragraphText>
+        <paragraphCode>random/8942702_88</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836819" paragraphTag="random/9048896_89">
+        <paragraphText>You missed the whole point.By making the language simple you can easily implement your own parser. This opens up the ability to write native parsers in other languages, say vimscript. By keeping it super simple there -are- no corner-cases.There are many benefits to this (like the formatters etc that others have alluded to) from things like IDE integration (imagine lifetime elision visualisation, invalid move notifications, etc) static analysis tools and more. None of these tools then need to be written in Rust. It also means it's easier to implement support in pre-existing multi-language tools.Don't underestimate the necessity of a simple parseable grammar. Besides, people have endured much worse slights in syntax (see here Erlang).
+</paragraphText>
+        <paragraphCode>random/9048896_89</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836820" paragraphTag="random/9054122_90">
+        <paragraphText>It's not that simple, because of inlining and macros.Those optimizations can be used to quickly throw out unnecessary code like null-pointer checks inside inlined functions, so they are valuable and good to have.So it's a matter of how much energy you spend on diagnostics, which ends up a rather heuristic field and perhaps we'd just be better off focusing on better static analysis tools that are separate from or can otherwise be decoupled from compilers.
+</paragraphText>
+        <paragraphCode>random/9054122_90</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836821" paragraphTag="random/9114981_91">
+        <paragraphText>"And that adds up like compound interest into making the code a lot better."Like inverse (or reverse) technical debt. Excellent way of putting why code reviews are important.I would just add that while improving adds up, it shouldn't cover the fact that blocking the team because of camel case issues is not the best use of time.
+There are static analysis tools that are free and open source that can do this work.We are spending between 1/5th to 1/10th of our time reviewing code[1]. Most of the times the disciplined have to carry the burden of being 'that guy' that always has something to say.1: http://www.quora.com/How-much-per-day-or-week-do-engineers-s...
+</paragraphText>
+        <paragraphCode>random/9114981_91</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836822" paragraphTag="random/9126996_92">
+        <paragraphText>It's not only compile time that matters: an overcomplicated language grammar/specification hinders development of language infrastructure (static analyses tools, linters, debuggers, parsers/code generators, IDE interaction, etc).&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/9126996_92</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836823" paragraphTag="random/9202053_93">
+        <paragraphText>&gt; Complaining about JS as a backward-compatibility-constrained language, to support the idea that JS uplift needs expensive, separate "REPLACE JS" alterna-language/runtime projects such as Dart, which inevitably -- because you can't replace JS, flamebait trigger warning LOL -- backpeddle to compile-to-JS tooling and tardy tech transfer into ECMA-262, doesn't justify the opportunity cost.Ok, let's say JS continues to evolve over the next 5-10 years, and by this time all browsers support integers, optional types, operator overloading, less implicit conversion, and mixins. By this point compiling Dart to JS is trivial, and the cross compiled code is also completely readible. So I can take my existing Dart project and compile it to ES11, clean up a few things by hand, and then continue developing in ES11. In the meantime I've had 5-10 years being very productive developing in Dart with good tool support. This seems like a win to me.Having a VM is also incredibly beneficial for development and debugging. These points alone justify investment in Dart.But there are more benefits. Providing a testing ground for VM engineers to try out new features without legacy compatibility constraints. They haven't really got started on performance yet, and they're already solidly ahead of V8. This can provide insights for TC39, to see what kind of performance/memory improvements are possible if changes are made to the language.&gt; BignumsI'm aware of the bignums strawman, and I'm aware the page on the wiki dates to 2010. But I repeat: even if the V8 team had implemented bignums behind a flag in 2010, do you really think that the other vendors (including MS and Apple) would have also implemented them already? I find this scenario unlikely. (But kudos to MS/A for implementing the new ES6 features. I'm glad to see JS evolving)&gt; [Snapshotting] could be added to JS if it could be done for Dart.My understanding was that the V8 team actually implemented snapshotting and initially used it for loading their JS core library. They didn't think it was possible to use it for loading cached web code. Not because of the globals object, but because javascript code must be executed to build up classes, i.e. setting prototypes etc. Because execution and structure is interleaved, top level code and initialisors could perform side effects before the static program structure exists.&gt; there hasn't been much uplift over five years.It looks like Dart is a longer term bet. It will be interesting to see what kind of an influence it has over the next decade or so. Especially given the recent talk around adding optional typing to JS. The Dart team are also currently experimenting with co-operative threading, growable stacks and concurrency primitives. https://github.com/dart-lang/fletch/wiki/Coroutines-and-Thre...&gt; My point about opportunity costs stands. We could have come a lot farther, faster.I'm not convinced. I don't see how the development resourcing on the V8 development team could have sped up the ES6 standards process. The ES6 process includes getting consesus with Apple/Microsoft - this process isn't time constrained by V8 development resources.Consider the opportunity cost if they chose not to develop Dart. Developers have to wait a lot longer to get modern tooling, with: completions, doc hovers, code navigation and static analysis. These really make a huge difference to developer productivity. All of the experience gained here can feed back into javascript tooling (assuming optional typing makes it into ES).Also consider the individual developer's motivations. It's great that you are excited about working on JS and spidermonkey year after year. But what were the motivations of the developers at google? If the developers are passionate about the web like yourself, then they can continue to work with the V8 team. But if what excites them, is working on a state of the art dynamically typed VM, well then removing some of the legacy JS constraints allows them freedom to innovate. If their only choice had been to work on V8, they could well leave the company and work on another VM project somewhere else. So what would the cost have been if google management said no you can't do Dart?&gt; You switched from "Dart does good for the Web via (eventual) JS uplift" (paraphrasing), to "Dart just needs to provide good development tooling" ... What's with the goalpost moving ... ?The shifted goal post was: "Dart ain't gonna replace JS in the foreseeable future". I never claimed that Dart will, or needs to, replace javascript.
+</paragraphText>
+        <paragraphCode>random/9202053_93</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836824" paragraphTag="random/9446594_94">
+        <paragraphText>Good point! When asking developers about their use of static code analysis to ensure code quality we found that most development teams use such tools only sporadically or not at all, and just very few teams have a systematic process or set of guidelines for ensuring code quality throughout all of their projects. So while some technologies already exist for this, we definitely think that there's room for more.
+</paragraphText>
+        <paragraphCode>random/9446594_94</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836825" paragraphTag="random/9458567_95">
+        <paragraphText>No, because none of them contain the static analysis and developer tools one comes to expect from a competent IDE.Also coding in the browser has been a miserable experience.&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+</paragraphText>
+        <paragraphCode>random/9458567_95</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836826" paragraphTag="random/9459141_96">
+        <paragraphText>Well, I am very interested in parsing and static analysis and if you idea and suggestions feel free to open as many tickets as you want on the project.Yes, Hoogle is super cool, it would be definitely useful to have something like that.I wrote in the past tools to manipulate ASTs of several languages but I have never looked in a Scala parser. Can you suggest one?
+</paragraphText>
+        <paragraphCode>random/9459141_96</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836827" paragraphTag="random/9479161_97">
+        <paragraphText>Ada is a good decision in this field.Nevertheless, the parent was comparing C to Rust, where the language is immature, has no static analysis tools (to pick up the most important bugs), no well defined semantics and is entirely unproven in the field. This is the barrier for entry.
+</paragraphText>
+        <paragraphCode>random/9479161_97</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836828" paragraphTag="random/9485086_98">
+        <paragraphText>Absolutely. If you're audited for MISRA compliance, you need to follow it point by point.The rules themselves are not meaningless or without a point, but there are a lot of companies that adopt MISRA without actually having (in the sense of audit and certification) to be compliant. Instead of focusing on the point of every provision, they rigidly follow them even when not applicable.But it can be worse, really. The gem of a coding standard we have at $work forbids not only goto, but also break, without MISRA's exception of one break per loop. And forbidding the use of goto and continue is cited as being done for readability reasons, rather than static analysis tools.
+</paragraphText>
+        <paragraphCode>random/9485086_98</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836829" paragraphTag="random/9500042_99">
+        <paragraphText>I think there is no point in trying to emulate different language semantics on top of JavaScript.asm.js is a weird hack that lives in a totally different world than actual browser APIs (e.g. the DOM), and you have to emulate your entire runtime and environment to get anything useful, which means your binary is going to be huge (as in this example, but similar things apply).Emulating better semantics than JS based on JS usually leaves you in this uncanny valley where you either trade off performance and size for nicer semantics (e.g. killing the null/undefined dichotomy, or 64 bit integer math), or you end up with odd semantics that don't quite fit the language you're compiling from, or a mix of both, which is a usability disaster.So the only real chance to improve on the state of JS is being a syntactical shim on top of JS and help users with better syntax, static analysis, and compile time tooling. That'd be TypeScript.
+</paragraphText>
+        <paragraphCode>random/9500042_99</paragraphCode>
+      </paragraph>
+      <paragraph paragraphId="9836830" paragraphTag="random/9598884_100">
+        <paragraphText>&gt; First, itself "wild" and not "wiled".Thank you for the correction, and I am guessing you mean "it is" rather than "itself" in the above correction of my spelling.&gt; Second, Apple doesn't allow "virus scanners," which is why you'll never hear companies like Sophos talking about malware on iOS -- they have nothing to gain.1. Until recently Apple did allow virus scanners on iOS. However, those programs were largely useless for 2 reasons. First, because without a jailbreak you can not run unsigned code on iOS, unless you have found a jailbreak vulnerability that can be exploited directly on the device, but I haven't see those since iOS 3 or 4. Second, because iOS jails each app, so one app can not scan the file system or any of the other apps on the OS. Conversely, one app can not maliciously attack or install unsigned code on the OS without a jailbreak.2. Sophos would have a lot to gain from exposing wide spread malware in the App Store. Such news would pressure Apple to reconsider their decision and allow virus scanners into the App Store, or at least clean up their act. One way or another, it would be a lot of GOOD pub for Sophos.3. Given that there are many jailbroken iPhones, and that it's trivial to access app files on a jailbroken iPhone, it would be easy for Google to run their own Malware scanners on AppStore submissions. Considering that they would most certainly (according to you) find hundreds, if not hundreds of thousands, instances of Malware, it would be a wonderful PR story for Google, once and for all proving the undeniable superiority of the Android OS. And yet, I have yet to read that story. Forget Google, HTC, Sony, LG, and any number of other manufacturers would have direct pecuniary interest in discrediting Apple by proving to the world that the AppStore is teaming with Malware. I guess all of the above mentioned companies are operated by utter idiots, if we are to believe your assertions.&gt; If you are in the right circles, you know there is plenty of malware on the App Store -- it's significantly easier to get it on the App Store than it is to get it on the Play Store.What are these "right circles?" Links, facts, anything to backup the above statement?&gt; The main deterrent to malware on both platforms is the requirement that the app publisher have a credit card, which the stores both verify.Use a prepaid VISA card, put any name and address you like. Works like a charm, you can register an account like that on either store.&gt; Finally, you seem to be confusing manual scanning, static analysis, dynamic analysis, and human review to the point where it's hard to even figure out what you're claiming.You are confusing the meaning of such terms as manual scanning, static analysis, dynamic analysis, and human review. There, we both made utterly unsubstantiated claims, now we are even!&gt; Google implemented dynamic analysis long before 2014 (your "wiled west"), which Apple very clearly still hasn't done.1. Thank you yet again for pointing out the SAME typo in my previous post for the second time in your reply. To return the curtesy, I would also like to point out that "itself" and "it is" do not have the same meaning in the english language. I do understand that this page is frequented by many people from other countries, who may speak different languages. I, for instance, speak fluently 2 languages, in addition to English. So I do apologize ahead of time if you are indeed an ESL person, but to improve your knowledge of the English language I felt the need to point out your mistake yet again.2. Could you please provide any proof what so ever to your claimed assertion that Apple does NOT conduct dynamic analysis.3. Please refer to this article [0] which details utter inaptitude of PlayStore's dynamic analysis tools in 2014.[0] http://www.syssec-project.eu/m/page-media/3/petsas_rage_%20a...
+</paragraphText>
+        <paragraphCode>random/9598884_100</paragraphCode>
+      </paragraph>
+    </paragraphs>
+    <codedData>
+      <codedDataItem>
+        <paragraphId>9836731</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836732</paragraphId>
+        <codeId>262305</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836733</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836734</paragraphId>
+        <codeId>262307</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836735</paragraphId>
+        <codeId>262308</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836736</paragraphId>
+        <codeId>262303</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836737</paragraphId>
+        <codeId>262309</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836738</paragraphId>
+        <codeId>262302</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836739</paragraphId>
+        <codeId>262310</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836740</paragraphId>
+        <codeId>262311</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836741</paragraphId>
+        <codeId>262312</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836742</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836743</paragraphId>
+        <codeId>262313</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836744</paragraphId>
+        <codeId>262308</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836745</paragraphId>
+        <codeId>262311</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836746</paragraphId>
+        <codeId>262314</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836747</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836748</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836749</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836750</paragraphId>
+        <codeId>262310</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836751</paragraphId>
+        <codeId>262317</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836752</paragraphId>
+        <codeId>262308</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836753</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836754</paragraphId>
+        <codeId>262302</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836755</paragraphId>
+        <codeId>262303</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836756</paragraphId>
+        <codeId>262318</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836757</paragraphId>
+        <codeId>262319</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836758</paragraphId>
+        <codeId>262314</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836759</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836760</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836761</paragraphId>
+        <codeId>262311</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836762</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836763</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836764</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836765</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836766</paragraphId>
+        <codeId>262321</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836767</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836768</paragraphId>
+        <codeId>262322</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836769</paragraphId>
+        <codeId>262323</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836770</paragraphId>
+        <codeId>262324</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836771</paragraphId>
+        <codeId>262318</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836772</paragraphId>
+        <codeId>262324</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836773</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836774</paragraphId>
+        <codeId>262311</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836775</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836776</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836777</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836778</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836779</paragraphId>
+        <codeId>262310</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836780</paragraphId>
+        <codeId>262322</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836781</paragraphId>
+        <codeId>262326</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836782</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836783</paragraphId>
+        <codeId>262321</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836784</paragraphId>
+        <codeId>262327</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836785</paragraphId>
+        <codeId>262314</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836786</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836787</paragraphId>
+        <codeId>262322</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836788</paragraphId>
+        <codeId>262317</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836789</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836790</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836791</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836792</paragraphId>
+        <codeId>262328</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836793</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836794</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836795</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836796</paragraphId>
+        <codeId>262329</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836797</paragraphId>
+        <codeId>262306</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836798</paragraphId>
+        <codeId>262330</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836799</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836800</paragraphId>
+        <codeId>262302</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836801</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836802</paragraphId>
+        <codeId>262308</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836803</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836804</paragraphId>
+        <codeId>262302</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836805</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836806</paragraphId>
+        <codeId>262331</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836807</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836808</paragraphId>
+        <codeId>262318</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836809</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836810</paragraphId>
+        <codeId>262310</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836811</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836812</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836813</paragraphId>
+        <codeId>262324</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836814</paragraphId>
+        <codeId>262319</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836815</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836816</paragraphId>
+        <codeId>262310</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836817</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836818</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836819</paragraphId>
+        <codeId>262330</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836820</paragraphId>
+        <codeId>262321</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836821</paragraphId>
+        <codeId>262319</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836822</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836823</paragraphId>
+        <codeId>262326</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836824</paragraphId>
+        <codeId>262318</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836825</paragraphId>
+        <codeId>262330</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836826</paragraphId>
+        <codeId>262320</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836827</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836828</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836829</paragraphId>
+        <codeId>262325</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+      <codedDataItem>
+        <paragraphId>9836830</paragraphId>
+        <codeId>262304</codeId>
+        <coderId>10348</coderId>
+      </codedDataItem>
+    </codedData>
+  </codedDataset>
+</CATRawCodedDataset>

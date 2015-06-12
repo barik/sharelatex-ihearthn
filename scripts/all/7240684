@@ -1,0 +1,1 @@
+The problem is that in the early days Ada compilers were more expensive than C and C++ static analysis tools. :(Nowadays we have cheaper options, but the harm is done.However, from what I can infer from last years of FOSDEM, at least in Europe, Ada use seems to be slowly rising.

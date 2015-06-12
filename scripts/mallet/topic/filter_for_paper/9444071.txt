@@ -1,0 +1,1 @@
+Even without static types tools like PHPStorm have offered that type of analysis and error reporting.

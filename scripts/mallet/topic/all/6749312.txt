@@ -1,0 +1,1 @@
+C is deceivingly simple, I wonder how many people know about strict aliasing rules for example. To verify a C-program you should really 1. Do static analysis, preferable using many different tools, 2. Test on different optimization levels, 3. Test on different compilers.

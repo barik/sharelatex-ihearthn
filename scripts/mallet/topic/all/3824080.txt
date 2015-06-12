@@ -1,0 +1,1 @@
+"Microsoft has some good static code analysis tools ( http://msdn.microsoft.com/en-us/gg712340 ), for a start."The compound word 'PreOrder' exists as a discrete term. ... case it as 'Preorder' or strip the first token entirely if it represents any sort of Hungarian notation.Aw shit, Apple is gonna get fucked by all those remotely exploitable Hungarian notation bugs.

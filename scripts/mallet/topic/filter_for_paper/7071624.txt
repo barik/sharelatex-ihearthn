@@ -1,0 +1,1 @@
+From Theo de Raadt, on-thread:  On a regular basis, we find real and serious bugs which affect all\n  platforms, but they are incidentally made visible on one of the\n  platforms we run, following that they are fixed.  It is a harsh\n  reality which static and dynamic analysis tools have not yet resolved.

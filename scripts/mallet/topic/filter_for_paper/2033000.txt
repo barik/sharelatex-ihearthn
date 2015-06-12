@@ -1,0 +1,23 @@
+I will try to ignore the shallow (but horrifying) issue of identifiers including spaces.The real question to be asked here is what is wrong with the current portable assembler (C) ? C has occupied this niche for a long time and quite successfully - I believe all current mainstream kernels are written in C (or possibly a limited subset of C++).If you want a 'portable assembler', a modern C compiler is in my opinion, a good choice:  - a solid specification: detailing the behaviour of operations, what is defined, implementation, or undefined behaviour.
+
+  - access to platform specific features through builtins and intrinsics
+
+  - ability to use inline asm if you really want to (or need to)
+
+  - easy integration with existing libraries
+
+  - minimal dependencies on a runtime library (pretty much none in freestanding implementations)
+
+  - most compliers give have ways to get good control of both what code is generated and structure layout.
+
+The modern C ecosystem provides (mostly good) tools for:  - tracking memory leaks/invalid memory accesses (valgrind)
+
+  - static analysis (clang static analyser, sparse, coverity, ...)
+
+  - debuggers (gdb ...)
+
+  - solid optimizing compilers (icc, gcc, llvm)
+
+  - profilers (oprofile, perf, vtune, ...)
+
+Admittedly, most of these tools don't depend on the code being written in C, but I suspect any new language would take a while to get properly integrated. If you want to use a low level language, you really want to have access to these tools or equivalent.A new language trying to compete in this space would have to offer something fairly substantial to get me to switch - and a strange syntax like zinc is not going to help. From the documentation at least, zinc seems to currently be missing: an equivalent to volatile; asm; anyway to access a CAS like instruction; 64bit types; floats; a way to interface to C code; clear documentation about behaviour in corner cases (what happens if you a left shift a 32bit value by 40?). The only thing seems to bring to the table to compensate is the ability to inherit structures

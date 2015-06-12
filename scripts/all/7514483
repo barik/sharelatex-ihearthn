@@ -1,0 +1,1 @@
+This works until you refactor the new code, and the commented out code becomes out of sync with the production code it is supposed to mirror.\nCommented code isn't checked by the compiler nor by the static code analysis tools, nor by the tests, so it can become out of sync fast and silently.

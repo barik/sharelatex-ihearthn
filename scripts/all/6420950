@@ -1,0 +1,1 @@
+This is true but that's a non-trivial task even before you get to the question of running it on all third-party code and getting the upstream to patch it. This would solve the problem only in the same way that static analysis tools mean C code no longer has buffer overflows or type conversion errors.

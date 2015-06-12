@@ -1,0 +1,1 @@
+This is certainly impossible on x86 - you can even interleave two different instruction streams (which is mainly used to confuse static analysis tools).

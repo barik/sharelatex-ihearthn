@@ -1,0 +1,1 @@
+For this, you don't need a style guide, but a static code analysis tool. This specific error causes unreachable lines and has suspicious indentation.In my project, that could could have never gotten into production, because the tools would have stopped us, even without a single unit tests.

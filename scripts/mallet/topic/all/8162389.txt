@@ -1,0 +1,1 @@
+Code coverage and static analysis are such valuable tools, I can't believe they are not used more and more frequently .. it really seems that a lot of open source projects would benefit from a coverage/analysis phase on checkin.

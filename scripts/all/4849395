@@ -1,0 +1,1 @@
+Nice to see a move to Coverity. I use their product and it is one of the best static analysis tools I have used. Maybe we will see support for more languages rolled into the tool.Hey Eric while your there how about you make the CLI tool suck less. I want a simple invocation to test for the presence of failures.

@@ -1,0 +1,3 @@
+We did actually produce ISO/IEC TS 17961:2013 Information technology -- Programming languages, their environments and system software interfaces -- C secure coding rules
+http://www.iso.org/iso/catalogue_detail.htm?csnumber=61134The rules specified in this Technical Specification apply to analyzers, including static analysis tools and C language compiler vendors that wish to diagnose insecure code beyond the requirements of the language standard. All rules are meant to be enforceable by static analysis.I wrote an article putting all this in some context at:
+http://www.informit.com/articles/article.aspx?p=2088511

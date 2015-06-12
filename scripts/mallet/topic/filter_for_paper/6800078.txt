@@ -1,0 +1,1 @@
+Coming from a safety-critical background, I found this a very interesting read. I am a massive fan of static analysis, and I hadn't realised that the open source tools had come this far.

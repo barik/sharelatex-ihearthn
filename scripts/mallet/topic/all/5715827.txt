@@ -1,0 +1,1 @@
+That's not an IDE. What's the value of static typing if you have you don't have any tools which make use of it to provide code analysis, completion and refactoring options?

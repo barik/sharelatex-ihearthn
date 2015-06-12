@@ -1,0 +1,1 @@
+This was discussed in the August review [1]. Basically, they found ~3500 problems, and whittled it down to ~1200 after removing just one warning about a strangely implemented macro. This is similar to many other static analysis tools (e.g. findbugs)...you have to work the ruleset for your app sometimes.1 - http://www.viva64.com/en/b/0205/#ID0EV4AO

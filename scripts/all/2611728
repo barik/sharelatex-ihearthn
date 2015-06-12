@@ -1,0 +1,48 @@
+I wouldn't venture to say this doesn't belong on HN since it really is
+interesting (if it was actually done correctly), but the files available
+for download are most likely illegal, were most likely created with
+pirated tools (IDA Pro/Hex-Rays, and yes, as a customer of theirs for over a
+dozen years I've reported it), and of course, the usual vilification of
+reverse engineering.If you're reading this on a desktop or laptop system (rather than a
+phone), then you are most likely using an "IBM PC Compatible" even if
+you're using an Intel based Apple, and hence, you're using the fruits of
+completely legal reverse engineering.The way to do reverse engineering legally is to have one team reverse
+engineer the target and completely document how it works. Once it's
+documented, another disconnected team writes a new implementation from
+the documentation. This process is how you're using an IBM PC
+Compatible today, so yes, reverse engineering for compatibility is
+perfectly legal.If there is a patented algorithm required, it's not a sure thing. There
+are most likely compatible ways around the patent, but there's also the
+fact that the patent is only valid in the US. With open source hosted in
+some other country, who are you going to sue?  The users in the US?
+--Nope, users are the ones paying for skype.You might say, "But we forbid reverse engineering in our license!!!"Contract clauses forbidding reverse engineering are invalid in many
+countries and jurisdictions, and of course, you also have to prove the
+other party agreed to the contract/license. With this said, it's very
+easy to create a international jurisdictional nightmare to render any
+such contract clause tactically impossible to enforce.The easiest way to think about this is security research. The folks
+finding and reporting exploitable flaws in software are obviously
+reverse engineering it. Occasionally companies have tried to legally go
+after people who have published security research on their products, but
+usually this ends very badly for the company. Additionally, doing
+security research is protected use in some countries and jurisdictions.In short, competition is good for markets, and competing by studying and
+mimicking the competition is both normal and legal.For the "rights" advocates out there, there are legal problems with the
+three file downloads available:1.) According to the first file name, the original binaries are being
+redistributed which may be (and usually is) against the license terms
+and default rights granted by copyrights.2.) The IDA Pro database (most likely) contains the entire target
+binary, so you do have (illegal) redistribution of a copyrighted work.
+You can load only parts of a target binary into IDA, but that doesn't
+matter since it is still a portion of the original work. As for whether
+or not said portion could fall under fair use is debatable (i.e.
+lawsuit). In general usage, the entire binary is loaded, since without
+it, you're limited to static analysis (i.e. no debugging).3.) Decompilation, and to a lesser degree disassembly, are equivalent to
+"machine translation" in the sense of copyright. Creating a translation
+is considered creating a "derivative work" and unless you have been
+given rights to create derivative works, then you're in trouble. One of
+the comments here on HN claims the "source code" file is the output of
+the Hex-Rays Decompiler.I've never used skype and I've never read their license so I don't know
+if they specifically allow redistribution.I have no love for skype or microsoft, but if this had been done
+CORRECTLY by releasing written documentation so an entirely new
+implementation could be written, then I'd have no problem with it.
+There are right ways and wrong ways to legally create compatible (open
+source) software through reverse engineering, and this is a perfect
+example of the wrong way.

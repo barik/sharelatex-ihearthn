@@ -1,0 +1,11 @@
+Clang's diagnostics and static analysis? Take, for example, https://patchwork.kernel.org/patch/36060/, a serious problem in the kernel that was recently discovered. Given the size of Linux, it would be highly inefficient to manually find and fix every instances of this issue.Currently, Clang doesn't support the work-around option that GCC provides to prevent the aforementioned issue. I could just implement the GNU work-around, but with Clang, it's far easier to write a scanner which will identify every place in the Linux source code where those dangerous semantics appear.Clang might not be mature enough to compile Linux for distribution. The difference between GCC and Clang is that Clang is not a compiler. Clang is a modular API that provides the tools to build C language front-ends to the LLVM compiler infrastructure. The Clang compiler driver is just one implementation of an application built using the Clang libraries.Why would one want to do this? Well...   http://sourceforge.net/mailarchive/message.php?msg_name=2010http://sourceforge.net/mailarchive/message.php?msg_name=20101007001758.6bcd3d3b%40Pegasus1007001758.6bcd3d3b%40Pegasus
+
+   http://clang-analyzer.llvm.org/
+
+   http://clang.llvm.org/docs/libIndex.html
+
+   http://llvm.org/ProjectsWithLLVM/#LENS
+
+   http://llvm.org/ProjectsWithLLVM/#spedi
+
+Think outside of the box :)

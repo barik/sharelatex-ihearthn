@@ -1,0 +1,1 @@
+I read that they have static analysis tools to track the flow of Contexts, making it much easier to verify that Contexts are threaded through correctly, which can make things a bit safer statically. It seems Go-like I guess: instead of language support for that sort of type system, simple enough lang and good enough tooling to implement the analysis externally.

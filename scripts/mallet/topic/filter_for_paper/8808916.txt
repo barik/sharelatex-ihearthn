@@ -1,0 +1,15 @@
+Flask's route decorator gives a nice syntax, but it goes against some ideal best practices:* Imports shouldn't have side-effects (like registering functions with flask).* You shouldn't use globals (like the flask app).* Objects (such as the flask app) should be immutable whenever possible.None of these are hard-and-fast rules, and Python code has a tendency to give up purity in favor of syntax, so it's certainly justified for Flask to be designed this way, but it's still a bit unsettling, and can lead to bugs, especially in larger cases when your handlers are split up across many files. Some examples:* You need to make sure that you import every file with a request handler, and those imports often end up unused (only imported for their side-effects), which confuses linters and other static analysis tools.* It's also easy to accidentally import a new file through some other import chain, so someone rearranging imports later might accidentally disable part of your app by never importing it.* It can break some "advanced" uses of modules/imports, such as the reload function.* Test code and scripts that want access to your request handlers are forced to build a (partial) Flask app, even if they have no use for one.At my job, I recently changed our Flask handlers to be registered with a different approach (but the same API) that avoids most of these issues. Rather than setting things up with side-effects, it makes the route details easy to introspect later. Here's what our implementation of @route() looks like now:  def route(rule, **options):
+      def route_decorator(func):
+          # Attach the route rule to the request handler.
+          func.func_dict.setdefault('_flask_routes', []).append((rule, options))
+  
+          # Add the request handler to this module's list of handlers.
+          module = sys.modules[func.__module__]
+          if not hasattr(module, '_FLASK_HANDLERS'):
+              module. _FLASK_HANDLERS = {}
+          module._FLASK_HANDLERS[func.__name__] = func
+          return func
+  
+      return route_decorator
+
+So if you have a module called user_routes.py, with 3 Flask request handlers, then user_routes._FLASK_HANDLERS is a list containing those three functions. If one of those handlers is user_routes.create_user, then you can access user_routes.create_user._flask_routes in order to see the names of all of the route strings (usually just one) registered for that request handler.Then, in separate code, there's a list of all modules with request handlers, and we import and introspect all of them as part of a function that sets up and returns the Flask app. So outside code never has any way of accessing a partially-registered Flask app, imports of request handler modules are "pure", and request handlers can often be defined without depending on Flask at all.

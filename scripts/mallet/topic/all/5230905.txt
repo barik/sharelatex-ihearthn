@@ -1,0 +1,6 @@
+Why do they use strings as function using to-function
+(https://github.com/component/to-function).
+Like .select("age>10").map("adress.streetname");While to-function is cool and your code is shorter and more readable. You must be aware that you miss- static code analysis such as synax checking
+- compile time optimizations (because the AST is missing)
+- static code analysis tools
+- code coverage checking toolsI would recommend using real functions, or using clojurescript or coffeescript in order to get shorter code.

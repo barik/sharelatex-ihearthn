@@ -1,0 +1,1 @@
+* You get enough static analysis so that broken code won't compile.* Testing can be done through other tools such as Nunit.* With VS2012, you get extensions developed by Microsoft, such as NuGet.

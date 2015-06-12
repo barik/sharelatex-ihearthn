@@ -1,0 +1,1 @@
+Where I work, in .NET we use various static analysis tools: StyleCop, CodeAnalysis and CodeContract. Warnings fail the build. And we are using a statically typed language of course. Oh... and gated check-ins.It takes a few more minutes to write some code that build but it sure avoids a lot of silly bugs. Code contracts especially so!

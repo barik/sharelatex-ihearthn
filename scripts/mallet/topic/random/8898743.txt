@@ -1,0 +1,1 @@
+A bit surprised it doesn't mention the use of curly braces. Perhaps they assume their "state of the art" static code analysis tools will find potential issues (like Apple's goto fail failure).

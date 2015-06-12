@@ -1,0 +1,1 @@
+The problem with jsx and sweet.js is the lack of tooling. For example, TernJS (a static analysis engine I use in emacs) will never understand either, so no auto-complete or hints.Is such tooling even possible for something like sweet.js?

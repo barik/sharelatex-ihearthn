@@ -1,0 +1,1 @@
+>There are plenty of static analysis tools that can determine if programs written in turing-complete languages will halt.But they're heuristic, which means if their use ever becomes widespread it will be very easy for malicious software writers to defeat them on a case-by-case basis.

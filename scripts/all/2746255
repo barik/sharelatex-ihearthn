@@ -1,0 +1,1 @@
+It's not a matter of IDEs having to "catch up". C and C++ weren't designed with the constraint that they had to be highly amenable to static analysis, so there's quite simply less that automated refactoring tools can know they can safely change without breaking anything.

@@ -1,0 +1,1 @@
+Just interested: Do you use static analysis tools (like for example coverity) in the gamedev industry?

@@ -1,0 +1,1 @@
+Static analysis can be much more difficult, and there's a whole different toolbox for defeating static analysis. Often disassemblers can be attacked directly.

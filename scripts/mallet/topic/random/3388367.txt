@@ -1,0 +1,1 @@
+Not mentioned in the article are two nice static analysis tools: the Clang Static Analyzer (http://clang-analyzer.llvm.org/) and Klee (http://klee.llvm.org/).Both are LLVM-related projects (and there's a few others as well, but these are the two "big" ones).

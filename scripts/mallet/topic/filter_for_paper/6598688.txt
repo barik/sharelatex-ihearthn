@@ -1,0 +1,1 @@
+Code reviews are about psychology. When you know your teammates are going to be reviewing your code, you write it differently than you do when you know no one but you will ever look at it.Static analysis and regression tests are tools to make sure the code isn't broken.

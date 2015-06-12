@@ -1,0 +1,1 @@
+In object-oriented modelling you often see the Null Object pattern being used to the same effect.http://en.wikipedia.org/wiki/Null_Object_patternIt needs static analysis tools such as Code Contracts (C#) or SpringContracts (Java) to make it really robust.

@@ -1,0 +1,1 @@
+Is there any reason we cannot use both TypeScript and Flow.Besides perhaps the extra 'compile' time added to do both translation with TypeScript and then static analysis with Flow. Both tools have their advantages and disadvantages.May as well throw in a linting tool as well..

@@ -1,0 +1,1 @@
+From my experience with static analysis tools it's very easy to write perfectly valid code that the tool doesn't like, so it wouldn't surprise me too much.Of course, the argument can often be made that if it isn't clear enough for the tool to find, it's not clear enough for a person to understand quickly.

@@ -1,0 +1,1 @@
+I just can't understand why such critical components as OpenSSL just don't use Code Coverage tools like Coverity to find such things as this?  Testing, coverage certification, static analysis: this would have been caught if these tools were being used.

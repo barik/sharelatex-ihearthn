@@ -1,0 +1,1 @@
+I have -- and I'm not busting on Ada, quite the contrary -- I'm pointing out that many of the rules in the C++ document would not be necessary were they coding in Ada.(I'm sure they use static analysis tools for C++ that enforce some of these rules, so I'll defer to someone who is more current in that world)

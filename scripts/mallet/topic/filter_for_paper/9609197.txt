@@ -1,0 +1,1 @@
+> Dynamic typing allows you to quickly build and iterate but lacks the static-analysis tooling needed for larger codebasesLarge codebases, ewww. Instead separate things into smaller projects, each easily maintainable on it's own.

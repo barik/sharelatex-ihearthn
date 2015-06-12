@@ -1,0 +1,1 @@
+TCL is the defacto language in EDA ASIC Design Tools (synthesis, place-and-route, static timing analysis). In my opinion, its a terrible language, especially since the tool vendors all add their own flavors. The flow control is painful to use, it lacks OOP data structures. If given the opportunity, I'd avoid it at all costs.

@@ -1,0 +1,6 @@
+You get something in exchange to that overhead:1) predictability
+2) static analysis
+3) quality (static typeing vs. duck typing)
+4) sophistication/maturity
+5) reproducabilty
+6) toolingAll that's not always necessary, but if you know the thing you're building has a shelf life of at least 2 years then ruby/rake are pretty shitty tools.

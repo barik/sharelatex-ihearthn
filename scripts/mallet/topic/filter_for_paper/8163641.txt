@@ -1,0 +1,1 @@
+Funny enough in a sad way, static analysis tooling was part of the original C tooling, but when developers started creating C compilers for systems other than UNIX, lint seldom came along.It also did not help the way C compiler phases were split.If anything, we have to thank LLVM guys for making static analysis part of clang.

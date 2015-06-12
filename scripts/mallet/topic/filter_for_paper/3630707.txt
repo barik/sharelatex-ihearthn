@@ -1,0 +1,4 @@
+Mine are:
+1. Python - mixed with C extensions used in a functional way
+2. Java   - when I need better compile time tools and analysis such as static typing
+3. AutoIt - Windows scriptingI have also dabbled in C++, C#, Ruby, and Perl, you need to experiment occasionally

@@ -1,0 +1,1 @@
+As 1stamour suggested the whole function was pointless. Not a big deal by itself but if you have layers upon layers of this stuff, code quickly becomes a buggy, unmaintainable mess. There are some awesome static code analysis tools like PMD and PHPMD for measuring code quality. It's not just "all programmers think everyone else's code is crap".

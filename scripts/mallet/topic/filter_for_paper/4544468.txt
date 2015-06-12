@@ -1,0 +1,1 @@
+The bugs that static analysis tools tend to turn up are ones that Haskell catches out of the gate in general.What Haskell brings to the table in terms of unique flavors of bug, I don't know. I would love to read articles about 1MLoC+ codebases in Haskell and how they play out.

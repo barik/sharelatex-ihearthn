@@ -1,0 +1,1 @@
+That's if you prefer tools like Visual Studio to tools like Squeak.That is, if you prefer your tools to perform static analysis as opposed to allowing you to inspect and modify your system while it's running.

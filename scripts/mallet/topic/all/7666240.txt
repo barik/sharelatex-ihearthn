@@ -1,0 +1,1 @@
+Some compilers (MLton, fe) have static analysis in place to skip the check when no overflow can occur.

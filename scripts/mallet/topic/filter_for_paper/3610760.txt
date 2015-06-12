@@ -1,0 +1,11 @@
+JS static analysis tools can help you find mistakes that are often more serious than a missing semicolon.I've run into something like this before:  for (var i = 0, len = items.length; i < len; i++)
+  {
+    var item = items[i];
+    // ...maybe some more code here...
+    var subItems = item.subItems;
+    for (var i = 0, len = subItems.length; i < len; i++) {
+      // whoops
+    }
+  }
+
+The inner for loop's i & len variables are really the same as the outer for loop's i & len variables (there's no shadowing going on here because they're all in the same scope in JS). Depending on the order of things and how many subItems there are, you could end up with an infinite loop, iterating over the same items multiple times, or skipping certain items. It seems like it'd be an obvious problem to see, but if there's a significant amount of code above the inner for loop, you might miss it. It also seems like it'd result in very obvious bugs, but if subItems are rare, most of the time this code will run just fine.Most of the JS static analysis tools will complain about redeclaring i and len, which makes spotting this kind of problem much easier.

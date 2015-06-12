@@ -1,0 +1,1 @@
+Happy that all the static code analysis tools from MSR ( which form the basis of /analyze) are getting good PR. Microsoft is great with code analysis tools but rarely gets recognized for it.

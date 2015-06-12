@@ -1,0 +1,1 @@
+Keep in mind they don't use C/C++.  They use C/C++ with a coding standard (like MISRA), static analysis tools, validated compilers, development processes incorporating change control, documentation, verification and validation, etc.What alternative are you suggesting?

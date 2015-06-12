@@ -1,0 +1,1 @@
+What is your take on http://blog.regehr.org/archives/1217 and http://blog.regehr.org/archives/1217, who seem to be less than totally excited about the output of static analysis tools in terms of bugs found.

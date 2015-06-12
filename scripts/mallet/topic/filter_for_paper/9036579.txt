@@ -1,0 +1,1 @@
+> Type checkers are one way to gain assurance about software in advance of running it. Wonderful as they can be, they're not the only one.This is true, but in my experience they are far and away the most common and easily tooled automatic way. Tests may run automatically, but they must be manually written, and static analysis tools are not (yet?) very widespread.

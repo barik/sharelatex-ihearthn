@@ -1,0 +1,1 @@
+This is too much machinery to build into a general-purpose compiler today, but there are static analysis tools (see Frama-C and the like) that will analyze your program text (optionally with annotations like you've mentioned) and figure out constraint violations.

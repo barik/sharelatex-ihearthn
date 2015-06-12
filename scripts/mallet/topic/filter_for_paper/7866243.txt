@@ -1,0 +1,1 @@
+Static analysis tools are essentially automatic checklists applied to code.

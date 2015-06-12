@@ -1,0 +1,1 @@
+As a dynamic language guy, I can't help but look at the static analysis here and feel a twinge of jealousy.  There really isn't anything like this in the Ruby world.Some stuff is starting to emerge, but we're still largely dependent on tests to catch stupid mistakes.  When I'm chasing down a bug, it would be nice to have a variety of tools to throw at the problem.

@@ -1,0 +1,1 @@
+If I worked on static code analysis tools for a living, this would make me cry.

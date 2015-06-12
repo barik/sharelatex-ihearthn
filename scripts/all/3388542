@@ -1,0 +1,1 @@
+D. Richard Hipp and the SQLite project have not had such a positive experience with static code analysis. They already use a massive amount of testing though. There's also no mention of commercial tools like Coverity.See the "Static Analysis" section:\nhttp://www.sqlite.org/testing.html

@@ -1,0 +1,18 @@
+Types are not classes! Why do people feel the need to constantly drag out this scarecrow? Having tools to perform static analysis is nothing but a good thing, and you need type data to do a great deal of this. Perhaps your project requirements are such that you never require type checking for your JS, but I can say that it's saved my ass a number of times when working on very large code-bases, and definitely has sped up my development cycle when working on hairy code.This is a type, not a class, taken from a Closure Compiler docs annotation example:  /**
+   * Enum for tri-state values.
+   * @enum {number}
+   */
+  project.TriState = {
+    TRUE: 1,
+    FALSE: -1,
+    MAYBE: 0
+  };
+
+Now I can require this type in my code with standard JSDoc, which is what the compiler uses anyway for type-checking. It makes my code self-documenting (the Closure Linter, should you use it, will complain if you omit descriptions and the like too, if you find yourself getting lazy):  /**
+   * Do something...
+   * 
+   * @param state {project.TriState} The state ...
+   */
+  function doSomething(state) {
+
+If you are documenting your code, you already do this. And now you have static analysis out-of-the-box ... not bad!

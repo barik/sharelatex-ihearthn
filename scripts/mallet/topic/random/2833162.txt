@@ -1,0 +1,12 @@
+    > On the other hand, many people seem to come out and say that Ruby is _very_ slow. 
+    > Is it heaven-and-earth slow?
+
+Comparatively, I would say yes. Granted, most of the time it won't matter because you are waiting on IO (disk/network), but if you are doing cpu intensive work, it is slow and you probably need to drop down to C or offload that work to another service.    > How is Erlang more scalable than Java? In what area? horizontal vs vertical scaling?
+    > developer's productivity (or team performance) scale? performance? speed? Erlang seems 
+    > to excel in a niche area (in a positive speaking).
+
+My guess would be in single server scalability. Erlang's write-once variables and actor model, combined with a good VM ("green processes") make it very single-server-scalable (verticle). It also has good built in node-to-node communication mechanisms (horizontal). Performance is probably slower than Java though. And I imagine the developer pool is much more limited than that of Java.    > What about Haskell/Ada, how are they safer than Java? 
+    > Do they have better type-systems? handles NULL better than Java? 
+    > Bulletproof from developers? detect more bugs?
+
+I meant safer in the type-safety sense, yes. There are also classes of static analysis tools for both. Granted, my knowledge of these languages is quite limited.I certainly see your points (especially about liking the code hygiene of python), and agree that Java is not going anywhere soon. I guess I don't understand why a startup, or individual developer, would choose Java over other languages, even other languages on the JVM, for new projects.Thanks for the good discussion. :)

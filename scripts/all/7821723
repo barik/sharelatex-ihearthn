@@ -1,0 +1,1 @@
+I still prefer using JSR-305 annotations/tools (like Findbugs) to do static analysis.  Reification should help Optional<?> become more useful, but why would you ask for run-time checking when in most cases compile-time checking identifies the problems?

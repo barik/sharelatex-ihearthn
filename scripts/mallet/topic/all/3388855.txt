@@ -1,0 +1,3 @@
+    and it makes sense that static analysis tools won't discover anything not already covered by tests
+
+That assertion doesn't make a lot of sense to me.  Most static analysers are capable of looking at the edge cases that a human may forget to write a test for, or may not even notice are there.

@@ -1,0 +1,1 @@
+Can you give some more detail about what your process was for determining code quality? Just getting people to get a checkout and read through it? Running static analysis tools? Examining commit histories?

@@ -1,0 +1,1 @@
+Appropriately, it's a book: http://www.amazon.com/Working-Effectively-Legacy-Michael-Fea...Some automatic tools could help (although I doubt thay'll work on DBase III): Static analysis to see what's there, version control to start at the top and log your way through and be able to rollback to a previous working version.But it's at the very least weeks of pain.

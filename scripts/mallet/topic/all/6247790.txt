@@ -1,0 +1,1 @@
+Better languages _are_ better tooling.  To make it more concrete: Thanks to the difference in languages, ghc can do much more static analysis than gcc.  More refactoring support would also be possible, even if that's not done in practice for Haskell, yet.  HLint is nice to toy around with, though.

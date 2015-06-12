@@ -1,0 +1,1 @@
+Having spent a long time targeting the market for developer tools, I think you're underestimating that market based on your own experiences and social circle. It was a multi-billion dollar market in ~2006, only including IDEs, SCC, static analysis tools, architecture, and process-related infrastructure, and seems to only have grown since then.

@@ -1,0 +1,1 @@
+I hated every attempt at static analysis until I started programming with Xcode. In my usage, Build and Analyze is always right -- that's the difference. Other tools (lint, FXCop) are too noisy.  Even warnings in some compilers are an annoyance that you have to code around to eliminate.

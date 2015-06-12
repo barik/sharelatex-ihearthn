@@ -1,0 +1,2 @@
+I'm going to assume you mean "What tools can a web entrepreneur use to check if his site can be hacked by script-kiddies".
+There are a multitude of static analysis and penetration testing tools out there, free and licensed. Fortify (Static analysis), HP Web Inspect and IBM AppScan (penetration testing) are just a couple easy(ish) to use tools. On the free side of things, BackTrack comes with a plethora of security tools one can use to assess your site.

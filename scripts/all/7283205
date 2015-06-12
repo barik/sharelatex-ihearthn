@@ -1,0 +1,1 @@
+Unfortunately the decision to use static analysis tools would have to come from developers who are comfortable admitting they make mistakes sometimes.It takes a special kind of ego to write an SSL library with no unit tests, not turn on compiler warnings, and not use static analysis tools.

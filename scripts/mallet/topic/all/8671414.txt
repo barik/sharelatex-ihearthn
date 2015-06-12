@@ -1,0 +1,1 @@
+"brand new language to avoid JavaScript’s bad side while embracing its good side."Why don't just use the good side? Well, with all the tools available for JavaScript - static code analysers, type checkers and code coverage tools, is it really _that_ hard to just write this damn code without introducing a new language?

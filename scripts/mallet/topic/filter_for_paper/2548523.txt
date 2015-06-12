@@ -1,0 +1,1 @@
+Can you elaborate on your question?I don't think what you're saying is intrinsic to FP. There are static analysis tools for non-functional languages. At the end of the day, everything is getting turned into an abstract syntax tree, so style should be irrelevant.Do you mean pure (side-effect free) functional languages?

@@ -1,0 +1,1 @@
+Personally I would be a lot more interested in a good platform for writing static analysis tools. I believe the community in general would take a more immediate benefit (and what a benefit!...) from this than from a lone PHP to Go transpiler.

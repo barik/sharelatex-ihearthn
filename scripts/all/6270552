@@ -1,0 +1,1 @@
+Plenty of tools do what you describe, and far better than Turbo Pascal did in the 90s. Try Visual Studio or IntelliJ, for example.When you can't perform static analysis (which is very difficult to do effectively in dynamically-typed languages), many of those tools you are talking about are just not possible.

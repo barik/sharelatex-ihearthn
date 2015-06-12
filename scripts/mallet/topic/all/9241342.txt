@@ -1,0 +1,1 @@
+Definitely don't trying writing new types of compilers hoping that people will want them! You could conceivably get lucky, but you won't.You should be fine writing new frameworks (meteor), or working in closely related areas like static analysis (coverity, fortify), CI/CD tools (CircleCI), or even things like DB optimizers. I just wouldn't write a straightforward compiler.

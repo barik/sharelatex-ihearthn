@@ -1,0 +1,15 @@
+I'd like to see a better programming language.  All of the existing languages involve accepting certain trade-offs.  Of course maybe no "perfect" language can exist but until someone proves that there's always hope.For me the ideal language would :
+ - Support OO, imperative and functional paradigms
+ - Compile to fully optimized machine code with efficiency comparable to that of C
+ - Provide language support for numerical multidimensional arrays and linear algebra with a syntax comparable to Matlab
+ - Support list comprehensions
+ - Provide map,list and set types similar to those of Python
+ - Support dynamic typing
+ - Support optional static typing, and contracts
+ - Provide standard libraries with breadth of functionality comparable to those of Java but simpler API's (more like Python)
+ - Provide a mechanism for efficient compile-time parametrization of algorithms, like C++ templates
+ - Support free-form (ie. whitespace independent) syntax
+ - Provide a high quality cross-platform GUI toolkit with support for OpenGL
+ - Provide an interactive graphical environment for experimentation and data analysis
+ - Provide a dataset abstraction similar to R data frames
+ - Be supported by a high-quality IDE and debuggerOf course that's a lot to ask for, but it would be nice to be able to do everything with a single unified syntax and environment.

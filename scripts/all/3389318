@@ -1,0 +1,1 @@
+That's true, but I think a different class of tools: theorem-provers that depend on extensive domain-specific annotations (e.g. about SQL semantics) to prove correctness aren't usually applied in the same situations as tools like Coverity that do static analysis of raw C/C++ code to find likely bugs; though there's some convergence in the past 10 years.

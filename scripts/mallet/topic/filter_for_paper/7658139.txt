@@ -1,0 +1,1 @@
+>Like say build tools static analysis tools to check if go-routines end up accessing shared stateI believe this is what the go race detector does: http://blog.golang.org/race-detector

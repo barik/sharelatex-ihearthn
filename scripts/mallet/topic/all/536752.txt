@@ -1,0 +1,1 @@
+Java still has javac. I suppose an IDE could hide this from you. Of course, Java also has lots of static analysis tools written for it so many errors are caught way before compilation.

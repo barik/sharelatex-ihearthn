@@ -1,0 +1,1 @@
+In my favorite static analysis toolset (Radare, http://radare.org/), there's a nice feature similar to this. It "zooms" out on a big file by summarizing portions of it into chunks and displaying colored ascii characters in a chart to represent the block.With the entropy and ASCII printable filters setup, it makes repeating patterns and TEXT sections pretty clear.

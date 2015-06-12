@@ -1,0 +1,1 @@
+Yes, we are working on static analysis and automated refactoring tools.  We will make them available publicly when they are ready, but that won't be very soon.  We wanted to publicize Context now to encourage people to start using it and incorporating it into new code and frameworks.

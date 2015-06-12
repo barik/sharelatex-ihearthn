@@ -1,0 +1,1 @@
+Just thinking about that - this class of error gets reported by Findbugs and other static analysis tools. So, this bug indicates that there aren't tools like that in the build - for a security app, where correctness should be top priority, that's surprising.

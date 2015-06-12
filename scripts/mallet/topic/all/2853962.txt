@@ -1,0 +1,1 @@
+He talks about static code analysis tools around 55 minutes.

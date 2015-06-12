@@ -1,0 +1,1 @@
+Probably not, but you might want to give phpcpd, pdepend and pmd a try.  They're all open source static analysis tools for PHP, and will find a number of potential issues.I also find getting a good set of rules for phpcs is extremely helpful in PHP.  You can use its sniffs to catch past mistakes and enforce consistent coding standards.

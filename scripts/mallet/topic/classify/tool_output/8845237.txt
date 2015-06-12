@@ -1,0 +1,1 @@
+What's so ugly/trash about that?It looks quite simple/elegant. Plus what they're added is meant to be used by static analysis tools and IDEs, not actually for validating things at runtime.

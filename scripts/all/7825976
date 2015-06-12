@@ -1,0 +1,1 @@
+I don't think that C has any safety features; there are tools to help you find where you are being unsafe (e.g. static and dynamic analysis) and tools to mitigate the effects of the unsafe code (e.g. memory randomization, canaries, etc.).
