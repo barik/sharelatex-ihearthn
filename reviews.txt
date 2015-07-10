@@ -1,0 +1,84 @@
+Dear Titus,
+
+we are glad to inform you that your paper 
+I Heart Hacker News: Expanding Qualitative Research Findings by Analyzing Social News Websites
+has been accepted for the ESEC/FSE 2015 New Ideas track. 
+
+The track has seen a tough competition. 27% of the submissions have been accepted. 
+
+The reviewers' comments are enclosed in this message. Please take them into account when preparing the camera-ready version.
+
+Concerning the camera-ready version you will be contacted by "Conference Publishing" that will send you kits and additional information.  You can also find more details on the preparation here: https://www.conference-publishing.com/Procedure.html 
+
+See you in Bergamo,
+ Valerie Issarny and Wilhelm SchÃ¤fer
+ ESEC/FSE 2015 New Ideas track PC Chairs
+
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 52
+TITLE: I Heart Hacker News: Expanding Qualitative Research Findings by Analyzing Social News Websites
+AUTHORS: Titus Barik, Brittany Johnson and Emerson Murphy-Hill
+
+
+----------- REVIEW -----------
+The paper describes the idea to mine developer social forums for "opinions and beliefs" related to a qualitative inquiry on a software engineering topic. The claim is that this can strengthen outcomes based on theoretical sampling. The idea is illustrated by a case study of how the authors have used hacker news to complement one of their own previous studies on why developers don't use static analysis tools.
+
+The position is clearly presented and illustrated in enough details to support a meaningful discussion of it. Generally the position is good food for thoughts on the general topic of triangulation in empirical studies. How "new" the idea really is though, is a question of perspective. Some parts of the paper (like paragraph 2 in section 2) make it sound like the idea is to do grounded theory "automatically" and expect results of the same quality as the manual way. Seen in this light the idea is pretty wild indeed, and potentially very controversial (a good thing for NIER).
+
+The other perspective however, is that discussion forums can be used as a complementary source of data for corroborating and validating evidence obtained from interviews. In this sense the idea isn't all that new, as it parallels the common tactic of using surveys to test interview data for generalizability, for example as in the ICSE 2014 paper "Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development?". Admittedly things are a bit different here, because respondents are not asked a question directly, but the general point is the same. Given that the sampled posts are analyzed manually, there isn't anything radically new going on here: researchers still have to pore over qualitative data and code it.
+
+Nevertheless the paper might be a useful departure point for discussing how much automation can really be achieved when analyzing forum data for a triangulation purpose.
+
+Nits:
+
+- The main title isn't related to the idea.  Abstract "such a premature" -> "such as premature"
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 52
+TITLE: I Heart Hacker News: Expanding Qualitative Research Findings by Analyzing Social News Websites
+AUTHORS: Titus Barik, Brittany Johnson and Emerson Murphy-Hill
+
+
+----------- REVIEW -----------
+This is a great NIER paper in my view! 
+
+The problem it addresses is very relevant to the community, yet little explored. The solution proposed is new but well grounded, with already sufficient evidence to suggest that this line of research is likely to deliver impactful results. The writing is crisp and unfolds beautifully. 
+
+Some minor comments:
+
+- it would be nice to read some reflections about under what conditions the proposed mixed method approach would best work, for different purposes (after grounded theory for validation; before grounded theory for seeding; as a complete replacement of grounded theory). in each of these cases, what are the requirements in terms of data source (and thus data) that one would need to mine?
+
+- many social news / media websites contain rich information about their users, both explicit (e.g, demographics information, but also self-assessment of expertise, interest, etc) and implicit (e.g., based on Q&A one can derive expertise, engagement, etc). i wonder if one could automatically measure bias in the sampled data using such information, so to avoid having to do :random" sampling as done in section 4 (where 100 comments were randomly selected out of 600)
+
+- what happens when one combines the traditional and novel grounded theory approach, in terms of sampling, saturation and transferability (three main challenges of applying grounded theory in its pure form)? it would be good to reflect back on these challenges in the conclusion
+
+- would be useful to clarify how many different people wrote the 601 comments in section 4; also, when the sampling is done, how many people contributed to the 100 left. could you also clarify what you mean by diversity, when you write "the diversity of the returned results were sufficient"
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 52
+TITLE: I Heart Hacker News: Expanding Qualitative Research Findings by Analyzing Social News Websites
+AUTHORS: Titus Barik, Brittany Johnson and Emerson Murphy-Hill
+
+
+----------- REVIEW -----------
+The article presents an approach to expand research findings by analyzing social news
+websites. The approach has been applied with a proof-of-concept replication.
+
+Overall, the article is easy to read and well structured. However, the description of the problem 
+requires a deeper understanding of grounded theory. I recommend to describe the motivation 
+in a way that is easier to understand for a broader group of readers. It might be, for instance, that you 
+can avoid to mention "premature theoretical saturation" in the abstract.
+
+I also recommend to provide some evidence that you are addressing a real problem. Are there
+many grounded theory studies complaining about the issues you mention? If yes, I recommend to cite 
+some of them.
+
+The result section gives a good overview of what can be expected in terms of qualitative findings. However,
+it is difficult to understand to what degree the analysis relates to the grounded theory findings
+(e.g., numbers such as x% overlap, y% additional themes etc. would help to better understand what 
+you got from the analysis).
+
+Typo: "such a*s* premature ..."
