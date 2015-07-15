@@ -122,7 +122,7 @@ In this section, we conduct a proof-of-concept replication study using our propo
 
 For purposes of space, we replicate only the primary question from the study, ``What reasons do developers have for using or not using static analysis tools to find bugs?'' In this replication, we use Hacker News as the underlying data source.
 
-We chose Hacker News for this replication for several reasons. First, it has an extremely active discussions. At the time of this writing, Hacker News contains over 7.5 million comments, all of which can be used as potential data for grounded theory. Second, a third-party service, Algolia\footnote{\url{https://hn.algolia.com/}}, offers real-time search of Hacker News stories and comments using a REST API. This makes filtering the data set highly convenient. Third, the Hacker News service is sponsored by Y Combinator, a technology startup incubator. Consequently, the social news website attracts a highly technical audience. This means that responses to grounded theory questions relating to software engineering are more likely to be found than in general forums. Fourth, Hacker News has strict moderation guidelines, as well as comment ranking through a points system, both of which help to enhance the overall quality of comments. 
+We chose Hacker News for this replication for several reasons. First, it has active discussions. At the time of this writing, Hacker News contains over 7.5 million comments, all of which can be used as potential data for grounded theory. Second, a third-party service, Algolia\footnote{\url{https://hn.algolia.com/}}, offers real-time search of Hacker News stories and comments using a REST API. This makes filtering the data set highly convenient. Third, the Hacker News service is sponsored by Y Combinator, a technology startup incubator. Consequently, the social news website attracts a highly technical audience. This means that responses to grounded theory questions relating to software engineering are more likely to be found than in general forums. Fourth, Hacker News has strict moderation guidelines, as well as comment ranking through a points system, both of which help to enhance the overall quality of comments. 
 
 Using Hacker News, we validate our concept through three research questions:
 
@@ -153,7 +153,7 @@ To answer these research questions, we first filtered all of Hacker News using t
 
 \subsection{Expanding Existing Themes (RQ1)}
 
-To evaluate \textbf{RQ1}, we reused the same themes as in the original study and attempted to identify comments that matched those themes. The original study contained four themes. One theme, Result Understandability, was derived from the interactive interview. We felt it unlikely that Hacker News would contain any comments pertaining to a very specific experimental task, and as a result, combined this theme with Tool Output. This resulted in three themes: Tool Output, Collaboration, and Customizability.
+To evaluate \textbf{RQ1}, the first author performed a closed card sort on the comments using the \emph{same} themes as identified the original study, and discarded unrelated comments. The original study contained four themes. One theme, Result Understandability, was derived from the interactive interview. We felt it unlikely that Hacker News would contain any comments pertaining to a very specific experimental task, and as a result, combined this theme with Tool Output. This resulted in three themes: Tool Output, Collaboration, and Customizability.
 
 \textbf{Tool Output} includes comments related to the output produced by the tool. As a result of merging Result Understandability, this theme also includes comments pertaining to the ability or inability to understand or interpret the results produced by a static analysis tool.
 
@@ -211,7 +211,7 @@ In summary, we assert that \textbf{RQ1} is supported, and the use of social news
 
 \subsection{Discovering Additional Themes (RQ2)}
 
-To evaluate \textbf{RQ2}, we replicate the coding procedures in the original study and attempt to find comments that do \textit{not} fit into any existing themes. If we are able to identify themes not found in the original study, it would suggest that the original study did not achieve a theoretical saturation that is acceptable for transferability of the theory.
+To evaluate \textbf{RQ2}, the first author performed an open card sort to find comments that did \textit{not} fit into any existing themes. If we are able to identify themes not found in the original study, it would suggest that the original study did not achieve a theoretical saturation that is acceptable for transferability of the theory.
 
 The replication study did in fact identify several themes not discovered in the original study. These themes include awareness (not knowing about a particular tool), cost (regarding the price of the tool), ego (self-evaluation with respect to peers or tools), management (mandates from management to require tool use), maintenance (improving the quality of the code, and supporting legacy languages not designed for static analysis), and security (relating to identifying exploits or other vulnerabilities in the source code). Therefore, we assert that \textbf{RQ2} is also supported.
 
