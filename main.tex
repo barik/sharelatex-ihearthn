@@ -63,7 +63,7 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \maketitle
 \begin{abstract}
-Grounded theory is an important research method in empirical software engineering, but it is also time consuming, tedious, and complex. This makes it difficult for researchers to assess if threats, such as missing themes or sample bias, have inadvertently materialized. To assess such threats, our new idea is that we can automatically extract knowledge from social news websites, such as Hacker News, to easily replicate existing grounded theory research --- and then compare the results. We conduct a replication study on static analysis tool adoption using Hacker News. We confirm that even a basic replication and analysis using social news websites can offer additional insights to existing themes in studies, while also identifying new themes. For example, we identified that security was not a theme discovered in the original study on tool adoption. As a long-term vision, we consider techniques from the discipline of knowledge discovery to make this replication process more automatic.
+Grounded theory is an important research method in empirical software engineering, but it is also time consuming, tedious, and complex. This makes it difficult for researchers to assess if threats, such as missing themes or sample bias, have inadvertently materialized. To better assess such threats, our new idea is that we can automatically extract knowledge from social news websites, such as Hacker News, to easily replicate existing grounded theory research --- and then compare the results. We conduct a replication study on static analysis tool adoption using Hacker News. We confirm that even a basic replication and analysis using social news websites can offer additional insights to existing themes in studies, while also identifying new themes. For example, we identified that security was not a theme discovered in the original study on tool adoption. As a long-term vision, we consider techniques from the discipline of knowledge discovery to make this replication process more automatic.
 \end{abstract}
 
 % TODO(tbarik): Fix ACM classification system.
@@ -75,7 +75,7 @@ Grounded theory is an important research method in empirical software engineerin
 
 % \terms{Design, Human Factors}
 
-\keywords{Grounded theory, computer-mediated discourse, Hacker News, representativeness, theoretical saturation}
+\keywords{grounded theory, computer-mediated discourse, Hacker News, representativeness, theoretical saturation}
 
 \section{The Problem}
 
@@ -87,7 +87,7 @@ Unfortunately, grounded theory is also time consuming, tedious, and complex~\cit
 
 A significant threat is that the grounded theory guidelines for these requirements are presented under some ideal model of unbounded time and infinite constraints --- in practice, however, this model is unsatisfiable~\cite{Mason2010}. For example, sampling may be constrained by physical and geographic factors, which in turn in reduce diversity and trigger theoretical saturation prematurely. And despite its importance, the time consuming nature of grounded theory studies, as well as finite budgets, means that the likelihood that one will actually a conduct a replication is rare~\cite{Shull2008b}.
 
-This confluence of these threats makes it difficult for researchers to assess the quality of the \textit{theory} in grounded theory. To address this challenge, this paper investigates the suitability of using posted comments in social news websites as a source of knowledge to mitigate these threats. In the longer term, we propose techniques from knowledge discovery and databases (KDD) and adapt them to grounded theory processes to allow for automatic replication.
+The confluence of these threats makes it difficult for researchers to assess the quality of the \textit{theory} in grounded theory. To address this challenge, this paper investigates the suitability of using posted comments in social news websites as a source of knowledge to mitigate these threats. In the longer term, we propose techniques from knowledge discovery and databases (KDD) and adapt them to grounded theory processes to allow for automatic replication.
 
 \section{What is the New Idea?}
 
@@ -99,9 +99,9 @@ This confluence of these threats makes it difficult for researchers to assess th
 
 Our new idea is that we can automatically extract knowledge from comments on social news websites, such as Reddit\footnote{\url{https://www.reddit.com/}}, Slashdot\footnote{\url{http://www.slashdot.org/}}, and Hacker News\footnote{\url{https://news.ycombinator.com/}}, to obtain software developer experiences and beliefs for the types of topics that would typically be encountered or asked in grounded theory research. Importantly, unlike surveys or interviews, which require active recruitment to obtain such information, our approach exploits latent knowledge from historical conversations about such topics.
 
-For example, in a technical community, a software engineering researcher might ask the research questions, ``Why don't developers use static analysis tools?''~\cite{Johnson2013a}, ``What makes a great software engineer?''~\cite{Li2015}, or ``What are the practices of agile teams?''~\cite{Hoda2011}. We postulate that when such questions are applied against an appropriate social news website, the quality of the results are comparable to the results obtained from empirical research approaches with similar output artifacts --- such as those obtained in interviews.
+For example, in a technical community, a software engineering researcher might ask the research questions, ``Why don't developers use static analysis tools?''~\cite{Johnson2013a}, ``What makes a great software engineer?''~\cite{Li2015}, or ``What are the practices of agile teams?''~\cite{Hoda2011}. We postulate that when such questions are applied against an appropriate social news website, the quality of the results are comparable to the results obtained from empirical research approaches with similar output artifacts --- such as transcripts obtained in interviews.
 
-The implementation of our idea can be used to enhance software engineering research in several ways.  For example, consider Fig.~\ref{fig:concept}-1, in which an empirical researcher has already conducted a grounded theory study in which he has interviewed participants, coded the responses, and generated a theory. However, the researcher is concerned about the use of students subjects in the study. In our approach (Fig~\ref{fig:concept}-2), the researcher can simply submit a search probe to a social news website using the research question. Because these websites catalog a diverse set of stories, comments relevant to the researcher's probe are likely to exist in the dataset. Using analysis software that implements our technique, the software will extract relevant comments, use machine learning to automatically or semi-automatically code and categorize the responses, and allow the researcher to evaluate the generated theory against the theory derived from the empirical study.
+The implementation of our idea can be used to enhance software engineering research in several ways.  For example, consider Fig.~\ref{fig:concept}-1, in which an empirical researcher has already conducted a grounded theory study in which he has interviewed participants, coded the responses, and generated a theory. However, the researcher is concerned about the use of student subjects in the study. In our approach (Fig~\ref{fig:concept}-2), the researcher can simply submit a search probe to a social news website using the research question. Because these websites catalog a diverse set of stories, comments relevant to the researcher's probe are likely to exist in the dataset. Using analysis software that implements our technique, the software will extract relevant comments, use machine learning to automatically or semi-automatically code and categorize the responses, and allow the researcher to evaluate the generated theory against the theory derived from the empirical study.
 
 Prior to conducting an in-person empirical study, a researcher may use our technique as a pilot to quickly identify interesting responses to their proposed software-related research question. The researcher can use these results as a tool to guide their coding strategies, by having a set of seed responses. Finally, given a diverse enough dataset, we may also be able to treat this technique as a first-class, stand-alone method for conducting grounded theory research.
 
@@ -118,7 +118,7 @@ Our own grounded theory work in understanding why developers use or do not use s
 
 \section{A Proof-of-Concept Replication of Tool Adoption}
 
-In this section, we conduct a proof-of-concept replication study using our proposed idea. We perform replication to our previous work on why developers don't use static analysis tools~\cite{Johnson2013a}. In this original study, we used 20 participants with industry experience. The study session consisted of a semi-structured interview, followed by an interactive interview. A grounded theory analysis was conducted on the transcripts from those interviews.
+In this section, we conduct a proof-of-concept replication study using our proposed idea. We perform replication to our previous work on why developers don't use static analysis tools~\cite{Johnson2013a}. In the original study, we used 20 participants with industry experience. The study session consisted of a semi-structured interview, followed by an interactive interview. A grounded theory analysis was conducted on the transcripts from those interviews.
 
 For purposes of space, we replicate only the primary question from the study, ``What reasons do developers have for using or not using static analysis tools to find bugs?'' In this replication, we use Hacker News as the underlying data source. 
 
@@ -147,13 +147,13 @@ Using Hacker News, we validate our concept through three research questions:
 % We randomly sorted the comments and selected the first one hundred.
 % For each quote, the parenthetical number indicates the unique identifier for the comment.
 
-To answer these research questions, we first filtered all of Hacker News using the search term ``static analysis tools.'' This returned 601 comments by 477 users, from March 20, 2008 to June 4, 2015. For the 78 users who had more than one comment, the mean number of comments was 2.6. Although using this search term fails to retrieve comments that may be related to static analysis but do not specifically uses these terms (e.g., \texttt{lint}), we felt that the number of returned results were sufficient for a preliminary study. We then randomly sampled a subset of 100 comments (94 users) for our evaluation below.
+To answer these research questions, we first filtered all of Hacker News using the search term ``static analysis tools''. This returned 601 comments by 477 users, from March 20, 2008 to June 4, 2015. For the 78 users who had more than one comment, the mean number of comments was 2.6. Although using this search term fails to retrieve comments that may be related to static analysis but do not specifically use these terms (e.g., \texttt{lint}), we felt that the number of returned results were sufficient for a preliminary study. We then randomly sampled a subset of 100 comments (94 users) for our evaluation below.
 
 % TODO(tbarik): Count number of users.
 
 \subsection{Expanding Existing Themes (RQ1)}
 
-To evaluate \textbf{RQ1}, the first author performed a closed card sort on the comments using the \emph{same} themes as identified the original study, and discarded unrelated comments. The original study contained four themes. One theme, Result Understandability, was derived from the interactive interview. We felt it unlikely that Hacker News would contain any comments pertaining to a very specific experimental task, and as a result, combined this theme with Tool Output. This resulted in three themes: Tool Output, Collaboration, and Customizability.
+To evaluate \textbf{RQ1}, the first author performed a closed card sort on the comments using the \emph{same} themes as identified in the original study, discarding unrelated comments. The original study contained four themes. One theme, Result Understandability, was derived from the interactive interview. We felt it unlikely that Hacker News would contain any comments pertaining to a very specific experimental task, and as a result, combined this theme with Tool Output. This resulted in three themes: Tool Output, Collaboration, and Customizability.
 
 \textbf{Tool Output} includes comments related to the output produced by the tool. As a result of merging Result Understandability, this theme also includes comments pertaining to the ability or inability to understand or interpret the results produced by a static analysis tool.
 
@@ -211,7 +211,7 @@ In summary, we assert that \textbf{RQ1} is supported, and the use of social news
 
 \subsection{Discovering Additional Themes (RQ2)}
 
-To evaluate \textbf{RQ2}, the first author performed an open card sort to find comments that did \textit{not} fit into any existing themes. If we are able to identify themes not found in the original study, it would suggest that the original study did not achieve a theoretical saturation that is acceptable for transferability of the theory.
+To evaluate \textbf{RQ2}, the first author re-examined the comments and performed an open card sort to find comments that did \textit{not} fit into any existing themes. If we are able to identify themes not found in the original study, it would suggest that the original study did not achieve a theoretical saturation that is acceptable for transferability of the theory.
 
 The replication study did in fact identify several themes not discovered in the original study. These themes include awareness (not knowing about a particular tool), cost (regarding the price of the tool), ego (self-evaluation with respect to peers or tools), management (mandates from management to require tool use), maintenance (improving the quality of the code, and supporting legacy languages not designed for static analysis), and security (relating to identifying exploits or other vulnerabilities in the source code). Therefore, we assert that \textbf{RQ2} is also supported.
 
@@ -231,13 +231,13 @@ Briefly, let's inspect one of the themes, \textbf{Ego}. Even without knowing the
 
 \textbf{RQ1} and \textbf{RQ2} provide support that it is not only feasible, but also useful, to extract relevant knowledge about a software-related research question through the use of social news websites. However, a significant amount of effort, roughly 2.5 hours, was still required to actually perform the coding activities in grounded theory --- and thus far we have not discussed any mechanisms to aid the researcher in this effort.
 
-For \textbf{RQ3}, we have only begun to examine machine learning approaches to assist with the coding process. One approach to tackling this problem may be to utilize the work of Titov and McDonald, who extend standard modeling techniques such as LDA and PLSA to induce \textit{multi-grain topics}~\cite{Titov2008}. The unsupervised algorithm is able to cluster topics into coherent, hierarchical concepts. Application of such techniques to grounded theory coding can facilitate automate theory generation. Still other ideas from knowledge discovery and databases (KDD) might be successfully adapted to grounded theory processes, and warrant further investigation.
+For \textbf{RQ3}, we have only begun to examine machine learning approaches to assist with the coding process. One approach to tackling this problem may be to utilize the work of Titov and McDonald, who extend standard modeling techniques such as LDA and PLSA to induce \textit{multi-grain topics}~\cite{Titov2008}. The unsupervised algorithm is able to cluster topics into coherent, hierarchical concepts. Application of such techniques to grounded theory coding can facilitate automated theory generation. Still other ideas from knowledge discovery and databases (KDD) might be successfully adapted to grounded theory processes, and warrant further investigation.
 
 \balance
 
 \section{Conclusion}
 
-Our new idea is an approach in which empirical researchers can leverage social news websites to extract knowledge about software-related research questions that would be typically asked or encountered in grounded theory research. To demonstrate the utility of this approach, we have conducted a proof-of-concept replication of static analysis tool adoption, through Hacker News. 
+Our new idea is an approach in which empirical researchers can leverage social news websites to extract knowledge about software-related research questions that would typically be asked or encountered in grounded theory research. To demonstrate the utility of this approach, we have conducted a proof-of-concept replication of static analysis tool adoption, through Hacker News. 
 
 % The answers to our research questions demonstrate that the results from this knowledge extraction provide additional insights to existing themes, and can also identify additional themes. 
 
